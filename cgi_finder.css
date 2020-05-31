@@ -1,0 +1,49 @@
+/*
+ * Copyright 2020, Sean Cusack (eruciform)
+ *
+ * http://eruciform.com
+ *
+ * https://github.com/eruciform/atelier-recipe-finder
+ *
+ * ---
+ *
+ * This file is part of Atelier Recipe Finder.
+ *
+ * Atelier Recipe Finder is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Atelier Recipe Finder is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Atelier Recipe Finder.  If not, see <https://www.gnu.org/licenses/>.
+ *  
+*/
+
+iframe#atelier_recipe_results {
+  width: 100%;
+  height: 700px;
+}
+
+span.action {
+  padding: 10px;
+  margin: 5px;
+  background-image: url(blue-arrow-small.png);
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  background-position-y: 50%;
+  color: white;
+  line-height: 200%;
+}
+span.material {
+  margin: 0;
+  border: 2px solid green;
+  padding: 5px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
