@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl
 
 =head1 DESCRIPTION
 
@@ -70,7 +70,7 @@ my $depth       = param("depth");           # min, max, comma separated [optiona
 my $ddepth      = param("depth_default");   # default depth [optional]
 my $game        = param("game");            # which game? uses atelier::files to find files (you must fill this in)
 
-if( not defined $game or not defined $cgi ) {
+if( not defined $game ) {
   print "<h1>atelier::cgi_iframe not set up properly</h1>\n";
   exit();
 }
