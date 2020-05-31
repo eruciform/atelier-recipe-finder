@@ -1,4 +1,4 @@
-#!/opt/local/bin/perl -w
+#!/opt/bin/env perl
 
 =head1 DESCRIPTION
 

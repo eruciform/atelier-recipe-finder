@@ -1,4 +1,4 @@
-#!/bin/env perl -w
+#!/usr/bin/env perl
 
 =head1 DESCRIPTION
 
@@ -135,7 +135,7 @@ sub add_materials($$) {
   my $filter = shift || undef; # closure that takes hash of row data
   my $delim  = shift || ",";
   my $csv;
-  open $csv, "<$file" or die();
+  open $csv, "<$file" or die "Cannot open file $file $!";
   my $header = scalar(<$csv>);
   chomp $header;
   my @header = split /$delim/, $header;
@@ -258,8 +258,8 @@ sub _find_recursive_graph($$$$$$) {
   }
 
   # if we're just barely at the edge of the depth limit and haven't already found the result, quit now
-  DEBUG($depth, $item->label, " ", "rejecting depth == maxdepth") if $depth == $maxdep;
-  return ()                                                       if $depth == $maxdep;
+  DEBUG($depth, $item->label, " ", "rejecting depth == maxdepth") if defined $maxdep and $depth == $maxdep;
+  return ()                                                       if defined $maxdep and $depth == $maxdep;
   
   # only check for the item itself not being used again, it's okay if we needed a leather
   # category before and now also need an item that happens to be leather but isn't being used
@@ -388,7 +388,7 @@ sub find_recipe_graph($$$) {
   # or at least something that can be converted at all, otherwise boot it
   return () if not scalar $self->manyrequired(  $start_item->category ) and
                not scalar $self->manyrequired(  $start_item->optional ) and
-               not scalar $self->manyrequired(  $start_item->name     );
+               not scalar $self->manyrequired(  $start_item->name     ) and
                not scalar $self->manyprecedent( $start_item->name     );
 
   my $cache = {};
