@@ -70,7 +70,7 @@ my $recipe_file   = undef;
 my $material_file = undef;
 my $type_filter   = undef;
 
-#$SIG{__DIE__} = sub { print STDERR @_; exec "perldoc $0"; };
+$SIG{__DIE__} = sub { print STDERR @_; exec "perldoc $0"; };
 
 GetOptions( "depth=i"    => \$depth,
             "delim=s"    => \$delim,
