@@ -76,6 +76,16 @@ sub clone($) {
   return bless $clone, ref $self;
 }
 
+sub replace_from($$@) {
+  # used for "*" requirement of the Failure Ash in Atelier Sophie
+  my $self  = shift;
+  my $cat   = shift;
+  my @with  = @_;
+  return unless $self->isfrom($cat);
+  delete $self->{from}->{$cat};
+  $self->{from} = { %{$self->{from}}, map {$_->name=>1} @with };
+}
+
 sub add($$) {
   my $self  = shift;
   my $add   = shift;
