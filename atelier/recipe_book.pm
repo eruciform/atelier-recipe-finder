@@ -111,8 +111,8 @@ sub new {
     by_category   => {}, # -> cat  -> name -> material 
     by_optional   => {}, # -> opt  -> name -> material
     by_required   => {}, # -> ing  -> name -> material
-    by_antecedent => {}, # -> name -> from -> material
-    by_precedent  => {}, # -> from -> name -> material
+    by_antecedent => {}, # -> name -> from -> material # antecedent looks up things that this leads to
+    by_precedent  => {}, # -> from -> name -> material # precedent looks up things that have X as a precedent
 
     # global caches, not jsut local ones for the given branch:
     dead_end      => {}, # -> name  -> depth at which it was determined to be a dead end (try again if shallower)
@@ -146,10 +146,10 @@ sub add_materials($$) {
     next if defined $filter and $filter->(%data);
     my $material = new atelier::material( $data{Name}, 
                                           $data{Type} || "Material",
-                                          [grep /\S/oi, grep { defined $_ } map { $data{     "Category $_"} } (1 .. 4)],
-                                          [grep /\S/oi, grep { defined $_ } map { $data{ "Add Category $_"} } (1 .. 4)],
-                                          [grep /\S/oi, grep { defined $_ } map { $data{   "Ingredient $_"} } (1 .. 4)],
-                                          [grep /\S/oi, grep { defined $_ } map { $data{  "From Recipe $_"} } (1 .. 2)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{     "Category $_"} } (1 .. 4)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{ "Add Category $_"} } (1 .. 4)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{   "Ingredient $_"} } (1 .. 4)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{  "From Recipe $_"} } (1 .. 2)],
                                         );
     $self->{by_name      }->{$material->name}                     = $material;
     $self->{by_category  }->{$_             }->{$material->name } = $material for $material->category;
@@ -158,6 +158,15 @@ sub add_materials($$) {
     $self->{by_antecedent}->{$material->name}->{$_              } = $material for $material->from    ;
     $self->{by_precedent }->{$_             }->{$material->name } = $material for $material->from    ;
   }
+  my @allsynthesis = grep { $_->type ne "Material" } values %{$self->{by_name}};
+  foreach my $mat (values %{$self->{by_name}}) {
+    next unless $mat->isfrom("*");
+    $mat->replace_from("*", @allsynthesis);
+    $self->{by_precedent }->{$_->name}->{$mat->name} = $mat for @allsynthesis;
+    $self->{by_antecedent}->{$mat->name}->{$_->name} = $mat for @allsynthesis;
+  }
+  delete $self->{by_antecedent}->{$_}->{"*"} for @allsynthesis;
+  delete $self->{by_precedent}->{"*"};
   close $csv;
 }
 
@@ -348,7 +357,7 @@ sub _find_recursive_graph($$$$$$) {
 
   # finally, look for recipes that can be converted into from this one
   foreach my $next ($self->byprecedent($item->name)) {
-    DEBUG($depth, $item->label, " ", "trying antecedent $next");
+    DEBUG($depth, $item->label, " ", "trying precedent $next");
     my @found = $self->_find_recursive_graph($self->byname($next), $finish, $cache, $depth+1, $maxdep);
     next unless @found;
     my %seen;
