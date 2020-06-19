@@ -138,10 +138,10 @@ sub add_materials($$) {
   open $csv, "<$file" or die "Cannot open file $file $!";
   my $header = scalar(<$csv>);
   chomp $header;
-  my @header = split /$delim/, $header;
+  my @header = map { s/^\s*//o; s/\s*$//o; $_ } split /$delim/, $header;
   while(<$csv>) {
     chomp;
-    my @data = split /$delim/;
+    my @data = map { s/^\s*//o; s/\s*$//o; $_ } split /$delim/;
     my %data = map { $header[$_] => $data[$_] } (0 .. $#data);
     next if defined $filter and $filter->(%data);
     my $material = new atelier::material( $data{Name}, 
