@@ -78,7 +78,7 @@ if( not defined $game ) {
   print "<h1>atelier::cgi_iframe not set up properly</h1>\n";
   exit();
 }
-
+  
 $types = "" if not defined $types;
 $chap  = "" if not defined $chap;
 $depth = "" if not defined $depth;
@@ -122,9 +122,12 @@ foreach my $c ( @CTR ) {
   $chap_opt .= sprintf('<option value="%s" %s>%s</option>'."\n",$c,$default,$c);
 }
 
+$TYP = join ",", split /,/oi, $types    || undef;
+$FAI = join ",", split /,/oi, $failures || undef;
+
 my $fail_opt = <<FAIL_OPT;
-<option value="No" selected>$TYP</option>
-<option value="Yes"        >$FAI</option>
+<option value="$TYP" selected>No</option>
+<option value="$FAI"         >Yes</option>
 FAIL_OPT
 
 my $dep_opt = "";
@@ -159,9 +162,6 @@ print <<"DEPTH" if @DEP;
 $dep_opt
   </select>
 DEPTH
-
-$TYP = join ",", split /,/oi, $types    || undef;
-$FAI = join ",", split /,/oi, $failures || undef;
 
 if( $FAI )
 {
