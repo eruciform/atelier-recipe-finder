@@ -1,0 +1,143 @@
+Using Item,Item Effect,Resulting Forge Effect,Forge Effect Description
+Explosive Uni,Burst,Surprise Smack,Chance for additional knockback on attack.
+Explosive Uni,Scatter,Surprise Smack,Chance for additional knockback on attack.
+Explosive Uni,Explosive,Terror Crack,Chance for additional knockback on attack.
+Ice Caltrop,Cold Pain,Slicing Ice Edge,Chance to inflict Frostbite on attack.
+Ice Caltrop,Stinging Pain,Slashing Ice Edge,Chance to inflict Frostbite on attack.
+Ice Caltrop,Freezing Pain,Slashing Ice Edge,Chance to inflict Frostbite on attack.
+Craft,Physical Damage XS,10 Spikes,Deal a set amount of additional damage on attack.
+Craft,Physical Damage S,10 Spikes,Deal a set amount of additional damage on attack.
+Craft,Physical Damage M,100 Spikes,Deal a set amount of additional damage on attack.
+Craft,Physical Damage L,"1,000 Spikes",Deal a set amount of additional damage on attack.
+Bomb,Fire Damage XS,Fire Blessing S,Increase fire damage.
+Bomb,Fire Damage S,Fire Blessing S,Increase fire damage.
+Bomb,Fire Damage M,Fire Blessing M,Increase fire damage.
+Bomb,Crimson Fire,Fire Blessing L,Increase fire damage.
+Ice Bomb,Ice Damage XS,Ice Blessing S,Increase ice damage.
+Ice Bomb,Ice Damage S,Ice Blessing S,Increase ice damage.
+Ice Bomb,Ice Damage M,Ice Blessing M,Increase ice damage.
+Ice Bomb,Embracing Ice,Ice Blessing L,Increase ice damage.
+Plajig,Lightning Damage XS,Lightning Blessing S,Increase lightning damage.
+Plajig,Lightning Damage S,Lightning Blessing S,Increase lightning damage.
+Plajig,Lightning Damage M,Lightning Blessing M,Increase lightning damage.
+Plajig,Electrified Flash,Lightning Blessing L,Increase lightning damage.
+Luft,Wind Damage XS,Wind Blessing S,Increase wind damage.
+Luft,Wind Damage S,Wind Blessing S,Increase wind damage.
+Luft,Wind Damage M,Wind Blessing M,Increase wind damage.
+Luft,Gust Fang,Wind Blessing L,Increase wind damage.
+Norden Brand,Roaring Ice Blade,Ice Seal,Chance to reduce ice resistance by 1 level on attack.
+Norden Brand,Dancing Ice Blade,Ice Seal,Chance to reduce ice resistance by 1 level on attack.
+Norden Brand,Scornful Ice Blade,Ice Seal,Chance to reduce ice resistance by 1 level on attack.
+Norden Brand,Bloody Ice Blade,Frost Seal,Chance to reduce ice resistance by 1 level on attack.
+Lightning Bell,Booming Order,Lightning Seal,Chance to reduce lightning resistance by 1 level on attack.
+Lightning Bell,Thundering Order,Lightning Seal,Chance to reduce lightning resistance by 1 level on attack.
+Lightning Bell,Summon Lightning,Lightning Seal,Chance to reduce lightning resistance by 1 level on attack.
+Lightning Bell,Summon Thunderbolt,Thunderclap Seal,Chance to reduce lightning resistance by 1 level on attack.
+Bubble Bullet,Bubble Bullet,Burst Shell S,Increase skill Stun Gauge effect.
+Bubble Bullet,Balloon Bullet,Burst Shell S,Increase skill Stun Gauge effect.
+Bubble Bullet,Grenade,Burst Shell M,Increase skill Stun Gauge effect.
+Bubble Bullet,Quaking Cannon,Burst Shell L,Increase skill Stun Gauge effect.
+Rose Bomb,Fire Damage S,Fire Blessing S,Increase fire damage.
+Rose Bomb,Fire Damage M,Fire Blessing M,Increase fire damage.
+Rose Bomb,Fire Damage L,Fire Blessing M,Increase fire damage.
+Rose Bomb,Fire Damage XL,Fire Blessing L,Increase fire damage.
+Rose Bomb,Searing Petal,Fire Blessing XL,Increase fire damage.
+Kleid Ice Bomb,Ice Damage S,Ice Blessing S,Increase ice damage.
+Kleid Ice Bomb,Ice Damage M,Ice Blessing M,Increase ice damage.
+Kleid Ice Bomb,Ice Damage L,Ice Blessing L,Increase ice damage.
+Kleid Ice Bomb,Ice Damage XL,Ice Blessing L,Increase ice damage.
+Kleid Ice Bomb,Freezing Waltz,Ice Blessing XL,Increase ice damage.
+Strahl Plajig,Lightning Damage S,Lightning Blessing S,Increase lightning damage.
+Strahl Plajig,Lightning Damage M,Lightning Blessing M,Increase lightning damage.
+Strahl Plajig,Lightning Damage L,Lightning Blessing M,Increase lightning damage.
+Strahl Plajig,Lightning Damage XL,Lightning Blessing L,Increase lightning damage.
+Strahl Plajig,Super Vibration Laser,Lightning Blessing XL,Increase lightning damage.
+Ratsel Luft,Wind Damage S,Wind Blessing S,Increase wind damage.
+Ratsel Luft,Wind Damage M,Wind Blessing M,Increase wind damage.
+Ratsel Luft,Wind Damage L,Wind Blessing M,Increase wind damage.
+Ratsel Luft,Wind Damage XL,Wind Blessing L,Increase wind damage.
+Ratsel Luft,Divine Whirl,Wind Blessing XL,Increase wind damage.
+Fire Bottle,Fireball Call,Fire Seal,Chance to reduce fire resistance by 1 level on attack.
+Fire Bottle,Fire Orb Call,Fire Seal,Chance to reduce fire resistance by 1 level on attack.
+Fire Bottle,Meteor Call,Inferno Seal,Chance to reduce fire resistance by 1 level on attack.
+Genesis Hammer,Rock Crusher,Destruction Strike,Deal additional damage; further damage dealt at Tactics Level 5.
+Genesis Hammer,Mountain Crusher,Destruction Strike,Deal additional damage; further damage dealt at Tactics Level 5.
+Genesis Hammer,Continental Crusher,Creation Strike,Deal additional damage; further damage dealt at Tactics Level 5.
+Vanish Siegel,Storm Emblem,Wind Seal,Chance to reduce wind resistance by 1 level on attack.
+Vanish Siegel,Hurricane Emblem,Wind Seal,Chance to reduce wind resistance by 1 level on attack.
+Vanish Siegel,Destruction Emblem,Storm Seal,Chance to reduce wind resistance by 1 level on attack.
+Lunar Lamp,Crescent Moon Light,Sliver of Light,Chance to inflict Blind on attack.
+Lunar Lamp,Full Moon Light,Spreading Light,Chance to inflict Blind on attack.
+Lunar Lamp,New Moon Light,Blinding Light,Chance to inflict Blind on attack.
+Eternal Fear,Lava Vessel,Conductive Heat,Chance to deal additional Stun Gauge damage on attack. Fewer enemies will increase Stun Gauge damage.^0.
+Eternal Fear,Earth Vessel,Conductive Heat,Chance to deal additional Stun Gauge damage on attack. Fewer enemies will increase Stun Gauge damage.^0.
+Eternal Fear,Sun Vessel,Conductive Flame,Chance to deal additional Stun Gauge damage on attack. Fewer enemies will increase Stun Gauge damage.^0.
+Philosopher's Book,The Color of Proof,Core Flow,"Deal additional damage proportional to number of items Converted, and absorb a portion of HP when dealing damage."
+Philosopher's Book,The Secret of Lies,Core Flood,"Deal additional damage proportional to number of items Converted, and absorb a portion of HP when dealing damage."
+Philosopher's Book,The Circle of Truth,Core Overflow,"Deal additional damage proportional to number of items Converted, and absorb a portion of HP when dealing damage."
+Grass Beans,HP Gain XS,Heal Rune S,Gain additional HP when healing.
+Dry Biscuit,Healing Taste XS,Stubborn Shield,Increase stun resistance.
+Dry Biscuit,Healing Taste S,Stubborn Shield,Increase stun resistance.
+Dry Biscuit,Healing Taste M,Indestructible Shield,Increase stun resistance.
+Blessing Ointment,HP Gain XS,Heal Rune S,Gain additional HP when healing.
+Blessing Ointment,HP Gain S,Heal Rune S,Gain additional HP when healing.
+Puni Jelly,Fractional HP Gain XS,Puni Guard,"Increase maximum HP, and all attacks become critical when targeting a Puni."
+Puni Jelly,Fractional HP Gain S,Puni Shield,"Increase maximum HP, and all attacks become critical when targeting a Puni."
+Puni Jelly,Fractional HP Gain M,Puni Rampart,"Increase maximum HP, and all attacks become critical when targeting a Puni."
+Rasen Pudding,None,,
+Trickling Breeze,Forest Stream S,Sprite Helper,Increase healing of skills and Core Items.
+Trickling Breeze,Forest Stream M,Sprite Helper,Increase healing of skills and Core Items.
+Trickling Breeze,Forest Stream L,Sprite Assistant,Increase the healing power of skills and Core Items.
+Restoration Bottle,HP Gain S,Heal Rune S,Gain additional HP when healing.
+Restoration Bottle,HP Gain M,Heal Rune M,Gain additional HP when healing.
+Restoration Bottle,HP Gain L,Heal Rune L,Gain additional HP when healing.
+Nectar,KO Recovery S,Holy Water S,Chance to survive when HP reaches 0.
+Nectar,KO Recovery M,Holy Water M,Chance to survive when HP reaches 0.
+Nectar,KO Recovery L,Holy Water L,Chance to survive when HP reaches 0.
+Healing Ball,Dancing Dust S,Strength Stimulant,"Increase ATK, DEF, and SPD when recovering from a status ailments."
+Healing Ball,Dancing Dust M,Life Stimulant,"Increase ATK, DEF, and SPD when recovering from a status ailments."
+Healing Ball,Dancing Dust L,Soul Stimulant,"Increase ATK, DEF, and SPD when recovering from a status ailments."
+Dynamic Syrup,KO Recovery S,Holy Water S,Chance to survive when HP reaches 0.
+Dynamic Syrup,KO Recovery M,Holy Water M,Chance to survive when HP reaches 0.
+Dynamic Syrup,Jumping Flavor,Earth Water,"Chance to survive when HP reaches 0, and increase evasion rate."
+Dynamic Syrup,Flying Flavor,Heaven Water,"Chance to survive when HP reaches 0, and increase evasion rate."
+Cocktail Leb,Food Mixture S,Harvest Prayer S,Heal HP when recovering from a status ailment.
+Cocktail Leb,Food Mixture M,Harvest Prayer M,Heal HP when recovering from a status ailment.
+Cocktail Leb,Food Mixture L,Harvest Prayer L,Heal HP when recovering from a status ailment.
+Goddess Cup,Healing Kiss S,Goddess Blessing S,Heal HP for every action.
+Goddess Cup,Healing Kiss M,Goddess Blessing M,Heal HP for every action.
+Goddess Cup,Healing Kiss L,Goddess Blessing L,Heal HP for every action.
+Elixir,HP Gain L,Heal Rune L,Gain additional HP when healing.
+Elixir,HP Gain XL,Heal Rune XL,Gain additional HP when healing.
+Fish Oil,Defiance S,Guardian Mirror S,Increase DEF at start of battle.
+Fish Oil,Defiance M,Guardian Mirror M,Increase DEF at start of battle.
+Fish Oil,Defiance L,Guardian Mirror L,Increase DEF at start of battle.
+War Powder,Call to Power,War God's Cry S,Increase ATK at start of battle.
+War Powder,Gut Instinct,War God's Cry M,Increase ATK at start of battle.
+War Powder,Steel Spirit,War God's Cry L,Increase ATK at start of battle.
+Thorny Embrace,Constrict Sense,Binding Curse,Chance to inflict Thorn on attack.
+Thorny Embrace,Constrict Spirit,Binding Curse,Chance to inflict Thorn on attack.
+Thorny Embrace,Constrict Freedom,Chained Curse,Chance to inflict Thorn on attack.
+Energianica,Amateur Melody,Comforting Timbre S,Chance for additional AP gain on attack.
+Energianica,Calm Melody,Comforting Timbre M,Chance for additional AP gain on attack.
+Energianica,Graceful Melody,Comforting Timbre L,Chance for additional AP gain on attack.
+Energianica,Glorious Melody,Comforting Timbre XL,Chance for additional AP gain on attack.
+Sundry Remedy,Slow Acting Cure,Protection S,Increase status ailment resistance.
+Sundry Remedy,Fast Acting Cure,Protection M,Increase status ailment resistance.
+Sundry Remedy,Cure-All,Protection L,Increase status ailment resistance.
+Poison Smoke,Confusing Smoke,Assassin Poison S,Chance to inflict Poison on attack.
+Poison Smoke,Distorting Smoke,Assassin Poison M,Chance to inflict Poison on attack.
+Poison Smoke,Choking Smog,Assassin Poison L,Chance to inflict Poison on attack.
+Mystic Robe,Firebreeze Veil,Feather Shield S,Increase DEF and stun resistance.
+Mystic Robe,Frostbolt Veil,Feather Shield M,Increase DEF and stun resistance.
+Mystic Robe,Magic Veil,Feather Shield L,Increase DEF and stun resistance.
+Mystic Robe,Defense Veil,Feather Shield XL,Increase DEF and stun resistance.
+Miracle Ebonyal,Mysterious Power,Devil's Pact S,Increase critical rate and critical damage.
+Miracle Ebonyal,Demonic Power,Devil's Pact M,Increase critical rate and critical damage.
+Miracle Ebonyal,Hellish Power,Devil's Pact L,Increase critical rate and critical damage.
+Heroic Geist,Warrior Soul,Phantom Illusion S,Chance to inflict Sleep on attack.
+Heroic Geist,Brave Soul,Phantom Illusion M,Chance to inflict Sleep on attack.
+Heroic Geist,Hero's Soul,Phantom Illusion L,Chance to inflict Sleep on attack.
+Astonomical Clock,Dimensional Choke,Reverse Second Hand,Reduce skill WT.
+Astonomical Clock,Dimensional Slice,Reverse Minute Hand,Reduce skill WT.
+Astonomical Clock,Dimensional Overlord,Reverse Hour Hand,Reduce skill WT.
