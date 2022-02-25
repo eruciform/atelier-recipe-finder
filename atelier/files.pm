@@ -73,11 +73,13 @@ our $DELIMITER = ",";
 # Fill in other games as needed, or change the directory where this can be found
 
 our %RECIPES = ( 
-  ryza => "./ryza_recipes.csv",
+  ryza   => "atelier/data/ryza_recipes.csv",
+  sophie => "atelier/data/sophie_recipes.csv",
 );
 
 our %MATERIALS = ( 
-  ryza => "./ryza_materials.csv",
+  ryza   => "atelier/data/ryza_materials.csv",
+  sophie => "atelier/data/sophie_materials.csv",
 );
 
 1;

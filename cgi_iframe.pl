@@ -10,6 +10,9 @@ things:
 materials       = 0 for not including materials, just recipes; 1 to include all
 types           = comma separated list of types (defined in the csv data files) to include,
                   generally synthesis,gathering,material
+failures        = comma separated list of types (defined in the csv data files) to include,
+                  specifically if the user wants to include failure modes like Failure Ash
+                  generally synthesis,gathering,material,failure
 chapters        = comma separated list of chapters, if desired (only needed for data that
                   actually includes chapters, like Ryza and Escha, and only if the data is
                   in the data files [optional]
@@ -64,6 +67,7 @@ print $q->header();
 
 my $materials   = param("materials");       # include materials (true|false)
 my $types       = param("types");           # comma separated types, i.e. synthesis, material, gathering
+my $failures    = param("failures");        # comma separated types, i.e. synthesis, material, gathering, failure [optional]
 my $chap        = param("chapters");        # include chapters, comma separated [optional]
 my $dchap       = param("chapter_default"); # default chapter [optional]
 my $depth       = param("depth");           # min, max, comma separated [optional]
@@ -84,15 +88,17 @@ $chap  =~ s/[^\w\d,.]//goi; # bobby
 $depth =~   s/[^\d,]//goi;  # tables
 
 my $MAT = $materials ? $materials !~ /[0f]/oi ? 1 : 0 : 0; # anything other than false or 0 is true
-my $TYP = join "|", split /,/oi, $types or undef;
-my @CTR = $chap  ?  split /,/oi, $chap  : ();
-my @DEP = $depth ?  split /,/oi, $depth : ();
+my $FAI = join "|", split /,/oi, $failures or undef;
+my $TYP = join "|", split /,/oi, $types    or undef;
+my @CTR = $chap  ?  split /,/oi, $chap     : ();
+my @DEP = $depth ?  split /,/oi, $depth    : ();
 my $GAM = $game;
 
+my $ALLTYP = (defined $FAI and defined $TYP) ? "$TYP|$FAI" : defined $FAI ? $FAI : defined $TYP ? $TYP : undef;
 chdir( dirname( __FILE__ ) );
 my $rb = atelier::recipe_book->new( 
   $RECIPES{$GAM}, 
-  sub { my %a = @_; return 1 if $a{Type} !~ /$TYP/i; }, 
+  defined $ALLTYP ? sub { my %a = @_; return 1 if $a{Type} !~ /$ALLTYP/i; } : undef, 
   $DELIMITER 
 ) or die();
 
@@ -115,6 +121,11 @@ foreach my $c ( @CTR ) {
   my $default = $dchap ? $c eq $dchap ? "selected" : "" : "";
   $chap_opt .= sprintf('<option value="%s" %s>%s</option>'."\n",$c,$default,$c);
 }
+
+my $fail_opt = <<FAIL_OPT;
+<option value="No" selected>$TYP</option>
+<option value="Yes"        >$FAI</option>
+FAIL_OPT
 
 my $dep_opt = "";
 foreach my $c ( @DEP ? $DEP[0]..$DEP[1] : () ) {
@@ -143,11 +154,32 @@ $chap_opt
 CHAPTER
 
 print <<"DEPTH" if @DEP;
-  <label for="depth">Synth Chain  Max:</label>
+  <label for="depth">Synth Chain Max:</label>
   <select id="depth" name="depth">
 $dep_opt
   </select>
 DEPTH
+
+$TYP = join ",", split /,/oi, $types    || undef;
+$FAI = join ",", split /,/oi, $failures || undef;
+
+if( $FAI )
+{
+  print <<"FAILURES";
+  <label for="types">Include Failures?</label>
+  <select id="types" name="types">
+$fail_opt
+  </select>
+FAILURES
+}
+elsif( $TYP )
+{
+  print <<"NOFAILURES";
+  <select style="display:none" id="types" name="types">
+$fail_opt
+  </select>
+NOFAILURES
+}
 
 print <<"FORM2";
   <input type="submit" value="BAKE ME A CAKE!" formtarget="atelier_recipe_results">
@@ -155,12 +187,7 @@ print <<"FORM2";
   <input type="hidden" id="materials" name="materials" value="$MAT">
 FORM2
 
-$TYP = join ",", split /,/oi, $types || undef;
-print <<"FORM3" if $TYP;
-  <input type="hidden" id="types"     name="types"     value="$TYP">
-FORM3
-
-print <<"FORM4" if $TYP;
+print <<"FORM4";
 </form>
 <iframe id="atelier_recipe_results" name="atelier_recipe_results"></iframe>
 FORM4

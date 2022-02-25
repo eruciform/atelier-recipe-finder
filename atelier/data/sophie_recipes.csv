@@ -1,5 +1,5 @@
 #,Name,Type,Ingredient 1,Ingredient 2,Ingredient 3,Ingredient 4,Color,Category 1,Category 2,Category 3,Category 4,Alt Color,Add Category 1,From Recipe 1
-0,Failure Ash,Synthesis,-,-,-,-,White,(Elixir),(Magic Tool),,,,,*
+0,Failure Ash,Failure,-,-,-,-,White,(Elixir),(Magic Tool),,,,,*
 1,Uni Bag,Attack,Uni x2,(Gunpowder) x1,(Ore) x1,-,Yellow,(Bomb),,,,,,
 2,Bomb,Attack,Kaen Stone x2,(Gunpowder) x1,(Paper) x1,(Neutralizer) x1,Red,(Bomb),,,,,,
 3,Ice Bomb,Attack,Hakurei Stone x2,(Water) x2,(Neutralizer) x1,-,Blue,(Bomb),,,,,,

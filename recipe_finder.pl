@@ -17,7 +17,7 @@ recipe_finder.pl from to -r recipe.csv [options]
 
 --depth # - for limiting results to a depth of #
 
---type_filter list,of,types - for limiting the recipes to a comma separated list of what's in the Type column
+--type list,of,types - for limiting the recipes to a comma separated list of what's in the Type column
 
 --chapter chapter - for restricting to recipes up to and including that chapter only
 
