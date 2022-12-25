@@ -21,6 +21,8 @@ recipe_finder.pl from to -r recipe.csv [options]
 
 --chapter chapter - for restricting to recipes up to and including that chapter only
 
+--exclude list,of,items - exclude use of specific items
+
 =head1 EXAMPLE
 
 recipe_finder.pl "Flame Black Sand" "(Dragon)" -r recipe.csv -m materials.csv 5 -f synthesis,gathering,materials -c 6
@@ -69,6 +71,7 @@ my $chapter       = undef;
 my $recipe_file   = undef;
 my $material_file = undef;
 my $type_filter   = undef;
+my $exclude       = undef;
 
 $SIG{__DIE__} = sub { print STDERR @_; exec "perldoc $0"; };
 
@@ -78,6 +81,7 @@ GetOptions( "depth=i"    => \$depth,
             "recipe=s"   => \$recipe_file,
             "material=s" => \$material_file,
             "type=s"     => \$type_filter,
+            "exclude=s"  => \$exclude,
             "verbose"    => sub { $atelier::recipe::DEBUG = $atelier::recipe_book::DEBUG = 1 },
             "help"       => sub { exec "perldoc $0"; },
           );
@@ -87,8 +91,10 @@ die "No recipe file specified" unless $recipe_file;
 
 my $type   = defined $type_filter ? "(?i:" . ( join( "|", map { s/\s//go; $_ } split( /,/o, $type_filter ) ) ) . ")" : undef;
 my $filter = undef;
-if( defined $type_filter or defined $chapter ) {
+my %exclude = ( map { ($_ => 1) } ( split /,/o, $exclude ) );
+if( defined $type_filter or defined $chapter or %exclude ) {
   $filter = sub { my %data = @_; 
+                  return 1 if exists $exclude{$data{Name}};
                   return 1 if defined $type_filter   and $data{Type}    !~ /$type/oi; 
                   return 1 if defined $chapter       and
                                       $data{Chapter} and

@@ -24,9 +24,25 @@
  *  
 */
 
-iframe#atelier_recipe_results {
+#atelier_recipe_form {
+  width: 100%;
+}
+
+#atelier_recipe_results {
   width: 100%;
   height: 700px;
+}
+
+form#atelier_recipe_form table {
+  width: 100%;
+}
+
+td#td_exclude {
+  width: 100%;
+}
+
+input#exclude {
+  width: 100%;
 }
 
 span.action {

@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl 
 
 =head1 DESCRIPTION
 
@@ -116,6 +116,8 @@ foreach my $type ( grep { not $fromfound{$_}++ } sort($rb->allcategory(), $rb->a
   $from_opt .= sprintf('<option value="%s">%s</option>'."\n",$type,$type);
 }
 
+my $exclude_list = join ",", ( grep { !/[()]/io } sort ( $rb->allname ) );
+
 my $chap_opt = "";
 foreach my $c ( @CTR ) {
   my $default = $dchap ? $c eq $dchap ? "selected" : "" : "";
@@ -136,58 +138,123 @@ foreach my $c ( @DEP ? $DEP[0]..$DEP[1] : () ) {
   $dep_opt .= sprintf('<option value="%s" %s>%s</option>'."\n",$c,$default,$c);
 }
 
-print <<"FORM1";
-<link rel="stylesheet" href="cgi_finder.css">
-<form action="cgi_finder.pl" method="get">
-  <label for="from_type">From Type:</label>
-  <select id="from_type" name="from_type">
-$from_opt
-  </select>
-  <label for="to_type">To Type:</label>
-  <select id="to_type" name="to_type">
-$to_opt
-  </select>
+print <<'HEAD1';
+<html>
+  <head>
+    <link rel="stylesheet" href="cgi_finder.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      // https://jqueryui.com/autocomplete/#multiple
+      $( function() {
+        function split( val ) {
+          return val.split( /,\s*/ );
+        }
+        function extractLast( term ) {
+          return split( term ).pop();
+        }
+        var availableTags = split( $( "#excludable" ).attr( "value" ) );
+        $( "#exclude" )
+          .on( "keydown", function( event ) {
+            if ( event.keyCode === $.ui.keyCode.TAB &&
+                $( this ).autocomplete( "instance" ).menu.active ) {
+              event.preventDefault();
+            }
+          })
+          .autocomplete({
+            minLength: 0,
+            source: function( request, response ) {
+              response( $.ui.autocomplete.filter(
+                availableTags, extractLast( request.term ) ) );
+            },
+            focus: function() {
+              // prevent value inserted on focus
+              return false;
+            },
+            select: function( event, ui ) {
+              var terms = split( this.value );
+              terms.pop();
+              terms.push( ui.item.value );
+              terms.push( "" );
+              this.value = terms.join( "," );
+              return false;
+            }
+          });
+          // end autocomplete()
+        // end $( "#executable" )
+      } );
+      // end $( function() {
+    </script>
+  </head>
+HEAD1
+
+print << "FORM1";
+  <body>
+    <form id="atelier_recipe_form" action="cgi_finder.pl" method="get">
+      <table>
+        <tr>
+          <td><label for="from_type">From:</label>
+          <td><select id="from_type" name="from_type">
+            $from_opt
+          </select></td>
+          <td><label for="to_type">To:</label></td>
+          <td><select id="to_type" name="to_type">
+            $to_opt
+          </select></td>
 FORM1
 
 print <<"CHAPTER" if @CTR;
-  <label for="chapter">In Chapter:</label>
-  <select id="chapter" name="chapter">
-$chap_opt
-  </select>
+          <td><label for="chapter">In Chapter:</label></td>
+          <td><select id="chapter" name="chapter">
+            $chap_opt
+          </select></td>
 CHAPTER
 
 print <<"DEPTH" if @DEP;
-  <label for="depth">Synth Chain Max:</label>
-  <select id="depth" name="depth">
-$dep_opt
-  </select>
+          <td><label for="depth">Synth Chain Max:</label></td>
+          <td><select id="depth" name="depth">
+            $dep_opt
+          </select></td>
 DEPTH
 
 if( $FAI )
 {
   print <<"FAILURES";
-  <label for="types">Include Failures?</label>
-  <select id="types" name="types">
-$fail_opt
-  </select>
+          <td><label for="types">Include Failures?</label></td>
+          <td><select id="types" name="types">
+            $fail_opt
+          </select></td>
 FAILURES
 }
 elsif( $TYP )
 {
   print <<"NOFAILURES";
-  <select style="display:none" id="types" name="types">
-$fail_opt
-  </select>
+          <td style="display:none;"><select type="hidden" id="types" name="types">
+            $fail_opt
+          </select></td>
 NOFAILURES
 }
 
 print <<"FORM2";
-  <input type="submit" value="BAKE ME A CAKE!" formtarget="atelier_recipe_results">
-  <input type="hidden" id="game"      name="game"      value="$GAM">
-  <input type="hidden" id="materials" name="materials" value="$MAT">
+          <td><label for="exclude">Exclude:</label></td>
+          <td id="td_exclude">
+            <input type="text" id="exclude" name="exclude" value="">
+          </td>
 FORM2
 
+print <<"FORM3";
+          <td><input type="submit" value="BAKE ME A CAKE!" formtarget="atelier_recipe_results"></td>
+          <td><input type="hidden" id="game"       name="game"       value="$GAM"></td>
+          <td><input type="hidden" id="materials"  name="materials"  value="$MAT"></td>
+          <td><input type="hidden" id="excludable" name="excludable" value="$exclude_list"></td>
+FORM3
+
 print <<"FORM4";
-</form>
-<iframe id="atelier_recipe_results" name="atelier_recipe_results"></iframe>
+        </tr>
+      </table>
+    </form>
+    <iframe id="atelier_recipe_results" name="atelier_recipe_results"></iframe>
+  </body>
+</html>
 FORM4

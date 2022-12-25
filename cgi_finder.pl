@@ -49,6 +49,7 @@ our $from_type = param("from_type");
 our $to_type   = param("to_type");
 our $chapter   = param("chapter");
 our $depth     = param("depth");
+our $exclude   = param("exclude");
 
 our $game      = param("game");
 our $types     = param("types");
@@ -75,10 +76,17 @@ print <<"HEAD";
   <body>
 HEAD
 
+my %excludes = map { ( $_ => 1 ) }
+  grep { /\S/o; } 
+  grep { !/[()]/o }
+  map { s/^\s+//go; s/\s+$//go; $_ } 
+  ( split /,/o, ( defined $exclude ? $exclude : "" ) );
+
 chdir( dirname( __FILE__ ) );
 my $rb = atelier::recipe_book->new( 
   $RECIPES{$GAM}, 
   sub { my %a = @_; 
+        return 1 if exists $excludes{$a{Name}};
         return 1 if $a{Type} !~ /$TYP/i;
         return 0 if not $chapter;
         return 1 if not $a{Chapter} or $a{Chapter} > $chapter; },
