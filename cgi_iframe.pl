@@ -247,8 +247,9 @@ print <<"FORM3";
           <td><input type="submit" value="BAKE ME A CAKE!" formtarget="atelier_recipe_results"></td>
           <td><input type="hidden" id="game"       name="game"       value="$GAM"></td>
           <td><input type="hidden" id="materials"  name="materials"  value="$MAT"></td>
-          <td><input type="hidden" id="excludable" name="excludable" value="$exclude_list"></td>
+          <td><xxxxx type="hidden" id="excludable" name="excludable" value="$exclude_list"></td>
 FORM3
+# NOTE: don't send full excludable list, it blows up max URI length, but it is needed for JS
 
 print <<"FORM4";
         </tr>
