@@ -149,7 +149,8 @@ sub add_materials($$) {
                                           [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{     "Category $_"} } (1 .. 4)],
                                           [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{ "Add Category $_"} } (1 .. 4)],
                                           [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{   "Ingredient $_"} } (1 .. 4)],
-                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{  "From Recipe $_"} } (1 .. 2)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{  "From Recipe $_"} } (1 .. 4)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{    "From Type $_"} } (1 .. 4)],
                                         );
     $self->{by_name      }->{$material->name}                     = $material;
     $self->{by_category  }->{$_             }->{$material->name } = $material for $material->category;
@@ -161,7 +162,7 @@ sub add_materials($$) {
   my @allsynthesis = grep { $_->type ne "Material" } values %{$self->{by_name}};
   foreach my $mat (values %{$self->{by_name}}) {
     next unless $mat->isfrom("*");
-    $mat->replace_from("*", @allsynthesis);
+    $mat->replace_from("*", {Fail=>1}, @allsynthesis);
     $self->{by_precedent }->{$_->name}->{$mat->name} = $mat for @allsynthesis;
     $self->{by_antecedent}->{$mat->name}->{$_->name} = $mat for @allsynthesis;
   }
@@ -184,6 +185,13 @@ sub byoptional(  $$) { my $self = shift; my $search = shift; return exists $self
 sub byrequired(  $$) { my $self = shift; my $search = shift; return exists $self->{by_required  }->{$search} ?   keys %{$self->{by_required  }->{$search}} : ()    }
 sub byantecedent($$) { my $self = shift; my $search = shift; return exists $self->{by_antecedent}->{$search} ?   keys %{$self->{by_antecedent}->{$search}} : ()    }
 sub byprecedent( $$) { my $self = shift; my $search = shift; return exists $self->{by_precedent }->{$search} ?   keys %{$self->{by_precedent }->{$search}} : ()    }
+
+sub byprecedenttypes($$$) { 
+  my $self       = shift; 
+  my $precedent  = shift; 
+  my $antecedent = shift; 
+  return $self->{by_precedent}->{$precedent}->{$antecedent}->fromtypes($precedent);
+}
 
 sub manycategory(  $@) { my $self = shift; my @search = @_; return   keys %{{ map { exists $self->{by_category  }->{$_} ? %{$self->{by_category  }->{$_}} : () } @search }} }
 sub manyoptional(  $@) { my $self = shift; my @search = @_; return   keys %{{ map { exists $self->{by_optional  }->{$_} ? %{$self->{by_optional  }->{$_}} : () } @search }} }
@@ -291,7 +299,7 @@ sub _find_recursive_graph($$$$$$) {
   $cache = { %{$cache}, $item->name => 1 };
   $layer = { %{$cache}, map { $_=>1 } ( $item->name, $item->category, $item->optional ) };
 
-  # otherwis e moveforward potentially adding to te movehe recipe, and returning list of recipes if they have any child nodes by the end
+  # otherwise move forward potentially adding to the recipe, and returning list of recipes if they have any child nodes by the end
   # add to the main recipe as we go, and check to see if it's empty later
   # separately, the optional recipes will get filled with separate recipes, because they have different versions of the item
   my @optional_recipes;
@@ -357,11 +365,15 @@ sub _find_recursive_graph($$$$$$) {
 
   # finally, look for recipes that can be converted into from this one
   foreach my $next ($self->byprecedent($item->name)) {
-    DEBUG($depth, $item->label, " ", "trying precedent $next");
+    DEBUG($depth, $item->label, " ", "trying antecedent $next");
     my @found = $self->_find_recursive_graph($self->byname($next), $finish, $cache, $depth+1, $maxdep);
     next unless @found;
     my %seen;
-    atelier::synthesis->new("Convert", $main_recipe, $_) for grep { !$seen{$_}++ } @found;
+    foreach my $into ( grep { !$seen{$_}++ } @found ) {
+      foreach my $fromtype ( $self->byprecedenttypes( $item->name, $next ) ) {
+        atelier::synthesis->new($fromtype, $main_recipe, $into);
+      }
+    }
   }
 
   my @recipes = @optional_recipes;

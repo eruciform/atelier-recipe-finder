@@ -50,6 +50,17 @@ sub new {
   my $opt   = shift || [];
   my $req   = shift || [];
   my $from  = shift || [];
+  my $ftype = shift || [];
+  # The "from" hash no longer simply points to 1 if there is a "from" recipe,
+  # instead it points to a hash of "type" names that it came from. So if this material
+  # came from X as type Convert and Y as type Convert and Y also as type EV-Link,
+  # then:
+  # self->{from} = { X=>{Convert=>1}, Y=>{Convert=>1, "EV-Link"=>1} }
+  my %fromhash = ();
+  for my $n (0 .. $#{$from}) {
+    $fromhash{$from->[$n]} ||= {};
+    $fromhash{$from->[$n]}->{($n <= $#{$ftype} ? $ftype->[$n] : "Convert")} = 1;
+  }
   my $self  = {
     name     => $name,
     type     => $type,
@@ -57,13 +68,17 @@ sub new {
     category => { map {$_=>1} @{$cat}  },
     optional => { map {$_=>1} @{$opt}  },
     required => { map {$_=>1} @{$req}  },
-    from     => { map {$_=>1} @{$from} },
+    from     => \%fromhash,
   };
   return bless $self, $class;
 }
 
 sub clone($) { 
   my $self  = shift;
+  my %fromhash = ();
+  for my $f ( $self->from ) {
+    $fromhash{$f} = { %{$self->{from}->{$f}} };
+  }
   my $clone = {
     name     => $self->name,
     type     => $self->type,
@@ -71,19 +86,20 @@ sub clone($) {
     category => { map {$_=>1} $self->category },
     optional => { map {$_=>1} $self->optional },
     required => { map {$_=>1} $self->required },
-    from     => { map {$_=>1} $self->from     },
+    from     => \%fromhash,
   };
   return bless $clone, ref $self;
 }
 
-sub replace_from($$@) {
+sub replace_from($$$@) {
   # used for "*" requirement of the Failure Ash in Atelier Sophie
   my $self  = shift;
   my $cat   = shift;
+  my $types = shift; # must be a hash of 1s, this should be reworked
   my @with  = @_;
   return unless $self->isfrom($cat);
   delete $self->{from}->{$cat};
-  $self->{from} = { %{$self->{from}}, map {$_->name=>1} @with };
+  $self->{from} = { %{$self->{from}}, map {$_->name=>$types} @with };
 }
 
 sub add($$) {
@@ -106,5 +122,7 @@ sub category($) { my $self = shift; return keys %{$self->{category}}; }
 sub optional($) { my $self = shift; return keys %{$self->{optional}}; }
 sub required($) { my $self = shift; return keys %{$self->{required}}; }
 sub from    ($) { my $self = shift; return keys %{$self->{from    }}; }
+
+sub fromtypes($$) { my $self = shift; my $from = shift; return keys %{$self->{from}->{$from}}; }
 
 1;
