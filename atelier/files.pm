@@ -74,6 +74,7 @@ our $DELIMITER = ",";
 
 our %RECIPES = ( 
   ryza   => "atelier/data/ryza_recipes.csv",
+  ryza2  => "atelier/data/ryza2_recipes.csv",
   sophie => "atelier/data/sophie_recipes.csv",
   sophie2=> "atelier/data/sophie2_recipes.csv",
   firis  => "atelier/data/firis_recipes.csv",
@@ -83,6 +84,7 @@ our %RECIPES = (
 
 our %MATERIALS = ( 
   ryza   => "atelier/data/ryza_materials.csv",
+  ryza2  => "atelier/data/ryza2_materials.csv",
   sophie => "atelier/data/sophie_materials.csv",
   sophie2=> "atelier/data/sophie2_materials.csv",
   firis  => "atelier/data/firis_materials.csv",

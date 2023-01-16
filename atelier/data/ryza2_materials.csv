@@ -1,0 +1,243 @@
+#,Name,Category 1,Category 2,Category 3,Category 4,F,I,L,W
+1,Clean Water,(Water),,,,,X,,
+2,Plant Essence,(Water),(Medicinal),,,,,,X
+3,Roteswasser Tonic,(Water),(Poisons),,,X,X,,
+4,Jade Water,(Water),(Elixirs),,,,X,X,
+5,Ether Aqua,(Water),(Magical),,,X,X,,
+6,Foamy Water,(Water),(Gases),,,,X,,X
+7,Ancient Blue Water,(Water),(Magical),,,,X,,X
+8,Clover Milk,(Water),(Edibles),,,,,X,
+9,Black Water,(Water),(Poisons),,,X,X,,
+10,Nameless Grass,(Plants),,,,,,,X
+11,Dry Grass,(Plants),(Fuel),,,X,,,X
+12,Poison Grass,(Plants),(Poisons),,,,X,,
+13,Wasser Wheat,(Plants),(Edibles),,,,,X,
+14,Sweet Leaf,(Plants),(Edibles),,,X,X,,
+15,Rosen Leaf,(Plants),(Flowers),(Medicinal),,X,,,X
+16,Ancient Branch,(Plants),(Elixirs),(Lumber),,,X,,X
+17,Lucky Clover,(Plants),(Flowers),(Magical),,,,X,
+18,Blue Clover,(Plants),(Flowers),,,X,,,X
+19,Blue Herb,(Plants),(Flowers),(Medicinal),,X,,X,
+20,Torch Grass,(Flowers),(Plants),(Magical),,X,,,X
+21,Rishikelp,(Plants),(Edibles),,,,,X,
+22,Glowing Diatom,(Medicinal),(Elixirs),,,,X,,
+23,Uni,(Uni),,,,,,X,X
+24,Gold Uni,(Uni),(Metal),(Magical),,X,,X,
+25,Water Uni,(Uni),(Poisons),,,,X,,
+26,Ancient Uni,(Uni),(Magical),,,X,,X,
+27,Emperor Uni,(Uni),(Elixirs),,,X,,,X
+28,Health Flower,(Flowers),(Medicinal),,,X,,,
+29,Northern Wind Flower,(Flowers),(Poisons),,,,X,,
+30,Sunny Honey Flower,(Flowers),(Spices),,,,,X,
+31,Bubble Grass,(Flowers),(Plants),(Gases),,,X,,X
+32,Spring Princess,(Flowers),(Medicinal),(Elixirs),,,X,,
+33,Delphi Rose,(Flowers),(Threads),,,,X,X,
+34,Fragile,(Medicinal),(Plants),,,,X,,
+35,Timeteller,(Medicinal),(Flowers),(Magical),,,X,X,
+36,Polar Cactus,(Medicinal),(Plants),,,X,X,,X
+37,Dream Flower,(Medicinal),(Plants),,,,X,X,
+38,Rose Crystal,(Medicinal),(Gemstones),(Elixirs),,X,X,,
+39,Taun,(Medicinal),(Plants),,,,,,X
+40,Tall Taun,(Medicinal),(Plants),,,,,,
+41,Sapling Branch,(Medicinal),(Magical),,,,,,X
+42,Medicinal Moss,(Medicinal),(Plants),,,,X,X,
+43,Fertile Soil,(Medicinal),(Fuel),,,,,X,
+44,Medium Medicine,(Medicinal),(Poisons),(Elixirs),,,,X,
+45,Bitter Root,(Medicinal),(Poisons),,,X,,,
+46,Crimson Grass,(Medicinal),(Elixirs),,,,X,,
+47,Ancient Solution,(Medicinal),(Water),(Elixirs),,X,,X,
+48,Sage Grass,(Medicinal),(Edibles),(Plants),,,X,,X
+49,Life Leaf,(Medicinal),(Plants),(Magical),,X,,,X
+50,Refueling Extract,(Medicinal),(Magical),,,,X,X,
+51,Yugdore Water,(Medicinal),(Magical),(Elixirs),,,X,,X
+52,Resentful Scream,(Poisons),(Plants),,,X,,,
+53,Mushroom Powder,(Poisons),(Gases),,,,,X,X
+54,Stinky Trash,(Poisons),(Edibles),,,X,,,
+55,Burnt Ash,(Poisons),,,,,,,
+56,Dragon Flower,(Poisons),(Plants),,,X,,,X
+57,Demon Blood,(Poisons),(Magical),,,X,X,,
+58,Forest Sage,(Elixirs),(Medicinal),,,,X,,X
+59,Dunkelheit,(Elixirs),(Medicinal),(Poisons),(Magical),X,X,,X
+60,Dream Powder,(Elixirs),(Magical),,,X,,X,X
+61,Divine Liquid,(Elixirs),(Medicinal),(Spices),,,X,X,
+62,Solflower,(Flowers),(Elixirs),,,X,,,X
+63,Soft Sand,(Sand),,,,,,X,X
+64,Burning Sand,(Sand),(Fuel),,,X,,,
+65,Ashen Sand,(Sand),,,,,X,,X
+66,Polluted Humus,(Sand),(Fuel),(Poisons),,,,X,X
+67,Emerald Glass,(Sand),(Gemstones),,,,X,X,X
+68,Seafloor Soil,(Sand),,,,,X,X,
+69,Black Muck,(Sand),(Elixirs),,,X,X,,
+70,Vortex Sand,(Sand),(Gemstones),,,,,,X
+71,Nectar Rock,(Stone),(Spices),,,X,,,
+72,Eroded Stone,(Stone),,,,,,,
+73,Riverstone,(Stone),(Gemstones),,,,,X,X
+74,Blue Flame Riverstone,(Stone),(Gemstones),,,X,X,,
+75,Waterside Moss Stone,(Stone),(Sand),,,,X,,X
+76,Ethereal Stone,(Stone),,,,,,,X
+77,Ancient Pillar,(Stone),,,,X,,,X
+78,Coral Stone,(Stone),(Gemstones),,,,X,X,
+79,Arknite,(Stone),(Ore),,,X,X,,
+80,Crimson Ore,(Ore),(Gunpowder),,,X,,,
+81,Aqua Ore,(Ore),(Water),,,,X,,
+82,Lightning Ore,(Ore),(Gemstones),,,,,X,
+83,Wind Ore,(Ore),(Sand),,,,,,X
+84,Amatite Ore,(Ore),,,,,,,
+85,Pentanite,(Ore),,,,,,X,X
+86,Mordenite,(Ore),,,,,X,X,
+87,Goldinite,(Ore),,,,X,,X,
+88,Degenesis Stone,(Ore),(Gemstones),,,,X,,X
+89,Septrin,(Ore),(Gemstones),(Magical),,,,X,
+90,Eternal Crystal,(Ore),(Gemstones),,,X,X,X,
+91,Small Crystals,(Gemstones),(Magical),,,,,,
+92,Unknown Gemstone,(Gemstones),,,,,X,,X
+93,Shell Pearl,(Gemstones),(Seafood),,,,X,,
+94,Amber Crystal,(Gemstones),(Ore),,,,,X,
+95,Magnemarmor,(Gemstones),,,,X,,,
+96,Holy Arbor Crystal,(Gemstones),(Magical),,,,X,,X
+97,Rainbow Gemstone,(Gemstones),,,,X,X,X,X
+98,Amber Fragment,(Gemstones),(Sand),,,X,,,X
+99,Glowing Coral,(Gemstones),(Magical),,,X,X,,
+100,Star Fragment,(Gemstones),(Magical),,,,,X,
+101,Underworld Crystal,(Gemstones),(Magical),,,X,,,
+102,Dried Lumber,(Gunpowder),,,,,,,X
+103,Flaming Black Sand,(Gunpowder),,,,X,,X,
+104,Magma Powder,(Gunpowder),,,,X,,,
+105,Scrap Paper,(Fuel),,,,X,,,
+106,Flammable Bark,(Fuel),(Lumber),,,X,,,X
+107,Palma Bark,(Fuel),(Lumber),,,,X,,
+108,Natural Oil,(Fuel),,,,X,,,
+109,Smokey Charcoal,(Fuel),,,,X,,,X
+110,Palma Charcoal,(Fuel),,,,X,,X,
+111,Fuel Coconut,(Fuel),(Fruit),(Edibles),,X,,,X
+112,Eternal Fire,(Fuel),(Gunpowder),(Magical),,X,,,
+113,Amber Oil,(Fuel),(Gases),,,X,,,X
+114,Beast Meat,(Edibles),,,,,X,,
+115,Fresh Meat,(Edibles),,,,X,,X,
+116,Unknown Egg,(Edibles),(Fuel),,,X,X,,
+117,Oil Tree Fruit,(Fruit),(Edibles),(Fuel),,,,X,X
+118,Nectar Fruit,(Fruit),(Edibles),(Spices),,,X,,
+119,Wild Potato,(Edibles),,,,X,,,X
+120,Portpea,(Edibles),,,,,,X,X
+121,Palma Fruit,(Fruit),(Water),,,X,,,
+122,Fresh Berry,(Fruit),(Spices),,,,,,X
+123,Werder Nut,(Fruit),(Fuel),,,X,,,X
+124,Fortune Fruit,(Fruit),,,,,X,,X
+125,Beehive,(Beehives),(Gunpowder),,,X,,X,
+126,Silver Beehive,(Beehives),(Gunpowder),,,,X,,X
+127,Gold Beehive,(Beehives),(Gunpowder),,,X,,X,
+128,Ancient Beehive,(Beehives),(Gunpowder),,,X,,X,
+129,Honey Ball,(Beehives),(Gunpowder),(Spices),,X,X,X,X
+130,Eicheloa,(Mushrooms),,,,,X,,
+131,Mushroom Colony,(Mushrooms),,,,,X,X,
+132,Utopiechampignon,(Mushrooms),(Gases),,,X,,,X
+133,Golden Crown,(Mushrooms),(Magical),,,X,X,X,
+134,Jellyfish Mushroom,(Mushrooms),(Water),,,,X,,X
+135,Dusk Mushroom,(Mushrooms),(Elixirs),,,,,X,X
+136,Danger Mushroom,(Mushrooms),(Poisons),,,,X,,
+137,Sardine,(Seafood),,,,,X,,
+138,Exofish,(Seafood),(Gases),,,,,,
+139,Seriole,(Seafood),,,,,,X,
+140,Pourpremoule,(Seafood),(Ore),,,,,,
+141,Crab,(Seafood),,,,,X,X,
+142,Mace Fish,(Seafood),,,,,,X,X
+143,Myria Fish,(Seafood),(Elixirs),,,,X,,X
+144,Lake Master,(Seafood),(Puniballs),,,,X,,
+145,Pretty Shells,(Seafood),,,,,,X,
+146,Spikey,(Seafood),,,,X,,,
+147,Uni Starfish,(Seafood),,,,,X,,X
+148,Demon Crab,(Seafood),(Medicinal),,,X,,X,
+149,Dragonpalace Nautilus,(Seafood),(Gemstones),(Magical),,,,X,
+150,Crown Shellfish,(Seafood),(Gemstones),,,,X,X,X
+151,Imperial Fish,(Seafood),(Metal),,,X,,X,X
+152,Seven Stars,(Bugs),,,,X,,,
+153,Honey Ant,(Bugs),(Spices),,,,X,,
+154,Lantern Fly,(Bugs),(Magical),,,X,,,X
+155,Rose Bee,(Bugs),(Poisons),,,,,,X
+156,Giant Beetle,(Bugs),(Ore),,,,,X,
+157,Bomb Dragoon,(Bugs),(Gases),,,X,,X,
+158,Expiation Worm,(Bugs),(Medicinal),,,X,X,,
+159,Amber Fly,(Bugs),(Gemstones),,,,,X,
+160,Lapis Papillion,(Bugs),(Magical),,,,X,,X
+161,Baby Wyrm,(Bugs),(Dragon Mat.),,,X,X,,X
+162,Trihorn,(Bugs),(Jewels),,,X,,X,X
+163,Ancient Bug,(Bugs),(Gemstones),(Magical),,X,,X,
+164,Spirit Isopod,(Bugs),(Magical),,,,,X,X
+165,Restraint Silk,(Threads),,,,,,X,
+166,Tough Vine,(Threads),(Plants),,,,,,X
+167,Arbor Ivy,(Threads),,,,,X,,
+168,Cotton Grass,(Threads),(Plants),,,,X,,X
+169,Queen Spider Web,(Threads),,,,X,,X,
+170,Angel Silk,(Threads),(Magical),,,,X,X,
+171,Eiche,(Lumber),,,,,,,
+172,Tough Log,(Lumber),,,,,X,X,
+173,Mossy Driftwood,(Lumber),(Plants),,,,X,,
+174,Holy Arbor Branch,(Lumber),(Magical),,,,X,,X
+175,Palma,(Lumber),,,,X,,X,
+176,Fossil Tree,(Lumber),,,,X,,,X
+177,Mana-Eater Branch,(Lumber),(Magical),,,X,,,
+178,Ancient Log,(Lumber),(Elixirs),,,X,,X,
+179,Wooden Cog,(Lumber),(General Goods),,,,,X,X
+180,Millennial Tree,(Lumber),(Magical),,,,X,X,X
+181,Wing Plant,(Plants),(Gases),,,,,,X
+182,Sky Bubble,(Gases),,,,,X,,X
+183,Crispy Mushroom,(Mushrooms),(Gases),,,X,,X,
+184,Rotwood Miasma,(Gases),(Poisons),,,X,,,X
+185,Water Holy Branch,(Gases),(Magical),,,,X,,X
+186,Blue Puniball,(Puniballs),,,,,X,,
+187,Green Puniball,(Puniballs),,,,,,,X
+188,Red Puniball,(Puniballs),,,,X,,,
+189,Black Puniball,(Puniballs),,,,X,X,X,X
+190,Silver Puniball,(Puniballs),(Jewels),,,,X,,X
+191,Gold Puniball,(Puniballs),(Jewels),,,X,,X,
+192,Pink Puniball,(Puniballs),,,,,X,X,
+193,Animal Hide,(Animal Products),,,,X,,,
+194,Mythical Hide,(Animal Products),(Magical),,,,X,X,
+195,Large Bone,(Animal Products),,,,X,,,
+196,Beast Fossil,(Animal Products),,,,X,,X,
+197,Blessed Feather,(Animal Products),,,,,,,X
+198,Water Beast Fossil,(Animal Products),(Magical),,,,X,X,
+199,Water Beast Scale,(Animal Products),,,,X,X,,
+200,Cave Bat Wing,(Animal Products),(Poisons),,,,X,,X
+201,Goat Horn,(Animal Products),,,,,,,
+202,Fairystone Fragment,(Magical),,,,,X,X,
+203,Dark Crystal Fragment,(Magical),(Poisons),,,X,X,X,X
+204,Holy Stone Fragment,(Magical),(Gemstones),,,,,X,X
+205,Magic Tome Piece,(Magical),(Fuel),,,X,,X,
+206,Old Magic Tome,(Magical),(Fuel),,,,X,,X
+207,Holy Tree Leaf,(Magical),(Gemstones),,,X,X,,
+208,Abyss Bolt,(Magical),(Gemstones),,,X,,X,
+209,Round Tablet,(Magical),(Stone),,,,X,X,X
+210,Ancient Fossil,(Magical),,,,,X,X,
+211,Tempting Sap,(Magical),(Poisons),,,X,X,,
+212,White Moon Frost,(Magical),(Water),,,,X,,X
+213,Virgo Requiem Flower,(Magical),(Flowers),,,,,X,X
+214,Ember Stone,(Magical),(Stone),(Fuel),,X,,X,
+215,Shining Sand,(Magical),(Sand),,,,X,X,X
+216,Rusted Sword,(Metal),,,,,,,X
+217,Broken Tools,(Metal),(General Goods),,,,X,,
+218,Ancient Sword,(Metal),(General Goods),,,X,,X,
+219,Mysterious Metal Shard,(Metal),(Magical),,,X,,X,
+220,Beast Fin,(Edibles),(Animal Products),(Threads),,,X,X,
+221,Beast Shell,(Ore),(Bugs),,,,X,,X
+222,Beast Scales,(Animal Products),(Ore),,,,,X,X
+223,Giant Puniball,(Puniballs),,,,,X,,X
+224,Golem Core,(Ore),,,,X,,X,
+225,Heroic Spirit,(Magical),,,,X,,,X
+226,Giant Claws,(Animal Products),,,,X,,X,
+227,Inverted Scale,(Animal Products),(Dragon Mat.),(Magical),,X,,,
+228,Fairy Horn Adornment,(Magical),,,,,,,X
+229,Fluffy Wool,(Animal Products),(Threads),(Fuel),,X,,,
+230,Demon Claws,(Animal Products),(Poisons),,,X,,X,
+231,Giant Bird Feather,(Animal Products),(Threads),(Fuel),,X,,,X
+232,Giant Bird Egg,(Animal Products),,,,,X,,X
+233,Ether Core,(Magical),(Metal),(Stone),,,X,X,
+234,Guardian Armor,(Stone),,,,X,,X,
+235,Dragon Meat,(Dragon Mat.),(Edibles),,,X,,X,X
+236,Dragon Wing,(Dragon Mat.),(Gases),,,,,X,X
+237,Dragon Egg,(Dragon Mat.),(Fuel),,,X,X,,X
+238,Dragon Eye,(Dragon Mat.),(Elixirs),(Magical),,X,,X,
+239,Dragon Bone,(Dragon Mat.),,,,X,X,,
+240,Chestnut,(Seafood),(Edibles),,,X,X,,
+241,Samasten,(Ingots),(Metal),,,X,,X,
+242,Luceaux,(Edibles),(Medicinal),,,X,,,X
