@@ -47,6 +47,7 @@ input#exclude {
 
 span.action {
   padding: 10px;
+  padding-right: 20px;
   margin: 5px;
   background-image: url(blue-arrow-small.png);
   background-repeat: no-repeat;
