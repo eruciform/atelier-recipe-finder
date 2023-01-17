@@ -105,6 +105,8 @@ foreach my $chain ( sort { scalar @$a <=> scalar @$b } @chains ) {
   print "<p>";
   my $i = 0;
   foreach my $link ( @$chain ) {
+    $link =~ s/\s/&nbsp;/g;
+    $link =~ s/-/&#8209;/g;
     if( $i%2 ) {
       print map { "<span class=action>$_</span>" } $link;
     } else {
