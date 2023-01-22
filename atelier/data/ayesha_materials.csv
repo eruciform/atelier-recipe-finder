@@ -1,0 +1,213 @@
+#,Name,Category 1,Category 2,Category 3,Category 4,Lv,Quality,Fire,Water,Air,Earth,Traits,Properties,Location,Dropped By
+1,Spiky Fruit,(Plant),(Fruit),(Spiky Fruit),,1,40,0,0,15,0,Wind Power,Spark Fruit,"Altugle Herb Garden,Herb Garden-Corridor,Nearby Forest,Pasture Way,Mountain Way",
+2,Blue Spiky Fruit,(Plant),(Fruit),(Spiky Fruit),,11,50,0,5,30,0,Storm Power,Hard,"Herb Garden-Corridor,Wayward Forest,Cliffside Path",
+3,Gold Spiky Fruit,(Plant),(Fruit),(Spiky Fruit),,26,70,10,0,40,0,Tempest Power,Burst Fruit,"Salt Desert-Lighthouse,Cloud Sea Island,Yggdrasil,Yggdrasil-Flower Alley,Yggdrasil-Flower Gate",
+4,Taun,(Plant),(Medic. Herb),,,1,40,0,5,0,15,Dirt Power,Fix Slight Wound,"Hidden Paradise,Altugle Herb Garden,Herb Garden-Corridor,Mountain Way","Fruit Hamster,Poison Squirrel"
+5,Big Taun,(Plant),(Medic. Herb),,,5,60,0,10,0,25,Rock Power,"Big,Fix Wound",Altugle Herb Garden,
+6,Mutated Taun,(Plant),(Poison),(Medic. Herb),,16,70,0,10,15,10,"Rain Power,Usage Control","Neural Poison,Quality Change","Hidden Paradise-Earth,Herb Garden-Corridor,The Farthest Forest",Bitter Squirrel
+7,Trio Taun,(Plant),(Medic. Herb),,,20,90,0,15,0,45,"Black Soil Power,Multiplication",Fix Major Wound,"Hidden Paradise-Fire,Altugle Herb Garden,Herb Garden-Corridor,Beginning Island","Golden Rat,Green Element"
+8,Baby's Breath,(Plant),(Flower),(Fermented),(Salt),1,40,0,0,15,0,Wind Power,,"Hidden Paradise,Half-Florescent Field",Grass Element
+9,Luminous Grass,(Plant),(Poison),(Medic. Herb),,16,60,0,0,30,0,Storm Power,Dark Vision,"Hidden Paradise-Earth,The Farthest Forest",
+10,Moss Grass,(Plant),(Oil),(Smelly),(Herb),2,45,0,0,0,10,Good w/ Liquid,"Stinky,Repel Monster","Hidden Paradise,Dry Valley,Dry Valley-Lake Bed,Dry Valley-Ravine Way,Mountain Way",
+11,Bitter Moss Grass,(Plant),(Oil),(Smelly),(Herb),12,80,0,0,0,18,Nice w/ Liquid,"Bitter,Repel Monster","Tunnel-Dried Waterway,Oesten Marsh-Swamp,Serenity Island,Beginning Island,Decayed Ruin Island",
+12,Dried Moss Grass,(Plant),(Smelly),(Dried Plant),(Herb),18,65,23,0,0,25,"Flame Power,Great w/ Liquid","Fainting in Agony,Monster Calling","Hidden Paradise-Water,Serenity Island",
+13,Taro,(Food),(Nutritional),(Root),(Grain),1,40,0,0,0,10,Well-Made,Sturdy,"Hidden Paradise,Dry Valley",Tree Element
+14,Hard Taro,(Food),(Nutritional),(Root),(Grain),12,60,0,0,0,20,Well-Made,"Small,Some Nutrition",Dry Valley,
+15,Decade Taro,(Food),(Nutritional),(Root),(Grain),20,80,0,0,0,45,"Black Soil Power,Nicely Made",Full of Power,"Hidden Paradise-Fire,Dry Valley-Lake Bed,Dry Valley-Ravine Way",
+16,Bear's Best,(Food),(Nutritional),(Root),(Grain),30,100,0,20,0,50,"Earth Power,Amazingly Made",Great Vitality,"Hidden Paradise-Sky,Red Skin,War Bear",
+17,Glasses Beans,(Food),(Oil),(Bean),(Grain),7,30,0,0,0,15,Dirt Power,,Riverside Way,
+18,Red Devil Seed,(Plant),(Gunpowder),(Spice),,12,55,35,0,0,10,Scorching Hot,Burns Your Tongue,"Hallos Village,Beginning Island,Decayed Ruin Island",
+19,Green Seed,(Food),(Vegetable),,,17,85,0,15,0,30,"Black Soil Power,Well-Made",Green Power,"Hidden Paradise-Water,Waterfall Island,Cloud Sea Island",
+20,Salat,(Food),(Vegetable),,,5,50,0,15,0,0,Water Power,,"Tunnel-Old Dam,Tunnel-Dried Waterway",
+21,Fresh Salat,(Food),(Vegetable),,,9,60,0,20,0,0,"Water Power,Good w/ Liquid",Some Nutrition,Cliffside Path,
+22,White Salat,(Food),(Vegetable),,,22,90,0,40,0,15,"Flood Power,Stable Matter","Soft,Full Nutrition","Hidden Paradise-Fire,Riesengang-Lower",
+23,Stump Mushroom,(Food),(Vegetable),,,4,40,0,0,0,10,Good w/ Liquid,,"Hidden Paradise,Dry Valley-Ravine Way,Half-Florescent Field",Tree Element
+24,Smoke Mushroom,(Plant),(Gunpowder),,,7,60,10,0,0,20,"Dirt Power,Good w/ Liquid","Stinky,Very Bitter",Evershade Woods,
+25,Darkness Shoot,(Plant),(Poison),,,14,70,0,10,0,20,"Heighten Power,Division",Visual Poison,Tunnel-Dried Waterway,
+26,Jagged Leaf,(Plant),(Herb),,,6,50,0,0,5,15,Wind Power,Very Nice Smell,Harvestful Forest,
+27,Metal Leaf,(Plant),(Herb),,,9,40,0,0,15,10,Wind Power,"Hard,Sharp Spike",Wayward Forest,
+28,Hard Jagged,(Plant),(Dried Plant),(Herb),,15,70,0,0,15,20,"Storm Soul,Great w/ Ore",Evolve Materials,"Waterfall Island,Cloud Sea Island",Mirage Element
+29,Moon Leaf,(Plant),(Oil),(Medic. Herb),,7,55,0,0,20,0,"Wind Power,Good w/ Liquid",,"Riverside Way,Grassland Hill",
+30,Bitter Leaf,(Plant),(Seasoning),,,10,65,0,0,20,5,Storm Power,Bitter,Wayward Forest,
+31,Soft Leaf,(Plant),(Seasoning),(Salt),,15,80,15,0,30,15,"Tempest Power,Nice w/ Liquid",Salty,"Salt Desert,Salt Desert-Bones,Salt Desert-Hill",
+32,Awakening Herb,(Plant),(Medic. Herb),(Herb),,4,45,20,10,5,10,Wind Power,Nice Smell,"Half-Florescent Field,Fragrant Wind Meadow",Grass Element
+33,Dried Root,(Plant),(Fuel),(Dried Plant),(Root),2,40,5,0,0,10,Dirt Power,,"Hidden Paradise,Altugle Herb Garden,Herb Garden-Corridor,Pasture Way,Mountain Way",Fruit Hamster
+34,Rich Root,(Plant),(Root),,,9,70,0,10,5,20,"Dirt Power,Well-Made",Some Nutrition,Grand Rocky Mountain,Poison Squirrel
+35,Flame Root,(Plant),(Gunpowder),(Root),,16,60,35,0,0,15,"Flame Power,Fire Spirit",Fire Guard,"Hidden Paradise-Earth,Salt Desert-Mountain",
+36,Earth Root,(Plant),(Elixir),(Root),,21,85,0,15,10,50,"Earth Spirit,Dirt Soul",Regenerative,"Hidden Paradise-Fire,Riesengang-Lower",Bitter Squirrel
+37,Cure Fruit,(Food),(Medic. Ing.),(Fruit),,6,50,0,5,20,0,Wind Power,Prevent Ailment,"Hallos Village,Evershade Woods",
+38,Ripe Cure Fruit,(Food),(Medic. Ing.),(Fruit),(Fermented),17,75,0,10,30,0,"Storm Power,Heighten Power",Prevent Ailment,"Hidden Paradise-Water,Oesten Marshland",
+39,North Wind Fruit,(Food),(Elixir),(Medic. Ing.),(Fruit),23,65,10,15,25,0,"Tempest Power,Well-Made",North Wind Guard,"Hidden Paradise-Wind,Waterfall Island",Green Element
+40,Beast Meat,(Food),(Meat),,,9,50,0,5,0,20,Dirt Power,,Deserted House,"Flesh Eater,Howling Beast,Stray Dog"
+41,Dangerous Meat,(Food),(Poison),(Meat),(Fermented),6,25,10,10,10,15,"Dirt Power,Stagnation","Stinky,Weakening Poison",,
+42,Fresh Meat,(Food),(Meat),,,19,75,0,15,0,35,Black Soil Power,Juicy,Hidden Paradise-Water,"Flesh Eater,Howling Beast,Wolf"
+43,Gold Meat,(Food),(Meat),,,30,100,15,0,15,50,Earth Power,Reinforce Body,"Hidden Paradise-Sky,Yggdrasil",Wolf
+44,Lump of Fat,(Food),(Meat),(Oil),,11,60,10,15,0,5,"Rain Power,Good w/ Plants",Soft,"Oesten Marshland,Oesten Marsh-Swamp,Oesten Marsh-Ruin",
+45,Marsh Slime,(Natural),(Oil),(Slime),,14,40,0,15,0,10,Division,Heavy Body,"Oesten Marshland,Oesten Marsh-Ruin",
+46,Ether Bubble,(Natural),(Elixir),(Mystery),(Slime),20,80,15,15,15,15,"Stagnation,Multiplication",Auto Activate 50%,"Hidden Paradise-Fire,Riesengang-Lower",
+47,Big Bone,(Animal),(Medic. Ing.),(Access. Ing.),(Bone),6,50,5,0,10,15,Dirt Power,Big,"Grassland Hill,Evershade Woods",
+48,Bone Fossil,(Animal),(Medic. Ing.),(Mystery),(Bone),13,60,10,10,0,30,"Rock Soul,Good w/ Ore",Life Capture,"Tunnel-Dried Waterway,Salt Desert,Salt Desert-Lighthouse,Salt Desert-Hill",
+49,Black Bone,(Animal),(Gunpowder),(Medic. Ing.),(Bone),20,80,0,15,15,35,"Black Soil Power,Nice w/ Plants","Burn Furiously,Good Quality","Hidden Paradise-Fire,Oesten Marsh-Ruin,Salt Desert-Mountain,Steinfeder",
+50,Dragon Bone,(Animal),(Medic. Ing.),(Access. Ing.),(Bone),26,90,35,10,10,20,"Flame Soul,Expand Power","Stats +4,Dragon Wave","Hidden Paradise-Wind,Salt Desert-Mountain",
+51,Mtn. Bird Egg,(Food),(Oil),(Smelly),(Egg),2,45,0,0,15,10,Wind Spirit,Some Nutrition,"Hidden Paradise,Nearby Forest",
+52,Seabird Egg,(Food),(Oil),(Smelly),(Egg),7,55,10,0,15,0,"Wind Power,Well-Made",Full Nutrition,"Hallos-Residences,Hallos-Plaza",
+53,Extinct Bird Egg,(Food),(Oil),(Smelly),(Egg),15,70,0,10,30,15,"Wind Power,Storm Soul",Ancient Taste,"Hidden Paradise-Earth,Oesten Marshland",
+54,Egg Stone,(Ore),(Elixir),(Mystery),(Lucky Charm),20,80,10,0,20,45,"Rock Power,Rock Soul","Mystic Guard,All Power Pour,Amplification","Hidden Paradise-Fire,Oesten Marsh-Ruin,Decayed Ruin Island",
+55,Phlogiston,(Natural),(Gunpowder),(Fuel),,19,70,25,0,20,0,"Fire Spirit,Fire Soul",Burn Furiously,"Hallos Village,Hallos-Residences,Zweiteturm-Archive 4,Zweiteturm-Archive 8,Zweiteturm-Archive 9",
+56,Aqua Light,(Liquid),(Natural),(Slime),,19,70,0,25,10,20,"Water Spirit,Water Soul",Healing Water,"Dry Valley-Lake Bed,Zweiteturm-Archive 4,Zweiteturm-Archive 8,Zweiteturm-Archive 9,Salt Desert",
+57,Wind Core,(Natural),(Elixir),(Mystery),(Gemstone),19,70,20,0,25,0,"Wind Spirit,Wind Soul","Lightweight,Lightning Guard","Glass Factory-3F,Zweiteturm-Archive 4,Zweiteturm-Archive 8,Zweiteturm-Archive 9,Serenity Island",
+58,Earth Stone,(Natural),(Clay),(Nutritional),,19,70,0,20,0,25,"Earth Spirit,Dirt Soul",Earth Guard,"Zweiteturm-Archive 4,Zweiteturm-Archive 8,Zweiteturm-Archive 9,Riesengang-Upper,Decayed Ruin Island",
+59,Soft Stone,(Ore),(Clay),,,3,30,0,0,0,10,Good w/ Ore,Soft,"Hidden Paradise,Tunnel,Tunnel-Broken Bridge,Old Coal Mine",
+60,Peat,(Ore),(Fuel),(Clay),(Charcoal),2,40,10,0,0,20,"Fire Power,Dirt Power",Price -10%,"Hidden Paradise,Tunnel,Tunnel-Broken Bridge,Old Coal Mine",
+61,Pale Clay,(Ore),(Clay),,,8,70,0,10,0,20,Nice w/ Ore,Perky,"Tunnel,Oesten Marshland,Oesten Marsh-Ruin",
+62,Living Clay,(Ore),(Elixir),(Clay),,12,55,0,15,10,20,"Dirt Power,Multiplication",Auto Activate 20%,"Tunnel-Old Dam,Oesten Marshland,Oesten Marsh-Ruin",Yellow Element
+63,Iron Mixed Stone,(Ore),(Metal),,,1,40,0,0,0,15,Dirt Power,,"Hidden Paradise,Tunnel,Tunnel-Broken Bridge,Old Coal Mine",
+64,Bronze Ore,(Ore),(Metal),,,6,55,10,0,0,25,Rock Power,Skill Usage -10%,"Tunnel,Tunnel-Broken Bridge,Fragrant Wind Meadow",
+65,Pyrite Stone,(Ore),(Metal),,,9,65,5,5,5,25,"Dirt Power,Good w/ Ore","PH RES +5,Skill Usage -15%","Tunnel,Glass Factory,Glass Factory-2F,Riesengang-Upper,Riesengang-Middle",
+66,Star Stone,(Ore),,,,12,60,15,0,25,15,Storm Power,Really Hard,"Glass Factory,Glass Factory-2F,Glass Factory-Core,Grand Rocky Mountain",Yellow Element
+67,Green Gemstone,(Gemstone),,,,22,75,0,10,35,20,"Tempest Power,Wind Soul",Lightning Power,"Hidden Paradise-Fire,Riesengang-Middle",
+68,Blue Gemstone,(Gemstone),,,,22,80,0,45,20,20,"Flood Power,Water Soul",Ice Power,"Hidden Paradise-Fire,Riesengang-Middle",
+69,Rouge Gemstone,(Gemstone),,,,22,85,45,10,0,20,"Hellfire Power,Fire Soul",Fire Power,"Hidden Paradise-Fire,Riesengang-Middle",
+70,Pretty Ore,(Ore),(Access. Ing.),,,15,70,0,15,0,15,"Nicely Made,Heighten Power","Price +5%,Beautiful Form","Hidden Paradise-Earth,Glass Factory",
+71,Big Gemstone,(Ore),(Access. Ing.),,,23,90,15,0,0,55,"Black Soil Power,Dirt Soul","Big,Power Pour","Hidden Paradise-Wind,Salt Desert-Bones",
+72,Shining Crystal,(Ore),(Mystery),,,17,80,0,10,20,15,Storm Power,Virtual Image,"Hidden Paradise-Water,Glass Factory",
+73,Eternal Crystal,(Ore),(Mystery),,,6,50,0,10,0,10,Stable Matter,Suppress Movement,"Tunnel-Broken Bridge,Hallos-Plaza,Riesengang-Upper,Riesengang-Middle",
+74,Prisma Crystal,(Ore),(Mystery),(Lucky Charm),,12,70,0,15,25,15,Storm Power,"Show Illusion,Rainbow Light",Glass Factory-3F,
+75,Crystal Stone,(Mystery),(Gemstone),(Crystal),,8,60,0,10,10,5,Wind Power,Acoustic,"Tunnel-Old Dam,Tunnel-Dried Waterway,Glass Factory,Glass Factory-2F,Glass Factory-Core",
+76,Amethyst Stone,(Mystery),(Gemstone),(Crystal),,16,75,0,15,20,10,"Wind Soul,Good w/ Ore","Lose Power,Acoustic","Hidden Paradise-Earth,Glass Factory",
+77,Night Crystal,(Poison),(Mystery),(Gemstone),(Crystal),25,90,15,25,20,15,"Tornado Power,Nice w/ Ore","Compound Poison,Acoustic","Hidden Paradise-Wind,Salt Desert-Bones",
+78,Corundum Stone,(Precious Ore),(Gemstone),,,20,80,0,0,25,25,Great w/ Ore,"High Power,Good Quality","Hidden Paradise-Fire,Glass Factory-Core,Steinfeder",
+79,Aurora Stone,(Elixir),(Precious Ore),(Gemstone),,30,90,20,20,20,20,"Amazingly Made,Usage Ease",Red Power,"Hidden Paradise-Sky,Steinfeder",
+80,Glass Core,(Ore),,,,14,25,10,0,25,15,Wind Soul,Glass Power,"Glass Factory,Glass Factory-2F,Glass Factory-3F,Glass Factory-Core",
+81,Luminous Gemstone,(Ore),(Poison),,,12,55,0,10,10,20,Earth Spirit,Weakening Poison,Glass Factory-3F,Carrier
+82,Bright Ore,(Ore),(Mystery),(Precious Ore),,16,75,20,10,15,20,Storm Soul,Light Power,"Hidden Paradise-Earth,Glass Factory-2F,Riesengang-Lower",Tracker
+83,Scorching Ore,(Ore),(Gunpowder),(Fuel),,12,65,20,0,10,15,"Fire Power,Great w/ Ore",Burn Furiously,"Tunnel-Broken Bridge,Glass Factory-3F",Porter
+84,Diamond Gemstone,(Ore),(Gemstone),,,30,90,15,15,15,50,"Stagnation,Usage Null","ATK +8,Diamond Power","Hidden Paradise-Sky,Steinfeder",Fortress
+85,Moon's Gold Vein,(Ore),(Precious Ore),,,40,100,0,20,20,30,"Amazingly Made,Release Power",Moon Power,"Hidden Paradise-Sky,Steinfeder",Mecha-Dragon
+86,Beehive,(Natural),(Gunpowder),(Seasoning),(Bee Hive),1,30,10,0,0,5,Well-Made,Sweet,"Hidden Paradise,Nearby Forest,Harvestful Forest","Heavy Skin,Steel Skin"
+87,Queen Bee Hive,(Natural),(Gunpowder),(Seasoning),(Bee Hive),12,55,15,0,15,10,Usage Control,Really Sweet,Spring Water Forest,
+88,Silver Hive,(Natural),(Gunpowder),(Seasoning),(Bee Hive),16,65,0,15,30,0,Usage Ease,"Price +10%,Silver Honey","Hidden Paradise-Earth,Oesten Marsh-Ruin",
+89,Gold Hive,(Natural),(Gunpowder),(Seasoning),(Bee Hive),24,75,25,20,0,40,"Stable Matter,Usage Null","Price +15%,Gold Honey","Hidden Paradise-Wind,Cloud Sea Island,Yggdrasil,Yggdrasil-Flower Alley,Yggdrasil-Flower Gate",
+90,Bitter Melon,(Food),(Vegetable),(Fruit),,9,40,0,25,0,5,Water Power,"Sweet,Bitter",Wayward Forest,
+91,Old Melon,(Food),(Vegetable),(Fruit),,13,55,0,40,0,15,"Rain Power,Good w/ Liquid",Ancient Taste,"Grand Rocky Mountain,Salt Desert-Lighthouse",
+92,Honey Melon,(Food),(Vegetable),(Fruit),,20,70,0,55,0,0,"Flood Power,Nice w/ Liquid",Super Sweet,"Hidden Paradise-Fire,Beginning Island",Green Element
+93,Sugar Tree Sap,(Liquid),(Seasoning),(Sweetener),(Fermented),11,55,0,25,0,10,"Rain Power,Well-Made",Sweet,Pond Forest,
+94,Fermented Syrup,(Liquid),(Seasoning),(Sweetener),(Fermented),15,75,0,20,5,10,Great w/ Liquid,"Skill Usage -10%,Sour","Hidden Paradise-Earth,Waterfall Island,Serenity Island,Cloud Sea Island",
+95,Natural Syrup,(Liquid),(Seasoning),(Sweetener),(Fermented),13,65,10,25,10,0,"Good w/ Plants,Good w/ Liquid","Skill Usage -15%,Super Sweet",Spring Water Forest,Mirage Element
+96,Milch Bean,(Food),(Bean),(Grain),,11,50,0,5,0,25,Rock Power,Tiny,"Hallos-Residences,Deserted House",
+97,Jewel Beans,(Precious Ore),(Access. Ing.),(Gemstone),,21,80,15,25,0,45,Black Soil Power,Bean Brightness,"Hidden Paradise-Fire,Beginning Island",
+98,Big Milch Bean,(Food),(Bean),(Grain),,15,60,0,10,0,30,"Dirt Power,Well-Made",Small,"Hidden Paradise-Earth,Hallos-Residences",
+99,Small Milch Bean,(Food),(Bean),(Grain),,10,40,0,15,15,10,"Nice w/ Liquid,Usage Control",Flea Size,Hallos-Residences,
+100,Red Devil,(Plant),(Vegetable),(Spice),,13,75,55,0,0,0,Hellfire Power,"Stinky,Really Spicy",Hallos Village,
+101,Blue Devil,(Plant),(Vegetable),(Spice),,9,65,25,25,0,0,Fire Spirit,Very Bitter-Spicy,Cliffside Path,
+102,Sharp Pepper,(Plant),(Vegetable),(Spice),,16,25,40,0,20,20,"Hellfire Power,Well-Made",Hellish Spicy,"Hidden Paradise-Earth,Hallos Village",
+103,Bitter Tree Seed,(Plant),(Spice),,,7,45,15,0,0,10,Fire Power,Very Bitter,Riverside Way,
+104,Spice Fruit,(Plant),(Spice),,,11,60,15,0,0,10,Heighten Power,"Tiny,Superior Smell",Salt Desert-Mountain,
+105,Epicure Nut,(Food),(Fruit),,,16,80,25,25,25,25,"Expand Power,Nice w/ Liquid","Exquisite Taste,Good Quality","Hidden Paradise-Earth,Salt Desert-Hill",
+106,Anti-Bug Grass,(Plant),(Poison),(Incense),,2,35,0,10,10,0,Water Spirit,"Stinky,Spicy","Hidden Paradise,Dry Valley-Ravine Way,Pasture Way",Grass Element
+107,Medicinal Leaf,(Plant),(Elixir),,,12,60,0,20,10,15,"Storm Power,Nicely Made",Prevent Ailment,"Serenity Island,Beginning Island,Decayed Ruin Island",
+108,Reaper Herb,(Plant),(Poison),(Herb),,23,20,10,10,35,10,"Expand Power,Stagnation","Death Odor,Harmful Poison","Hidden Paradise-Wind,Salt Desert-Lighthouse",
+109,Wood Fragments,(Plant),(Lumber),(Incense),(Dried Plant),9,40,10,0,0,15,Usage Control,Nice Smell,Dry Valley,
+110,Charcoal Pieces,(Plant),(Fuel),(Lumber),(Charcoal),7,50,25,0,5,5,"Fire Power,Dirt Power",Burn Easily,"Hallos Village,Hallos-Residences,Cliffside Path",Tree Element
+111,Purification Block,(Plant),(Elixir),(Lumber),,16,75,15,0,15,10,"Stable Matter,Usage Ease",Stimulant,"Hidden Paradise-Earth,Glass Factory-3F",Yellow Element
+112,Mud Ball,(Strange),(Clay),,,6,20,0,0,0,25,Earth Spirit,Weird Shape,"Tunnel-Old Dam,Tunnel-Dried Waterway",
+113,Ash Ball,(Strange),(Clay),,,12,35,20,0,0,30,"Rock Power,Good w/ Ore",Strange Shape,Hallos-Plaza,
+114,Gold Ball,(Strange),(Clay),,,24,95,15,15,15,45,"Black Soil Power,Stable Matter","Price +15%,Avant-Garde Form","Hidden Paradise-Wind,Riesengang-Upper",
+115,Lady's Beard,(Strange),(Filter),(String),,11,60,10,10,15,10,"Wind Power,Usage Control",Soft,Spring Water Forest,
+116,Golden Yarn,(Strange),(Filter),(String),,22,80,20,20,20,20,"Nicely Made,Heighten Power",Gold Power,"Hidden Paradise-Wind,Yggdrasil-Flower Alley",
+117,Mysterious Silk,(Strange),(Filter),(String),,30,100,30,30,30,30,Amazingly Made,Mystic Power,"Hidden Paradise-Sky,Yggdrasil",
+118,Round Moss,(Strange),(Mystery),(Filter),(Lucky Charm),8,45,0,20,0,10,Water Power,Soft,"Fragrant Wind Meadow,Hallos-Plaza",
+119,Antique Moss,(Strange),(Mystery),(Filter),(Lucky Charm),13,55,0,30,0,15,"Rain Power,Good w/ Plants",Super Elastic,Oesten Marsh-Swamp,
+120,Fresh Water Moss,(Strange),(Mystery),(Filter),(Lucky Charm),18,70,0,45,0,0,"Water Soul,Great w/ Plants",Green Power,"Hidden Paradise-Water,Dry Valley-Ravine Way",
+121,Mtn. Bird Feather,(Animal),(Feather),,,6,60,0,0,25,10,Wind Power,,Dry Valley-Lake Bed,
+122,Eagle Feather,(Animal),(Feather),(Legendary),,13,70,0,0,40,20,"Storm Power,Usage Control",Wind Words,Salt Desert-Mountain,
+123,Paradise Feather,(Animal),(Feather),(Legendary),,25,90,30,20,50,0,Tornado Power,Gale Words,"Hidden Paradise-Wind,Yggdrasil-Flower Alley",
+124,Word Stone-Star,(Mystery),(Antique),(Ancient Word),,4,40,15,0,0,20,Well-Made,Power Words,"Tunnel-Broken Bridge,Zweiteturm-Archive 5,Zweiteturm-Archive 6",
+125,Word Stone-Moon,(Mystery),(Antique),(Ancient Word),,8,50,25,0,30,0,"Good w/ Plants,Good w/ Ore",Protection Words,"Zweiteturm-Archive 5,Zweiteturm-Archive 6",
+126,Word Stone-Sun,(Mystery),(Antique),(Ancient Word),,16,60,0,30,0,15,Heighten Power,"Tiny,Speed Words","Hidden Paradise-Earth,Glass Factory-2F,Zweiteturm-Archive 5,Zweiteturm-Archive 6",
+127,Word Stone-Sea,(Mystery),(Antique),(Ancient Word),,24,80,0,40,30,15,"Permanent Trait,Usage Null","Life Words,Mind Words","Hidden Paradise-Wind,Zweiteturm-Archive 8,Zweiteturm-Archive 9",
+128,Word Stone-Man,(Mystery),(Antique),(Ancient Word),,36,90,50,0,30,30,"Nicely Made,Release Power","All Soul Pour,Soul Words","Hidden Paradise-Sky,Yggdrasil-Flower Gate",
+129,Verdure Grass,(Plant),(Flower),(Lucky Charm),,15,60,0,0,20,20,Heighten Power,Cute,"Hidden Paradise-Earth,Waterfall Island,Serenity Island,Cloud Sea Island",Grass Element
+130,Lucky Clover,(Plant),(Flower),(Lucky Charm),,20,70,0,30,30,0,"Expand Power,Addition","Loveable,Fairy Power","Hidden Paradise-Fire,Zweiteturm-Archive 8,Zweiteturm-Archive 9,Salt Desert-Hill",
+131,Oblivion Clover,(Plant),(Flower),(Lucky Charm),,25,80,50,0,0,50,Stagnation,Oblivion Power,"Hidden Paradise-Wind,Salt Desert-Lighthouse",
+132,Honey Poppy,(Plant),(Sweetener),,,9,55,0,5,0,15,"Dirt Power,Good w/ Plants",Very Nice Smell,"Altugle Herb Garden,Riverside Way",
+133,Moonlight Grass,(Plant),(Elixir),(Medic. Herb),,15,65,0,15,0,35,"Black Soil Power,Nice w/ Liquid",Normalize Body,"Hidden Paradise-Earth,The Farthest Forest",Flower Element
+134,Dunkelheit,(Plant),(Medic. Herb),(Flower),,24,90,0,20,20,40,"Dirt Soul,Great w/ Plants","Recovery,Save Predicament","Hidden Paradise-Wind,Yggdrasil,Sham Linca",
+135,White Flower,(Plant),(Medic. Herb),(Flower),,2,40,0,0,5,10,Good w/ Liquid,Unparalyze,"Hidden Paradise,Nearby Forest",Flower Element
+136,Red Flower,(Plant),(Oil),(Flower),,6,50,15,0,0,15,Fire Power,Stimulant,"Harvestful Forest,Fragrant Wind Meadow",Flower Element
+137,Purple Flower,(Plant),(Flower),,,11,65,0,20,0,20,"Rain Power,Well-Made","Fix Wound,Detoxify",Grassland Hill,Flower Element
+138,Water,(Liquid),(Water),,,1,40,0,20,0,0,Water Power,,"Hidden Paradise,Front of Workshop,Village Plaza",
+139,Clean Water,(Liquid),(Water),,,11,60,0,30,0,0,"Rain Power,Nice w/ Liquid",Healing Water,"Pond Forest,Hornheim Plaza",
+140,Muddy Water,(Liquid),(Water),(Fermented),,6,20,0,15,0,25,"Water Power,Dirt Power",Price -10%,"Dry Valley,Dry Valley-Lake Bed,Dry Valley-Ravine Way,Hill Plaza",
+141,Salty Water,(Liquid),(Water),(Fermented),(Salt),16,75,20,10,0,0,"Water Power,Usage Ease",Salty,"Hidden Paradise-Water,Salt Desert,Salt Desert-Lighthouse,Salt Desert-Bones,Salt Desert-Hill",
+142,Spring Water,(Liquid),(Water),,,20,90,0,50,20,0,"Flood Power,Heighten Power","Water Blessing,Good Quality","Hidden Paradise-Fire,Pond Forest",Green Element
+143,Cow Milk,(Liquid),(Seasoning),(Milk),,6,50,0,15,0,25,Dirt Power,,,
+144,Rich Cow Milk,(Liquid),(Seasoning),(Milk),,12,60,0,20,0,25,"Well-Made,Usage Control",Full Nutrition,,
+145,Aged Cow Milk,(Liquid),(Seasoning),(Milk),(Tonic),18,80,10,25,10,40,"Black Soil Power,Nicely Made",Some Nutrition,"Hidden Paradise-Water,Cow's Paradise-Lake",
+146,Crowned Cow Milk,(Liquid),(Seasoning),(Milk),(Tonic),25,90,25,30,20,15,"Usage Ease,Addition","Skill Usage -25%,Perfect Nutrition","Hidden Paradise-Wind,Cow's Paradise-Lake",
+147,Liquid Crystal,(Natural),(Medic. Ing.),(Solution),(Salt),9,40,0,15,0,10,Good w/ Liquid,Ice Power,Hallos-Plaza,
+148,Element Core,(Natural),(Mystery),(Fuel),,18,65,35,35,35,25,"Fire Soul,Water Soul","Fire Power,Spirit's Anger","Hidden Paradise-Water,Glass Factory-Core,Steinfeder",
+149,Crystalline Ether,(Natural),(Precious Ore),,,27,80,0,45,45,0,Great w/ Liquid,Hide,"Hidden Paradise-Sky,Salt Desert-Mountain,Tank,Dragoon",Pico-Slag
+150,Water Crystal,(Ore),(Natural),(Water),(Solution),12,50,0,15,0,10,"Water Power,Good w/ Plants",Ice Guard,"Dry Valley,Spring Water Forest",
+151,Fossil Oil,(Natural),(Fuel),(Oil),(Solution),18,60,50,0,15,30,"Hellfire Power,Black Soil Power",Scorching Flame,"Hidden Paradise-Water,Tunnel-Old Dam",
+152,Genesis Capsule,(Natural),(Elixir),(Mystery),,36,90,0,10,10,50,"Great w/ Ore,Usage Ease","Light of Life,Ability Decline","Hidden Paradise-Sky,Yggdrasil-Flower Gate",Dragoon
+153,Eiche,(Natural),(Lumber),,,6,30,0,0,0,15,Dirt Power,,"Half-Florescent Field,Harvestful Forest",Tree Element
+154,Rock Tree,(Natural),(Lumber),,,13,60,0,0,0,35,"Rock Power,Good w/ Plants",Big,"Dry Valley-Lake Bed,Grand Rocky Mountain",
+155,Piece of Wood,(Natural),(Mystery),(Lumber),,19,75,30,0,0,35,"Black Soil Power,Heighten Power",Huge,"Hidden Paradise-Water,The Farthest Forest,Yggdrasil,Yggdrasil-Flower Alley,Yggdrasil-Flower Gate",
+156,River Wood,(Natural),(Lumber),,,15,40,0,25,0,15,"Good w/ Plants,Good w/ Liquid",Really Hard,"Hidden Paradise-Earth,Dry Valley-Ravine Way",
+157,Mossy Driftwood,(Natural),(Lumber),,,18,50,0,30,0,20,Nicely Made,Burn Easily,"Hidden Paradise-Water,Oesten Marshland,Oesten Marsh-Swamp",
+158,Ancient Root,(Natural),(Mystery),(Lumber),,26,90,0,20,30,60,"Earth Power,Permanent Trait","Monster Size,Good Quality","Hidden Paradise-Sky,Decayed Ruin Island,Yggdrasil-Flower Alley",
+159,Thin Fruit,(Food),(Fruit),,,2,20,0,5,20,0,Wind Spirit,Sour,"Hidden Paradise,Dry Valley,Dry Valley-Lake Bed,Pasture Way",Fruit Hamster
+160,Ripe Fruit,(Food),(Fruit),,,7,40,0,10,15,0,Well-Made,Sweet,Grassland Hill,Poison Squirrel
+161,Fully Ripe Fruit,(Food),(Incense),(Fruit),,14,60,0,20,20,0,"Wind Soul,Great w/ Liquid",Super Sweet,Salt Desert-Mountain,Bitter Squirrel
+162,Golden Fruit,(Food),(Incense),(Fruit),(Sweetener),22,80,0,40,30,0,"Stable Matter,Usage Control","Heavenly Sweet,Gold Power,Good Quality","Hidden Paradise-Wind,Cloud Sea Island",Golden Rat
+163,Cow Dropping,(Strange),(Incense),(Smelly),(Fermented),1,10,15,0,0,20,Addition,"Superior Smell,Monster Calling","Cow's Paradise-Grass,Hidden Paradise,Deserted House",
+164,Gold Object,(Ore),(Strange),(Mystery),(Antique),20,80,0,0,20,40,Usage Ease,"Regular Form,Gold Power,Good Quality","Hidden Paradise-Fire,Zweiteturm-Archive 8,Zweiteturm-Archive 9,Decayed Ruin Island",
+165,Fire Stone,(Ore),(Gunpowder),(Fuel),(Smelly),3,30,10,0,0,10,Good w/ Ore,Burn Easily,"Hidden Paradise,Old Coal Mine,Riesengang-Upper,Riesengang-Middle",
+166,Fluorite,(Ore),(Mystery),,,6,40,0,5,15,15,Water Power,,"Tunnel-Old Dam,Tunnel-Dried Waterway,Riesengang-Upper,Riesengang-Middle",
+167,Lava Stone,(Ore),(Gunpowder),(Fuel),,19,75,50,0,0,15,"Hellfire Power,Fire Soul",Blow Away,"Hidden Paradise-Fire,Glass Factory-Core,Riesengang-Lower,Steinfeder",
+168,Dried Fat,(Natural),(Fuel),(Meat),(Oil),5,35,15,0,0,10,Nice w/ Ore,Burn Easily,"Hallos Village,Hallos-Residences",
+169,Ghost Cloth,(Natural),(Poison),(Fuel),(Cloth),11,50,20,0,0,15,Usage Control,Restrain Poison,"Hallos-Plaza,Evershade Woods",
+170,Fire Spirit Breath,(Natural),(Gunpowder),(Fuel),,22,70,50,0,20,0,"Scorching Hot,Nice w/ Ore",Fire Guard,Salt Desert-Bones,"Mirage Element,Fairydrake"
+171,Pixie Breath,(Natural),(Elixir),,,35,100,40,40,40,40,"Expand Power,Multiplication","Spirit Specific,Fix Fatal Wound","Hidden Paradise-Sky,Yggdrasil-Flower Gate",
+172,Night Fog Bottle,(Natural),(Poison),(Smelly),,16,30,0,15,15,0,Permanent Trait,Complex Poison,"Hidden Paradise-Water,Glass Factory-2F",
+173,Black Spring,(Liquid),(Poison),(Fuel),(Solution),11,40,20,5,0,10,"Fire Power,Nice w/ Liquid",Really Stinky,"Tunnel-Old Dam,Oesten Marsh-Swamp",
+174,Silver Liquid,(Liquid),(Medic. Ing.),(Poison),(Slime),19,55,30,0,0,25,"Nicely Made,Nice w/ Plants",Brittle,"Hidden Paradise-Fire,Oesten Marsh-Swamp,Riesengang-Lower,Salt Desert-Hill",
+175,Nectar Water,(Liquid),(Mystery),(Water),(Sweetener),24,80,0,45,15,10,"Flood Power,Heighten Power",Revival,"Hidden Paradise-Wind,Waterfall Island,Yggdrasil,Yggdrasil-Flower Alley,Yggdrasil-Flower Gate",Yellow Element
+176,Junk,(Strange),(Metal),(Antique),(Junk),1,0,5,5,5,15,Permanent Trait,"Price -10%,Skill Usage -10%","Hidden Paradise,Tunnel,Zweiteturm-Archive 2",
+177,Ancient Trash,(Strange),(Metal),(Antique),(Junk),6,0,10,10,10,25,Usage Ease,"Price -20%,Skill Usage -15%","Zweiteturm-Archive 2,Oesten Marsh-Swamp,Riesengang-Upper",
+178,Broken Item,(Strange),(Metal),(Antique),(Junk),2,0,0,15,15,0,Heighten Power,"Price -30%,Skill Usage -25%","Hidden Paradise,Hallos-Plaza,Zweiteturm-Archive 2",
+179,Never-Melting Ice,(Strange),(Mystery),,,17,80,0,35,0,15,"Flood Power,Stable Matter",Ice Power,"Hidden Paradise-Water,Glass Factory-3F,Riesengang-Lower,Salt Desert-Bones",
+180,Aqua Spider Thread,(Natural),(Elixir),(Gunpowder),(String),22,90,0,20,0,25,Amazingly Made,,"Hidden Paradise-Wind,Waterfall Island",Mirage Element
+181,Slag Stone,(Mystery),(Antique),,,5,10,0,0,0,20,Dirt Soul,Small,,"Mini-Slag,Nano-Slag"
+182,Red Slag Stone,(Mystery),(Antique),,,9,40,25,0,0,15,Fire Spirit,Life Power,,"Nano-Slag,Pico-Slag"
+183,Green Slag Stone,(Mystery),(Antique),,,14,70,0,0,25,15,Storm Power,Slag Specific,,Tera-Slag
+184,Slag Gem,(Mystery),(Antique),,,9,25,0,0,15,15,Division,"Slag Specific,Lightning Power",,"Guard,Watchman"
+185,Fire Slag Stone,(Mystery),(Antique),,,15,55,30,0,10,10,Flame Power,Fire Power,,"Watchman,Officer"
+186,Ice Slag Stone,(Mystery),(Antique),,,21,85,0,20,15,15,Stable Matter,Ice Power,,"Officer,Leader"
+187,Soul Slag Stone,(Mystery),(Antique),(Legendary),,15,60,25,40,0,25,"Flood Power,Addition","Slag Specific,Exhaustion",,"Carrier,Tracker,Porter"
+188,Sky Slag Stone,(Mystery),(Antique),(Legendary),,25,110,40,40,20,0,"Expand Power,Usage Ease","Geometrical Form,Resonate Alchemy",,Fortress
+189,Earth Slag Stone,(Metal),(Mystery),(Antique),(Legendary),35,120,0,20,40,40,"Amazingly Made,Multiplication","Super Hard Body,Scrape Off Life",,Mecha-Dragon
+190,Hard Claw,(Animal),(Medic. Ing.),,,6,30,0,10,0,20,Dirt Power,Hard,,Heavy Skin
+191,Big Claw,(Animal),(Medic. Ing.),,,13,45,0,10,0,30,"Rock Power,Well-Made",Big,,Steel Skin
+192,Ruler's Claw,(Animal),(Medic. Ing.),(Legendary),,20,70,0,0,0,25,"Nicely Made,Great w/ Plants","Beast Specific,Explosiveness",,Red Skin
+193,Crystal Claw,(Animal),(Elixir),(Legendary),(Gemstone),27,90,0,25,25,30,"Nicely Made,Water Spirit","Spirit Specific,Keen Sense",,"War Bear,Scorching Dragon"
+194,Fur,(Animal),(Leather),,,5,30,0,0,0,20,Dirt Soul,PH RES +5,"Altugle Herb Garden,Herb Garden-Corridor","Heavy Skin,Steel Skin,Stray Dog,Flesh Eater"
+195,Soft Fur,(Animal),(Leather),,,7,50,0,0,0,20,"Dirt Power,Well-Made","Price +5%,Soft",,"Howling Beast,Steel Skin,Red Skin"
+196,Cryptid Fur,(Animal),(Leather),(Legendary),,33,95,45,10,0,30,"Scorching Hot,Flame Soul",Temperature RES,Hidden Paradise-Sky,"Wolf,War Bear"
+197,Quality Fur,(Animal),(Leather),,,15,70,0,0,0,30,Rock Power,Price +10%,"Hidden Paradise-Earth,Serenity Island","Red Skin,Howling Beast"
+198,Silver Fur,(Animal),(Leather),,,22,85,0,15,20,25,"Tornado Power,Wind Spirit","Price +15%,Good Quality","Hidden Paradise-Wind,Salt Desert-Bones",Wolf
+199,Dragon Tail,(Animal),(Meat),(Tonic),,11,60,10,10,0,0,Usage Control,Some Nutrition,,Butterfly Lizard
+200,Living Tail,(Animal),(Meat),(Tonic),,18,40,15,15,0,0,Division,Auto Activate 30%,Hidden Paradise-Water,"Scorching Dragon,Compact Dragon"
+201,Fairy Tail,(Animal),(Meat),,,27,75,0,15,35,0,Tempest Power,"Small,Fairy Power",Hidden Paradise-Sky,Fairydrake
+202,Dragon Scale,(Animal),(Scale),,,42,100,30,30,0,0,"Amazingly Made,Release Power","Stats +6,Dragon Specific",Hidden Paradise-Sky,"Old Oath Dragon,Grand Dragon"
+203,Land Dragon Scale,(Animal),(Scale),,,33,75,10,15,0,40,"Earth Power,Great w/ Ore",Ancient Power,Hidden Paradise-Sky,"Scorching Dragon,Compact Dragon"
+204,Shining Scale,(Animal),(Scale),,,16,55,0,20,20,10,"Rock Power,Usage Ease",Rewind Time,Hidden Paradise-Water,Fairydrake
+205,Dragon Fang,(Animal),(Elixir),(Legendary),(Access. Ing.),39,110,15,15,45,30,"Flame Soul,Rain Soul",Purification,Hidden Paradise-Sky,"Compact Dragon,Old Oath Dragon,Grand Dragon"
+206,Great Beast Fang,(Animal),(Legendary),(Access. Ing.),,29,70,0,20,30,20,"Tempest Power,Heighten Power","Beast Specific,Faster",Hidden Paradise-Sky,"Bitter Squirrel,Golden Rat,War Bear,Silver Wolf"
+207,Black Fang,(Animal),(Poison),(Legendary),(Access. Ing.),41,90,50,0,30,50,"Stable Matter,Usage Ease",Amplify Pain,Hidden Paradise-Sky,Scorching Dragon
+208,Spirit Magnet,(Ore),(Elixir),(Mystery),(Legendary),45,120,50,50,50,0,"Amazingly Made,Usage Null","Spirit Blessing,Spirit Power",,Wind Ruler
+209,Time Guard Flower,(Plant),(Elixir),(Medic. Herb),(Flower),50,120,33,33,33,33,"Release Power,Usage Null","Mythic Potency,Time Power",,"Yggdrasil,Ancient Live Tree"
+210,Conventional Cloth,(Sundry),(Antique),(Cloth),(String),35,80,0,33,33,33,"Expand Power,Usage Control","PH RES +12,Big,Beautiful Form,Very Nice Smell,Good Quality",,
+211,Salt Flower,(Ore),(Jewel),(Antique),(Salt),40,90,50,0,30,40,"Usage Ease,Addition","Stats +6,Regular Form,Really Hard,Nice Smell,Quality Change",,
+212,Mellow Animal,(Sundry),(Mystery),(Antique),(Lucky Charm),50,80,25,25,25,25,Usage Null,"Huge,Loveable,Weird Shape,Super Elastic,Good Quality",,

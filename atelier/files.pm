@@ -78,6 +78,7 @@ our %RECIPES = (
   sophie => "atelier/data/sophie_recipes.csv",
   sophie2=> "atelier/data/sophie2_recipes.csv",
   firis  => "atelier/data/firis_recipes.csv",
+  ayesha => "atelier/data/ayesha_recipes.csv",
   rorona => "atelier/data/rorona_recipes.csv",
   lydiesuelle => "atelier/data/lydiesuelle_recipes.csv",
 );
@@ -88,6 +89,7 @@ our %MATERIALS = (
   sophie => "atelier/data/sophie_materials.csv",
   sophie2=> "atelier/data/sophie2_materials.csv",
   firis  => "atelier/data/firis_materials.csv",
+  ayesha => "atelier/data/ayesha_materials.csv",
   rorona => "atelier/data/rorona_materials.csv",
   lydiesuelle => "atelier/data/lydiesuelle_materials.csv",
 );
