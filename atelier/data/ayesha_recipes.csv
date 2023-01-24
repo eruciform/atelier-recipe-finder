@@ -1,162 +1,162 @@
-#,Name,Type,Ingredient 1,Ingredient 2,Ingredient 3,Ingredient 4,Category 1,Category 2,Category 3,Category 4,Lv,Fire,Water,Air,Earth,Traits,Properties,Effects
-1,Scent Bag,Attack,(Plant),(Smelly),(Paper),,(Sundry),(Incense),,,3,5,0,15,5,Dirt Power,"Force +10% (11),High Speed LV1 (16),Stable Effect 20% (22),Critical LV1 (33),Price -20% (44)","Bad Odor,Irritating Odor,Freedom Odor,Beast Hater Odor,Hunger Odor,Beast Down Odor"
-2,Craft,Attack,(Spiky Fruit),(Gunpowder),(Paper),,(Bomb),,,,6,0,0,0,20,Dirt Power,"Force +10% (12),High Speed LV1 (18),Stable Effect 20% (24),Critical LV1 (37),Price -20% (49)","Spark,Critical Slow,PH Damage S,PH Damage M"
-3,Bright Craft,Attack,Craft,(Mystery),(Fuel),(Supplement),(Bomb),,,,22,0,0,0,35,Rock Power,"Critical LV1 (18),Stable Effect 20% (28),Force +20% (37),High Speed LV2 (56),Critical LV2 (75)","MP Usage XS,Blind,Critical Slow,PH Damage M,PH Damage L"
-4,Bomb,Attack,(Fuel),(Gunpowder),(Supplement),,(Bomb),,,,8,20,0,0,0,Fire Power,"Critical LV1 (13),Stable Effect 20% (19),Force +20% (26),High Speed LV2 (39),Critical LV2 (52)","F Damage S,F Damage M,F RES Decrease,Knock Back S,Critical Slow"
-5,Zeit Bomb,Attack,Phlogiston,Flan Charcoal,(Paper),(Supplement),(Bomb),,,,24,40,0,0,0,Hellfire Power,"Price -10% (19),Critical LV2 (29),Stable Effect 30% (39),High Speed LV2 (58),Force +20% (78)","MP Usage S,F RES Decrease,Knock Back S,Knock Back M,F Damage M,F Damage L"
-6,Ice Bomb,Attack,Water Crystal,(Liquid),(Supplement),,(Bomb),,,,10,0,20,0,0,Rain Power,"Price -10% (14),Critical LV2 (21),Stable Effect 30% (28),High Speed LV2 (42),Force +20% (56)","Critical Slow,I Damage S,I Damage M,I RES Decrease,Intertwine Foot"
-7,Eis Ice Bomb,Attack,Never-Melting Ice,(Junk),(Gunpowder),(Supplement),(Bomb),,,,26,0,40,0,0,Flood Power,"Critical LV1 (20),Stable Effect 20% (30),Force +20% (40),High Speed LV2 (61),Critical LV2 (81)","MP Usage S,I Damage M,I Damage L,I RES Decrease,Intertwine Foot,Weaken Foot"
-8,Lightning Bomb,Attack,(Ore),(Salt),(Water),(Supplement),(Magic Tool),,,,15,0,0,25,0,Storm Power,"Force +10% (16),High Speed LV1 (24),Stable Effect 20% (32),Critical LV1 (48),Price -20% (64)","Stop Movement,Knock Back S,L Damage S,L Damage M,L RES Decrease"
-9,Lightning Stern,Attack,(Gemstone),(Mystery),Wind Core,Polish Powder,(Magic Tool),,,,28,0,0,40,0,Tempest Power,"Price -10% (21),Critical LV2 (31),Stable Effect 30% (42),High Speed LV2 (63),Force +20% (84)","MP Usage S,Stop Movement,Seal Movement,L Damage M,L Damage L,L RES Decrease,Blind"
-10,Exa-Bomb,Attack,Fire Spirit Breath,(Paper),(Gunpowder),(Fuel),(Bomb),,,,33,55,0,0,0,Fire Power,"Price -10% (23),Critical LV2 (34),Stable Effect 30% (46),High Speed LV2 (69),Force +20% (92)","MP Usage L,MP Usage M,Critical Slow,Knock Back L,F Damage L,Bomb Damage L,Bomb Damage XL,Effective Near"
-11,Himmel Schenk,Attack,Star Stone,(Ancient Word),(Gunpowder),(Supplement),(Magic Tool),,,,25,25,5,25,0,Water Power,"Force +10% (20),High Speed LV1 (30),Stable Effect 20% (40),Critical LV1 (60),Price -20% (80)","MP Usage M,MP Usage S,Effective Far,Knock Back M,Knock Back L,Drop Wood,Drop Barrel,Drop Slag Statue"
-12,Divine Oracle,Attack,(Paper),(Mystery),Memory Ink,(Feather),(Magic Tool),(Book),,,30,15,20,15,15,Water Power,"Critical LV1 (22),Stable Effect 20% (33),Force +20% (44),High Speed LV2 (66),Critical LV2 (88)","Fire Words,Powerless Words,Ice Words,Weak,Lightning Words,Piercing DMG S,Words of Magic,Mantra of Magic"
-13,Flame Aqua,Attack,(Fuel),(Liquid),,,(Liquid),(Magic Tool),(Solution),,4,15,0,0,0,Fire Power,"Force +10% (11),High Speed LV1 (17),Stable Effect 20% (23),Critical LV1 (34),Price -20% (46)","Flammable Liquid,Oily,Inflict Burn"
-14,Ice Aqua,Attack,(Water),Coarse Salt,,,(Liquid),(Magic Tool),(Solution),(Slime),20,0,20,0,0,Water Power,"Critical LV1 (18),Stable Effect 20% (27),Force +20% (36),High Speed LV2 (54),Critical LV2 (72)","Icy Liquid,Frostbite,Intertwine Foot"
-15,Poison Aqua,Attack,(Poison),(Liquid),,,(Liquid),(Magic Tool),(Solution),,4,0,0,0,25,Dirt Power,"Price -10% (11),Critical LV2 (17),Stable Effect 30% (23),High Speed LV2 (34),Force +20% (46)","Pose Poison+,Weak,Critical Slow,Poisonous Liquid"
-16,Black Eclipse,Attack,(Bomb),(Jewel),Scorching Drink,Genesis Capsule,(Magic Tool),,,,35,35,15,0,50,Permanent Trait,"Price -10% (24),Critical LV2 (36),Stable Effect 30% (48),High Speed LV2 (72),Force +20% (96)","MP Usage XL,MP Usage L,Combined Effect,Widen Wounds,Soul Shutter,Sun Explosion,Galaxy Explosion,Burn Away"
-17,Magic Square,Attack,Pixie Breath,Diamond Ball,(Precious Ore),(Legendary),(Magic Tool),,,,38,25,25,50,10,Storm Soul,"Price -10% (25),Critical LV2 (37),Stable Effect 30% (50),High Speed LV2 (75),Force +20% (100)","Spiritual Shine,MP Usage L,MP Usage M,Blade of Light,Sword of Light,Piercing DMG M,Piercing DMG L"
-18,Riesen Ointment,Heal,(Medic. Herb),(Oil),(Root),,(Medicine),(Fermented),(Ointment),,3,0,20,0,0,Water Power,"Recovery +10% (11),Critical LV1 (16),Stable Effect 20% (22),Price -10% (33),High Speed LV1 (44)","Recover Bonus XS,Recover Bonus M,Refresh,HP Recovery XS,HP Recovery S,HP Recovery M"
-19,Powerful Ointment,Heal,(Nutritional),(Incense),Cow Cream,(Root),(Medicine),(Elixir),(Tonic),,15,0,15,10,20,Rock Power,"Critical LV1 (16),Recovery +10% (24),High Speed LV1 (32),Price -10% (48),Stable Effect 30% (64)","Enhances Power,Get Sturdy,Enhances DEF,Enhances SPD,Energize,Enhances Sense,Enhances All"
-20,Wonder Cream,Heal,(Elixir),(Solution),Dried Medical Herb,Tonic,(Medicine),(Ointment),,,26,0,25,0,20,Earth Power,"Recovery +10% (20),Critical LV2 (30),Stable Effect 30% (40),Continuation LV1 (61),Recovery +30% (81)","Cure Ills,HP Recovery L,HPMP Recovery L,HP Recovery XL,Max HP Expand L,Recover Bonus L"
-21,Squash Tea,Heal,(Water),Tea Leaf,(Fruit),(Pottery),(Medicine),(Tranquilizer),,,10,0,25,0,0,Water Power,"Critical LV1 (14),Recovery +10% (21),High Speed LV1 (28),Price -10% (42),Stable Effect 30% (56)","Get Warm,Get Hot,MP Recovery S,MP Recovery M,Refresh,Clear-Headed,Cure-Poison"
-22,Clearing Decoction,Heal,(Water),Dry Herb,(Root),(Spice),(Medicine),(Tranquilizer),,,9,0,20,5,5,Rain Power,"High Speed LV1 (13),Stable Effect 20% (20),Critical LV2 (27),Recovery +30% (40),Stable Effect 30% (54)","Get Cold,MP Recovery M,MP Recovery L,Clear-Headed,Awake,Encouraging"
-23,Disease Ward,Heal,Medicinal Leaf,(Water),(Poison),(Supplement),(Medicine),(Cold Medic.),,,23,0,45,0,10,Drizzle Power,"Recovery +10% (19),Critical LV1 (28),Stable Effect 30% (38),High Speed LV2 (57),Recovery +20% (76)","Cure-Hold,Cure-Poison,Cure-Weak,Get Cold,Get Hot"
-24,Anti-Sick Powder,Heal,(Dried Plant),(Meat),(Incense),,(Medicine),(Cold Medic.),,,8,0,0,20,0,Wind Power,"Recovery +10% (13),Critical LV1 (19),Stable Effect 20% (26),Price -10% (39),High Speed LV1 (52)","Cure Ills,Cure All Ills,Get Sturdy,Cure-Blind,Cure-Hold,Cure-Slow"
-25,Body Energy Powder,Heal,(Tonic),(Nutritional),(Root),(Fuel),(Medicine),(Elixir),(Tonic),,14,0,0,20,0,Well-Made,"High Speed LV1 (15),Stable Effect 20% (23),Critical LV2 (31),Recovery +30% (46),Stable Effect 30% (62)","KO Recovery S,KO Recovery M,Regen Recovery S,Regen Recovery M,Get Energized,Get Sturdy,Lighter Body"
-26,Mineral Powder,Heal,Liquid Crystal,(Elixir),(Sweetener),(Medic. Ing.),(Medicine),(Tonic),,,16,0,10,5,10,Wind Power,"Recovery +10% (16),Critical LV1 (24),Stable Effect 20% (32),Price -10% (49),High Speed LV1 (65)","Max HP Expand S,Max HP Expand M,HP Recovery S,HP Recovery M,HP Regen S,HP Regen M"
-27,Worker Compress,Heal,(Cloth),(Oil),(Medic. Herb),Body Energy Powder,(Sundry),(Tranquilizer),,,12,0,15,0,15,Well-Made,"Critical LV1 (14),Recovery +10% (22),High Speed LV1 (29),Price -10% (44),Stable Effect 30% (59)","Regen Recovery M,Regen Recovery L,Max HP Expand L,Boosts Strength,Boosts Accuracy,Boosts Sense"
-28,Body Compress,Heal,(Cloth),(Spice),(Clay),(Solution),(Sundry),(Cold Medic.),,,22,20,20,0,0,Usage Control,"High Speed LV1 (18),Stable Effect 20% (28),Critical LV2 (37),Recovery +30% (56),Stable Effect 30% (75)","Heat RES Patch,Cold RES Patch,Elec. RES Patch,HP Recovery S,HP Recovery M"
-29,Medical Patch,Heal,(Paper),Riesen Ointment,Honey,,(Sundry),(Ointment),,,7,0,5,0,10,Well-Made,"Recovery +10% (12),Critical LV1 (19),Stable Effect 20% (25),Price -10% (38),High Speed LV1 (51)","Energize,Cure-Poison,Cure Ills,Refresh,Clear-Headed,HPMP Recovery S,Major Recovery S,Major Recovery M"
-30,Secret Remedy,Heal,(Meat),(Spice),(Tonic),(Nutritional),(Medicine),(Tonic),,,31,15,0,50,0,Tornado Power,"Recovery +10% (22),Critical LV1 (33),Stable Effect 30% (44),High Speed LV2 (67),Recovery +20% (89)","Unsavory,Double Speed S,Double Speed M,Double Speed L,Improve Body,Improve Mind,Improve Sense"
-31,Silent Pill,Heal,Reaper Herb,(Slime),(Medic. Ing.),(Nutritional),(Medicine),(Tranquilizer),,,29,10,0,35,10,Tempest Power,"Recovery +10% (21),Critical LV1 (32),Stable Effect 30% (43),High Speed LV2 (64),Recovery +20% (86)","Forbidden Drug,Dispersion Drug,Devotion Drug,Endurance Drug,Pose Poison+,Pose Poison,Cure-Slow"
-32,One Drop Recovery,Heal,(Medic. Herb),(Root),(Oil),Nectar Water,(Medicine),(Ointment),,,20,0,10,0,35,Black Soil Power,"Critical LV1 (18),High Speed LV1 (27),Auto Activate 20% (36),Recovery +20% (54),Critical LV2 (72)","Max HP Expand M,Recover Bonus S,Recover Bonus M,HP Recovery M,HP Recovery L,HP Recovery XL"
-33,Mental Extract,Heal,Awakening Herb,(Dried Plant),(Liquid),(Sweetener),(Medicine),(Tranquilizer),,,24,0,45,0,5,Drizzle Power,"Critical LV1 (19),High Speed LV1 (29),Auto Activate 20% (39),Recovery +20% (58),Critical LV2 (78)","Encouraging,Stable Mind S,Stable Mind M,Stable Mind L,Refresh,Clear-Headed,Awake"
-34,Forbidden Capsule,Heal,Bone Powder,(Poison),Dunkelheit,(Ore),(Medicine),(Tonic),,,34,30,30,30,30,"Nicely Made,Nice w/ Liquid","Recovery +10% (23),Critical LV1 (35),Stable Effect 30% (47),High Speed LV2 (70),Recovery +20% (94)","KO Recovery L,KO Recovery XL,KO Recovery XXL,Force Backup,Side Effect L,Side Effect M,Side Effect S"
-35,Aroma Mist,Heal,(Incense),(Flower),(Liquid),Glass Rod,(Magic Tool),(Incense),,,17,0,15,25,0,Storm Power,"Critical LV1 (16),High Speed LV1 (25),Auto Activate 20% (33),Recovery +20% (50),Critical LV2 (67)","Get Warm,HPMP Recovery S,HPMP Recovery M,HP Regen M,Cure Ills"
-36,Sprayer Talisman,Heal,(Junk),Anti-Bug Grass,(Mystery),Glass Rod,(Magic Tool),(Solution),,,18,0,35,10,0,Rain Power,"Critical LV1 (17),Recovery +10% (25),High Speed LV1 (34),Price -10% (51),Stable Effect 30% (68)","Body Protection,Mind Protection,Body Blessing,Mind Blessing"
-37,Passion Perfume,Heal,Clean Pollen,Lady's Beard,(Tonic),(Liquid),(Magic Tool),(Incense),,,19,0,40,0,0,Water Soul,"Stable Rate 20% (17),Force +10% (26),High Speed LV1 (35),Price -10% (52),Stable Effect 30% (70)","Bad Odor,Irritating Odor,Poison Odor,Piercing DMG M,Restraint Odor,Exhausting Odor"
-38,God's Miracle Drug,Heal,Time Guard Flower,(Elixir),(Legendary),Dunkelheit,(Medicine),(Ointment),(Tranquilizer),(Cold Medic.),40,0,50,35,25,"Amazingly Made,Release Power","Recovery +10% (26),Critical LV2 (39),Stable Effect 30% (52),Continuation LV1 (78),Recovery +30% (104)","MP Usage XL,HPMP Recovery M,HP Recovery XL,HP Recovery XXL,Effect Block,KO Recovery L,Regen Recovery L,Cure Ills"
-39,Baguette,Heal,(Grain),(Seasoning),(Fermented),,(Food),(Bread),,,3,5,0,0,15,Dirt Power,"Sweet (11),Recovery +10% (16),Cute (22),Critical LV1 (33),Price -20% (44)","Fill Stomach,Yummy Heal XS,Yummy Heal S"
-40,Royal Baguette,Heal,Grain Powder,Liquid Butter,(Seasoning),(Fermented),(Food),(Bread),,,18,15,0,0,25,Heighten Power,"Nice Smell (17),High Speed LV1 (25),Juicy (34),Price -10% (51),Recovery +30% (68)","Fill Stomach,Yummy Heal M,Yummy Heal L"
-41,Hot Baguette,Heal,Grain Powder,(Spice),(Seasoning),(Fermented),(Food),(Bread),,,15,25,0,0,5,Fire Power,"Soft (16),Stable Effect 20% (24),Salty (32),Recovery +20% (48),High Speed LV2 (64)","Get Hot,Fill Stomach,Yummy Heal S,Yummy Heal M"
-42,Black Baguette,Heal,Grain Powder,(Charcoal),(Seasoning),(Fermented),(Food),(Bread),,,12,8,0,0,30,Black Soil Power,"Sweet (14),Recovery +10% (22),Cute (29),Critical LV1 (44),Price -20% (59)","AIL RES S,Clear-Headed,Fill Stomach,Yummy Heal XS,Yummy Heal S"
-43,Danish,Heal,Grain Powder,Liquid Butter,(Fruit),,(Food),(Bread),,,9,0,0,15,10,Wind Power,"Sweet (13),Recovery +10% (20),Cute (27),Critical LV1 (40),Price -20% (54)","HP Regen S,Yummy Heal XS"
-44,Crisp Danish,Heal,Grain Powder,Liquid Butter,(Fruit),(Oil),(Food),(Bread),,,5,5,0,20,10,Wind Power,"Soft (12),Stable Effect 20% (18),Salty (24),Recovery +20% (36),High Speed LV2 (48)","HP Regen M,Yummy Heal S"
-45,Caramel Danish,Heal,Grain Powder,Liquid Butter,Honey,(Fruit),(Food),(Bread),,,16,0,0,25,15,Storm Power,"Nice Smell (16),High Speed LV1 (24),Juicy (32),Price -10% (49),Recovery +30% (65)","HP Regen L,Yummy Heal M"
-46,Flower Muffin,Heal,,,,,(Food),(Snack),,,12,0,10,0,15,Dirt Power,"Nice Smell (14),Sweet (22),Simple Taste (29),Cute (44),Homemade Taste (59)","HPMP Recovery S,Yummy Heal XS"
-47,Bitter Muffin,Heal,Grain Powder,(Dried Plant),Fluffy Whip,Bitter Leaf,(Food),(Snack),,,15,0,15,0,15,Dirt Power,"Sweet (16),Recovery +10% (24),Cute (32),Critical LV1 (48),Price -20% (64)","HPMP Recovery S,HPMP Recovery M,Yummy Heal S"
-48,Soft Muffin,Heal,Grain Powder,Fluffy Whip,(Grain),(Bean),(Food),(Snack),,,18,10,20,0,20,"Fire Power,Dirt Power","Soft (17),Stable Effect 20% (25),Salty (34),Recovery +20% (51),High Speed LV2 (68)","HPMP Recovery M,Yummy Heal M"
-49,Bread Stars,Heal,Grain Powder,(Incense),(Milk),,(Food),(Bread),,,7,10,0,5,10,Wind Power,"Sweet (12),Recovery +10% (19),Cute (25),Critical LV1 (38),Price -20% (51)","Refresh,Clear-Headed,Yummy Heal XS,Power of Milk"
-50,Venus Bread Stars,Heal,Grain Powder,Honey,(Milk),,(Food),(Bread),,,16,15,0,15,20,Tempest Power,"Soft (16),Stable Effect 20% (24),Salty (32),Recovery +20% (49),High Speed LV2 (65)","Clear-Headed,Awake,Yummy Heal S,Power of Milk"
-51,Ocean Stars,Heal,Grain Powder,Coarse Salt,(Milk),(Supplement),(Food),(Bread),,,22,10,15,15,25,Storm Soul,"Nice Smell (18),High Speed LV1 (28),Juicy (37),Price -10% (56),Recovery +30% (75)","Delicious,Yummy Heal M,Power of Milk"
-52,Bun,Heal,Grain Powder,Coarse Salt,(Egg),(Food Ingredient),(Food),,,,9,0,10,5,5,Water Power,"Sweet (13),Recovery +10% (20),Cute (27),Critical LV1 (40),Price -20% (54)","Yummy Heal S,Get Warm"
-53,Meat Bun,Heal,Grain Powder,(Meat),(Seasoning),(Egg),(Food),,,,12,5,5,5,5,Nice w/ Liquid,"Soft (14),Stable Effect 20% (22),Salty (29),Recovery +20% (44),High Speed LV2 (59)","Yummy Heal M,Get Energized,Lighter Body,Get Warm"
-54,Veggie Bun,Heal,Grain Powder,(Vegetable),(Seasoning),(Egg),(Food),,,,14,5,10,5,5,Nice w/ Plants,"Soft (15),Stable Effect 20% (23),Salty (31),Recovery +20% (46),High Speed LV2 (62)","Yummy Heal M,Get Sturdy,Get Warm,AIL RES S"
-55,Country Bread,Heal,Grain Powder,(Fermented),(Bean),(Fruit),(Food),(Bread),,,11,0,0,5,15,Wind Power,"Sweet (14),Recovery +10% (21),Cute (28),Critical LV1 (43),Price -20% (57)","Full Stomach,Fill Stomach,Yummy Heal S,Yummy Heal M,Yummy Heal L"
-56,Traditional Bread,Heal,Grain Powder,(Fermented),Liquid Butter,(Egg),(Food),(Bread),,,20,0,10,0,20,Heighten Power,"Soft (18),Stable Effect 20% (27),Salty (36),Recovery +20% (54),High Speed LV2 (72)","Full Stomach,Fill Stomach,Yummy Heal M,Yummy Heal L,Yummy Heal XL"
-57,Stone Bread,Heal,Grain Powder,(Fermented),Epicure Nut,(Ore),(Food),(Bread),,,30,0,0,0,55,"Rock Soul,Permanent Trait","Nice Smell (22),High Speed LV1 (33),Juicy (44),Price -10% (66),Recovery +30% (88)","Get Sturdy,Full Stomach,Fill Stomach,Yummy Heal L,Yummy Heal XL,Yummy Heal XXL"
-58,Veggie Soup,Heal,(Water),(Vegetable),(Seasoning),(Food Ingredient),(Food),(Soup),,,6,15,5,0,10,Dirt Power,"Sweet (12),Recovery +10% (18),Cute (24),Critical LV1 (37),Price -20% (49)","Get Warm,Regen Recovery S,Cure-Hold"
-59,Bean Soup,Heal,(Water),(Bean),Coarse Salt,(Spice),(Food),(Soup),,,9,0,10,0,20,Dirt Power,"Soft (13),Stable Effect 20% (20),Salty (27),Recovery +20% (40),High Speed LV2 (54)","Get Warm,Regen Recovery S,Regen Recovery M,Cure-Hold,Cure Ills"
-60,Sunset Broth,Heal,(Water),(Meat),(Seasoning),(Food Ingredient),(Food),(Soup),,,15,10,15,0,20,Well-Made,"Nice Smell (16),High Speed LV1 (24),Juicy (32),Price -10% (48),Recovery +30% (64)","Get Warm,Regen Recovery M,Regen Recovery L,Energize"
-61,Hell Soup,Heal,(Water),Red Devil,(Meat),(Spice),(Food),(Tonic),(Soup),,21,15,20,0,25,"Nice w/ Plants,Usage Control","Spicy (9),Bitter (14),Really Spicy (19),Very Bitter (24),Tasteless (34)","Get Warm,Burning Body,HP Recovery L,HP Recovery XL,MP Recovery M,MP Recovery L"
-62,Genug Water Pot,Heal,(Food Ingredient),Nimbus Stone,(Mystery),(Medicine),(Magic Tool),(Antique),(Water),,30,0,45,15,25,Drizzle Power,"Recovery +10% (22),Critical LV1 (33),Stable Effect 20% (44),Price -10% (66),High Speed LV1 (88)","MP Usage L,MP Usage M,Drop of Healing,Rain of Healing,Storm of Healing,AIL RES S,Clear-Headed,Awake"
-63,Mirage Mirror,Heal,(Clay),(Precious Ore),(Jewel),Polish Powder,(Magic Tool),(Metal),(Antique),,33,0,20,50,10,Tornado Power,"Critical LV1 (23),Stable Effect 20% (34),Force +20% (46),High Speed LV2 (69),Critical LV2 (92)","MP Usage XL,MP Usage L,MP Usage M,Novice Illusion,Illusion,Skilled Illusion"
-64,Weird Talisman,Heal,(Mystery),(Gemstone),(Ancient Word),(Leather),(Jewel),(Magic Tool),(Mystery),(Antique),19,0,0,25,10,Rock Power,"High Speed LV1 (17),Stable Effect 20% (26),Critical LV2 (35),Recovery +30% (52),Stable Effect 30% (70)","Heal Blessing S,Heal Blessing M,Heal Blessing L"
-65,Power Totem,Heal,Earth Stone,(Clay),(Lumber),(Fuel),(Magic Tool),(Mystery),(Antique),,21,15,10,10,25,Storm Power,"Recovery +10% (18),Critical LV1 (27),Stable Effect 30% (36),High Speed LV2 (55),Recovery +20% (73)","Power Spell,Speed Spell,Protection Spell"
-66,Crystal Charm,Heal,Polished Crystal,(Elixir),(Solution),Polish Powder,(Jewel),(Magic Tool),(Antique),(Precious Ore),32,0,30,30,30,Water Spirit,"Critical LV1 (22),Recovery +10% (34),High Speed LV1 (45),Price -10% (68),Stable Effect 30% (91)","F Wall,I Wall,L Wall,Mind Wall,PH Wall"
-67,Needleless Shot,Heal,Glass Powder,Soft Metal Rod,Steel Yarn Ball,(Medic. Ing.),(Magic Tool),(Solution),,,28,0,20,25,30,Wind Spirit,"Critical LV1 (21),High Speed LV1 (31),Auto Activate 20% (42),Recovery +20% (63),Critical LV2 (84)","Major Recovery S,Major Recovery M,Major Recovery L,Cure Ills,Cure All Ills,HP Regen S,HP Regen M,HP Regen L"
-68,Metastasis Wing,Utility,(Feather),(Mystery),(Elixir),,(Adventure),(Antique),(Feather),(Access. Ing.),35,30,30,30,30,Tornado Power,,Return to Base
-69,Artisan Whetstone,Whetstone,Soft Stone,(Metal),(Fuel),Polish Powder,(Magic Tool),(Pottery),,,10,0,0,0,20,Dirt Power,"ATK +3 (14),HP +10 (21),Skill Usage -10% (28),Skill Power +7% (42),ATK +5 (56)",See All Props
-70,Expert Whetstone,Whetstone,Pale Clay,(Metal),(Fuel),Polish Powder,(Magic Tool),(Pottery),,,15,15,0,0,30,Rock Power,"HP +10 (16),MP +10 (24),SPD +5 (32),ATK +5 (48),AIL RES +50 (64)","Property Copy 1,Property Copy 2,Property Copy 3,See All Props"
-71,Soul Whetstone,Whetstone,Living Clay,(Metal),(Fuel),Polish Powder,(Magic Tool),(Pottery),,,20,20,0,0,35,Black Soil Power,"Skill Power +5% (18),Skill Usage -10% (27),ATK +3 (36),HP +15 (54),MP +15 (72)","Property Copy 2,Property Copy 3,Property Copy 4,See All Props"
-72,Blade Whetstone,Whetstone,(Clay),(Metal),(Fuel),(Precious Ore),(Magic Tool),(Pottery),,,25,25,0,0,45,Earth Power,"ATK +3 (20),SPD +5 (30),PH RES +5 (40),Skill Usage -15% (60),Skill Enhance LV1 (80)","Property Copy 4,Copy All Props,See All Props"
-73,Polish Dye,Dye,(Water),Detergent,(Incense),(Cloth),(Magic Tool),(Solution),,,10,0,15,0,0,Water Power,"ATK +3 (14),F RES +10 (21),AIL RES +20 (28),MP +10 (42),PH RES +7 (56)",See All Props
-74,Training Dye,Dye,(Water),Polish Powder,(Cloth),(Gemstone),(Magic Tool),(Solution),,,15,0,25,10,0,Rain Power,"SPD +5 (16),F RES +10 (24),Stats +2 (32),I RES +10 (48),Skill Enhance LV1 (64)","See All Props,Property Copy 1,Property Copy 2,Property Copy 3"
-75,Magic Dye,Dye,(Water),(Oil),(Elixir),(Cloth),(Magic Tool),(Solution),,,20,0,35,20,0,Flood Power,"Stats +2 (18),AIL RES +20 (27),PH RES +5 (36),MP +10 (54),HP +15 (72)","Property Copy 2,Property Copy 3,Property Copy 4,See All Props"
-76,Reflection Dye,Dye,(Water),Medical Solution,Silver Liquid,(Cloth),(Magic Tool),(Solution),,,25,0,45,25,0,Drizzle Power,"F RES +15 (20),I RES +15 (30),L RES +15 (40),AIL RES +33 (60),Stats +4 (80)","Property Copy 4,Copy All Props,See All Props"
-77,Cheese,Heal,(Milk),(Milk),Coarse Salt,,(Food),(Food),(Smelly),(Cheese),9,0,5,10,20,"Wind Power,Dirt Power","Soft (13),Stable Effect 20% (20),Salty (27),Recovery +20% (40),High Speed LV2 (54)","Power of Milk,HP Recovery S,HP Recovery M"
-78,Aged Cheese,Heal,(Milk),(Milk),Coarse Salt,(Fermented),(Food),(Food),(Smelly),(Cheese),13,0,10,20,20,"Storm Power,Well-Made","Soft (15),Stable Effect 20% (22),Salty (30),Recovery +20% (45),High Speed LV2 (60)","Lighter Body,Power of Milk,Immunity+,HP Recovery M,HP Recovery L"
-79,Fermented Cheese,Heal,Cheese,Coarse Salt,(Fermented),(Smelly),(Food),(Food),(Smelly),(Cheese),19,15,0,30,30,"Tempest Power,Heighten Power","Soft (17),Stable Effect 20% (26),Salty (35),Recovery +20% (52),High Speed LV2 (70)","Get Energized,Power of Milk,Vitality Mold,HP Recovery L,HP Recovery XL"
-80,Portable Container,Gathering,(Lumber),(Mystery),Steel Yarn Ball,Bottomless Pot,(Adventure),(Mystery),(Antique),(Lumber),23,0,10,15,45,Earth Power,,Travel Container
-81,Basket,Gathering,(Cloth),(Paper),Strong Yarn,(Feather),(Plant),(Adventure),(Antique),(String),15,0,15,15,30,Dirt Power,,"Hard to Take Out,Easy to Take Out,Phantasmagoric,Big Basket,Super Basket,Extreme Basket"
-82,Speculator Die,Gathering,(Access. Ing.),(Solution),Silver Liquid,Polish Powder,(Jewel),(Adventure),(Mystery),(Antique),19,15,20,30,0,Storm Power,,"Obstruction,Possesses Magic,Amplify Power,Bring Misfortune,Bring Fortune,Bring Luck"
-83,Nomadic Shoes,Gathering,(Leather),Steel Yarn Ball,(Lumber),(Scale),(Adventure),(Antique),(Cloth),(String),20,15,20,10,40,Black Soil Power,,"Fast Walk,Run,Like the Wind"
-84,Corrective Glasses,Gathering,Glass Rod,(Jewel),Soft Metal Rod,,(Adventure),(Antique),(Precious Ore),(Lucky Charm),21,25,0,35,0,Storm Power,,Gather Rate UP
-85,Zettel,Synth,(Paper),(Liquid),Wax,,(Sundry),(Paper),(Filter),,7,0,10,0,20,Well-Made,"Continuation LV2 (19),Recovery +30% (32)",
-86,Pulp Paper,Synth,(Plant),(Liquid),,,(Sundry),(Paper),(Filter),,4,0,5,5,10,Wind Power,"Critical LV2 (17),Auto Activate 50% (29)",
-87,Half Paper,Synth,(Lumber),Memory Ink,(Solution),Detergent,(Sundry),(Paper),(Filter),,17,5,15,20,25,"Wind Power,Good w/ Plants","Recovery +10% (25),Continuation LV3 (42)",
-88,Magisha Sheet,Synth,(Lumber),(Mystery),(Ancient Word),Everpure Water,(Sundry),(Paper),(Filter),,23,20,20,30,20,"Storm Power,Division","Continuation LV2 (28),Stable Effect 50% (48)",
-89,Leather,Synth,(Leather),(Solution),(String),,(Sundry),(Cloth),,,11,0,0,0,20,Dirt Power,"Recovery +20% (21),Price -30% (36),PH RES +5 (51)",
-90,Beast Leather,Synth,Cryptid Fur,Everpure Water,(Oil),(String),(Sundry),(Cloth),,,21,0,20,35,25,"Tempest Power,Expand Power","Recovery +10% (27),Critical LV3 (46),PH RES +12 (61)",
-91,Hard Skin,Synth,(Leather),(Solution),Cow Cream,(String),(Sundry),(Cloth),,,14,15,10,0,25,"Dirt Power,Well-Made","Stable Rate 30% (23),High Speed LV3 (39),PH RES +5 (54)",
-92,Fortified Leather,Synth,(Leather),(Solution),(Oil),(String),(Sundry),(Cloth),,,18,10,0,15,25,"Rock Power,Usage Control","Critical LV2 (25),Force +20% (43),PH RES +7 (58)",
-93,Polish Powder,Synth,(Ore),(Clay),,,(Sundry),,,,7,5,5,5,25,Dirt Power,"Stable Effect 30% (19),Critical LV3 (32)",
-94,Grain Powder,Synth,(Grain),(Grain),,,(Food),(Synthesis),(Gunpowder),,6,0,10,5,20,Dirt Power,"Continuation LV2 (18),Recovery +30% (31)",
-95,Bone Powder,Synth,(Bone),(Fuel),(Mystery),,(Synthesis),(Medic. Ing.),(Poison),,28,20,20,10,25,Dirt Power,"Big (31),Stable Rate 50% (53)",
-96,Clean Pollen,Synth,(Flower),(Flower),,,(Synthesis),(Medic. Ing.),(Incense),(Fermented),16,15,0,35,0,Wind Power,"Critical LV2 (24),Auto Activate 50% (41)",
-97,Glass Powder,Synth,Glass Core,(Ore),(Fuel),,(Synthesis),,,,13,0,10,15,25,"Rock Power,Nice w/ Ore","Critical LV2 (22),Force +20% (38)",
-98,Black Powder,Synth,Fire Stone,(Gunpowder),(Oil),,(Synthesis),(Gunpowder),,,9,30,0,0,15,Fire Power,"Stable Rate 30% (20),High Speed LV3 (34)",
-99,Secret Spice,Synth,Epicure Nut,(Spice),Red Devil,(Seasoning),(Synthesis),(Seasoning),(Spice),,26,45,15,15,20,"Hellfire Power,Great w/ Liquid","Critical LV2 (30),Auto Activate 50% (51)",
-100,Coarse Salt,Synth,(Salt),(Liquid),(Fuel),,(Synthesis),(Seasoning),,,8,0,0,10,15,Good w/ Liquid,"Recovery +10% (19),Continuation LV3 (33)",
-101,Handmade Pot,Synth,(Clay),(Liquid),(Fuel),,(Sundry),(Antique),(Pottery),,7,10,0,0,30,Rock Power,"Critical LV2 (19),Force +20% (32)",
-102,Preserve Pot,Synth,(Clay),(Liquid),(Fuel),Coarse Salt,(Magic Tool),(Antique),(Pottery),,12,0,15,15,35,"Black Soil Power,Usage Ease","Stable Effect 30% (22),Critical LV3 (37)",
-103,Genug Blessing Pot,Synth,(Pottery),Everpure Water,Nimbus Stone,(Precious Ore),(Magic Tool),(Antique),(Water),(Pottery),25,10,50,0,25,"Flood Power,Heighten Power","Force +10% (30),Stable Effect 50% (50)",
-104,Bottomless Pot,Synth,(Pottery),Night Fog Bottle,(Gemstone),(Mystery),(Magic Tool),(Antique),(Pottery),,18,20,0,30,35,"Black Soil Power,Usage Null","Big (25),Stable Rate 50% (43)",
-105,Goddess Pot,Synth,(Pottery),Pixie Breath,Scorching Drink,Grain Powder,(Magic Tool),(Metal),(Antique),(Pottery),35,20,40,20,50,"Earth Power,Amazingly Made","Critical LV2 (36),Price -30% (60)",
-106,Pressed Oil,Synth,(Plant),(Oil),(Incense),,(Liquid),(Sundry),(Fuel),,7,20,10,0,0,Fire Power,"Critical LV2 (19),Auto Activate 50% (32)",
-107,Liquid Butter,Synth,(Milk),(Solution),(Supplement),,(Liquid),(Sundry),(Fuel),(Fermented),11,10,15,0,15,"Dirt Power,Well-Made","Recovery +10% (21),Continuation LV3 (36)",
-108,White Oil,Synth,(Fuel),(Oil),Flan Charcoal,,(Liquid),(Sundry),(Seasoning),,20,35,15,0,0,Flame Power,"Auto Activate 30% (27),Stable Effect 50% (45)",
-109,Distilled Water,Synth,(Water),(Supplement),(Filter),,(Liquid),(Synthesis),(Solution),,12,15,40,15,15,"Flood Power,Great w/ Liquid","Recovery +20% (22),Price -30% (37)",
-110,Everpure Water,Synth,Distilled Water,(Charcoal),(String),Preserve Pot,(Liquid),(Synthesis),(Solution),,33,0,50,25,25,"Rain Soul,Permanent Trait","Recovery +10% (34),Critical LV3 (58)",
-111,Memory Ink,Synth,(Charcoal),(Liquid),(Oil),(Supplement),(Liquid),(Sundry),(Solution),,14,0,20,0,20,Usage Ease,"Stable Rate 30% (23),High Speed LV3 (39)",
-112,Glass Rod,Synth,Glass Powder,Glass Powder,(Fuel),,(Synthesis),(Sundry),,,17,0,0,10,45,Black Soil Power,"Critical LV2 (25),Force +20% (42)",
-113,Wax,Synth,(Bee Hive),(Bee Hive),(Fuel),,(Sundry),(Fuel),,,6,20,0,0,10,Fire Power,"Stable Effect 30% (18),Critical LV3 (31)",
-114,Bean Milk,Synth,(Bean),(Water),(Fuel),,(Liquid),(Food),(Milk),,11,15,20,30,20,"Earth Power,Nicely Made","Continuation LV2 (21),Recovery +30% (36)",
-115,Gelatinous Oil,Synth,Lump of Fat,Dried Fat,(Solution),,(Sundry),(Fuel),(Slime),,15,30,15,10,0,Fire Power,"Force +10% (24),Stable Effect 50% (40)",
-116,Corundum,Synth,Corundum Stone,Polish Powder,(Liquid),(Cloth),(Jewel),(Metal),(Precious Ore),,20,25,10,15,40,Black Soil Power,"ATK +3 (18),HP +10 (27),Skill Usage -10% (36),Skill Power +7% (54),ATK +5 (72)",
-117,White Obsidian,Synth,(Gemstone),Polish Powder,(Liquid),(Cloth),(Jewel),(Precious Ore),,,30,0,30,35,25,Tornado Power,"ATK +3 (22),F RES +10 (33),AIL RES +20 (44),MP +10 (66),PH RES +7 (88)",
-118,Diamond Ball,Synth,Diamond Gemstone,Glass Powder,Silver Liquid,Flan Charcoal,(Jewel),(Precious Ore),,,35,35,25,0,50,"Earth Power,Rock Soul","SPD +5 (24),F RES +10 (36),Stats +2 (48),I RES +10 (72),Skill Enhance LV1 (96)",
-119,Gold,Synth,Moon's Gold Vein,Medical Solution,Scorching Drink,Pixie Breath,(Jewel),(Synthesis),(Metal),(Precious Ore),40,45,30,0,50,"Release Power,Permanent Trait","Stats +2 (26),AIL RES +20 (39),PH RES +5 (52),MP +10 (78),HP +15 (104)",
-120,Soft Metal Rod,Synth,(Ore),(Fuel),(Supplement),,(Synthesis),(Metal),,,11,15,0,0,25,Rock Power,"Stable Rate 30% (21),High Speed LV3 (36)",
-121,Dried Medical Herb,Synth,(Medic. Herb),(Fuel),(Water),,(Synthesis),(Medic. Ing.),(Dried Plant),(Fermented),4,5,0,15,5,Wind Power,"Continuation LV2 (17),Recovery +30% (29)",
-122,Dry Herb,Synth,(Herb),(Fuel),(Oil),,(Sundry),(Incense),(Dried Plant),(Fermented),8,15,5,20,0,"Fire Power,Wind Power","Critical LV2 (19),Auto Activate 50% (33)",
-123,Tea Leaf,Synth,(Medic. Herb),(Fuel),(Fermented),,(Synthesis),(Incense),(Dried Plant),(Fermented),8,10,20,30,0,"Storm Power,Great w/ Liquid","Recovery +10% (19),Continuation LV3 (33)",
-124,Honey,Synth,(Bee Hive),(Bee Hive),(Filter),,(Food),(Food),(Sweetener),,6,0,10,5,15,Wind Power,"Continuation LV2 (18),Recovery +30% (31)",
-125,Golden Nectar,Synth,(Sweetener),Liquid Butter,Honey,(Fuel),(Food),(Food),(Sweetener),,15,0,20,0,30,"Nice w/ Plants,Nice w/ Liquid","Auto Activate 30% (24),Stable Effect 50% (40)",
-126,Strong Yarn,Synth,(Leather),(Liquid),(Oil),,(Synthesis),(Filter),(String),,10,0,10,0,20,"Dirt Power,Well-Made","ATK +3 (14),HP +10 (21),Skill Usage -10% (28),Skill Power +7% (42),ATK +5 (56)",
-127,Steel Yarn Ball,Synth,Soft Metal Rod,(String),(Oil),Polish Powder,(Synthesis),(Metal),,,20,15,0,0,30,"Rock Power,Stable Matter","ATK +3 (18),F RES +10 (27),AIL RES +20 (36),MP +10 (54),PH RES +7 (72)",
-128,Cow Cream,Synth,(Milk),(Oil),(Supplement),,(Food),(Food),(Oil),,12,0,15,0,15,Dirt Power,"Critical LV2 (22),Auto Activate 50% (37)",
-129,Fluffy Whip,Synth,(Milk),(Egg),(Sweetener),,(Sundry),(Sweetener),,,10,0,30,15,10,"Rain Power,Nice w/ Liquid","Auto Activate 30% (21),Stable Effect 50% (35)",
-130,Detergent,Synth,(Oil),(Solution),(Incense),Baby's Breath,(Sundry),(Medic. Ing.),,,8,0,15,10,10,Water Power,"Recovery +10% (19),Critical LV3 (33)",
-131,Adhesion Jelly,Synth,Gelatinous Oil,(Solution),Marsh Slime,,(Sundry),(Medic. Ing.),,,20,0,15,0,10,"Well-Made,Nice w/ Ore","Continuation LV2 (27),Recovery +30% (45)",
-132,Melt Steel,Synth,(Metal),Scorching Ore,(Fuel),(Charcoal),(Synthesis),(Metal),(Antique),,30,25,10,20,35,"Black Soil Power,Stable Matter","Stable Rate 30% (33),High Speed LV3 (55)",
-133,Scorching Drink,Synth,Fire Spirit Breath,Nectar Water,(Fuel),Medical Solution,(Liquid),(Synthesis),(Poison),(Solution),32,50,25,25,15,"Flame Soul,Usage Ease","Stable Effect 30% (34),Critical LV3 (57)",
-134,Polished Crystal,Synth,(Crystal),Polish Powder,(Liquid),(Mystery),(Jewel),(Mystery),,,15,10,15,25,35,Water Power,"ATK +3 (16),HP +10 (24),Skill Usage -10% (32),Skill Power +7% (48),ATK +5 (64)",
-135,Flan Charcoal,Synth,(Lumber),(Fuel),(Gunpowder),,(Sundry),(Fuel),(Charcoal),(Filter),17,35,0,0,15,"Fire Soul,Great w/ Ore","Critical LV2 (25),Force +20% (42)",
-136,Medical Solution,Synth,Everpure Water,Pixie Breath,(Medic. Ing.),(Poison),(Liquid),(Synthesis),(Solution),,28,0,55,20,30,"Rain Soul,Great w/ Liquid","Continuation LV2 (31),Recovery +30% (53)",
-137,Rich Fertilizer,Synth,Cow Dropping,(Plant),(Fermented),(Liquid),(Sundry),(Poison),(Smelly),(Nutritional),16,15,10,5,35,"Well-Made,Great w/ Plants","Recovery +10% (24),Continuation LV3 (41)",
-138,Tonic,Synth,(Plant),(Tonic),(Nutritional),Distilled Water,(Sundry),(Supplement),(Nutritional),,20,20,20,20,20,"Heighten Power,Nice w/ Plants","Critical LV2 (27),Auto Activate 50% (45)",
-139,Supplement-Red,Synth,(Gunpowder),(Liquid),,,(Supplement),,,,5,25,0,0,0,Fire Power,,
-140,Supplement-Blue,Synth,(Flower),(Liquid),,,(Supplement),,,,5,0,25,0,0,Water Power,,
-141,Supplement-Green,Synth,(Lumber),(Liquid),,,(Supplement),,,,5,0,0,25,0,Wind Power,,
-142,Supplement-Gold,Synth,(Clay),(Liquid),,,(Supplement),,,,5,0,0,0,25,Dirt Power,,
-143,Success Ring,Accessory,(Gemstone),Soft Metal Rod,(Lucky Charm),,(Jewel),(Accessory),,,29,0,0,0,30,Expand Power,"ATK +3 (21),HP +10 (32),Skill Usage -10% (43),Skill Power +7% (64),ATK +5 (86)","Powerful RES,Giant RES,Harmony Wish,Strength Wish,Robust Wish,Quickness Wish"
-144,Mystery Talisman,Accessory,(Access. Ing.),(Mystery),(Ancient Word),(String),(Accessory),(Precious Ore),,,27,0,0,30,0,Stable Matter,"ATK +3 (20),F RES +10 (31),AIL RES +20 (41),MP +10 (62),PH RES +7 (83)","Give Power,Genesis Power,Give Protection,Protection Aura,Give Speed,Light Speed,Train Body,Train Heart"
-145,Phoenix Bracelet,Accessory,(Clay),(Legendary),(Bone),Scorching ,(Accessory),(Elixir),,,37,40,0,0,0,Flame Soul,"SPD +5 (24),F RES +10 (37),Stats +2 (49),I RES +10 (74),Skill Enhance LV1 (99)","Regen Speed Up,Super Regen,Lightning RES,Spirit Guard,View Vital Spot,Predicament RES"
-146,Medical Earring,Accessory,(Ore),(Medic. Ing.),(Dried Plant),(Elixir),(Ore),(Accessory),,,20,0,0,0,20,Dirt Soul,"Stats +2 (18),AIL RES +20 (27),PH RES +5 (36),MP +10 (54),HP +15 (72)","Null Poison,Alleviate AIL,Weaken AIL,Null Hold,Null Weak,Null Blind,Handful of Life"
-147,Unglazed Charm,Accessory,(Clay),(Mystery),(String),(Lucky Charm),(Accessory),(Pottery),,,17,10,0,0,10,Rock Soul,"MP +10 (16),Skill Usage -15% (25),Skill Power +7% (33),ATK +3 (50),SPD +7 (67)","Burning Sand,Genesis Power,Block S,Block M,Block L"
-148,Feather Pin,Accessory,(Feather),(Access. Ing.),(String),,(Accessory),(Lucky Charm),,,14,0,0,10,0,Wind Soul,"HP +10 (15),MP +10 (23),SPD +5 (31),ATK +5 (46),AIL RES +50 (62)","Gather Attention,Unnoticeable,Acrobatic,Illusional Ghost,Evasion Rate UP"
-149,Potpourri,Accessory,(Flower),(Cloth),(Herb),,(Accessory),(Incense),,,10,20,0,0,0,Nice w/ Plants,"Skill Power +5% (14),Skill Usage -10% (21),ATK +3 (28),HP +15 (42),MP +15 (56)","Spirit Specific,Null Hold,Alleviate AIL,Heal Fragrance"
-150,Fur Gloves,Accessory,(String),(Leather),(Paper),(Oil),(Accessory),(Cloth),,,12,0,10,0,0,Well-Made,"ATK +3 (14),SPD +5 (22),PH RES +5 (29),Skill Usage -15% (44),Skill Enhance LV1 (59)","Temperature RES,Weaken Shock,Beast Specific,No Slip,Power Fill"
-151,Dragon Scale Icon,Accessory,(Scale),Melt Steel,(Access. Ing.),Polish Powder,(Accessory),(Legendary),,,36,30,0,0,0,Release Power,"F RES +15 (24),I RES +15 (36),L RES +15 (48),AIL RES +33 (73),Stats +4 (97)","F Pursuit,Dragon Aura,I Pursuit,L Pursuit,Dragon Vein,Dragon Specific,Hero Possession,Ruler Possession"
-152,Shadow Cloak,Accessory,Night Fog Bottle,(Cloth),(String),(Jewel),(Accessory),(Antique),,,34,0,0,0,40,Usage Null,"ATK +3 (23),HP +10 (35),Skill Usage -10% (47),Skill Power +7% (70),ATK +5 (94)","Reduce Soul,Spirit Conqueror,Ethereal Shift"
-153,Soul Trap Chain,Accessory,(Legendary),Steel Yarn Ball,Soul Slag Stone,(Ancient Word),(Accessory),(Metal),,,32,0,40,0,0,Stagnation,"ATK +3 (22),F RES +10 (34),AIL RES +20 (45),MP +10 (68),PH RES +7 (91)","Cyclic Chain,Wall of Chains,Damage Chain,Absorption Power,Slag Specific,Draw Out Wit,Wit Overflow"
-154,Silent Shoes,Accessory,Magisha Sheet,(Leather),(Oil),(Cloth),(Sundry),(Accessory),,,21,0,0,20,0,Rain Soul,"SPD +5 (18),F RES +10 (27),Stats +2 (36),I RES +10 (55),Skill Enhance LV1 (73)","Attack Knowledge,Attack Secret,Fast Run,Lightning Walk,Dimension Walk,Light Speed,Celerity,Muting"
-155,Fortune Card,Accessory,(Paper),Memory Ink,(Flower),(Lucky Charm),(Accessory),(Mystery),,,23,0,20,0,0,Great w/ Plants,"Stats +2 (19),AIL RES +20 (28),PH RES +5 (38),MP +10 (57),HP +15 (76)","Good Luck Card,Discovery Card,Wealthy Card,Golden Card,Scholar Card,Wise Man Card"
-156,Resonance Bell,Accessory,(Pottery),Polished Crystal,(Lumber),Pixie Breath,(Accessory),(Pottery),,,27,0,30,0,0,Wind Spirit,"MP +10 (20),Skill Usage -15% (31),Skill Power +7% (41),ATK +3 (62),SPD +7 (83)","Stand-in Enhance,Team Up Info,Team Up Secret,Resonance Bell,Harmony Bell,Shadow Bell"
-157,Glass Tiara,Accessory,Glass Rod,(Jewel),(Precious Ore),(Crystal),(Accessory),(Lucky Charm),,,30,0,0,40,0,Storm Soul,"HP +10 (22),MP +10 (33),SPD +5 (44),ATK +5 (66),AIL RES +50 (88)","Witch's Guard,Wise Wisdom,Sage Wisdom,Fool Wisdom,Call In Success,Power Charge S,Power Charge M,Power Charge L"
-158,Nimbus Stone,Important,(Ore),(Mystery),Distilled Water,Polish Powder,(Ore),(Magic Tool),,,30,0,50,0,0,"Rain Soul,Great w/ Ore","Stats +4 (33),Huge (55)",
-159,Slag Transmitter,Important,Crystalline Ether,Lightning Stern,Soul Slag Stone,Polish Powder,(Jewel),(Magic Tool),(Mystery),,35,0,0,30,30,"Storm Power,Stable Matter","Slag Specific (36),Geometrical Form (60)",
-160,Dragon Talisman,Important,,,,,(Accessory),(Important),,,1,50,50,50,50,,"HP +15,MP +15,Stats +6","Hunt Knowledge,Dragon Soul"
-161,Madder Iron,Important,Phlogiston,(Ore),(Elixir),,(Jewel),(Synthesis),(Metal),(Mystery),20,30,0,0,0,"Flame Power,Flame Soul","Fire Guard (27),Scorching Flame (45)",
+#,Name,Type,Ingredient 1,Ingredient 2,Ingredient 3,Ingredient 4,Category 1,Category 2,Category 3,Category 4,Lv,Fire,Water,Air,Earth
+1,Scent Bag,Attack,(Plant),(Smelly),(Paper),,(Sundry),(Incense),,,3,5,0,15,5
+2,Craft,Attack,(Spiky Fruit),(Gunpowder),(Paper),,(Bomb),,,,6,0,0,0,20
+3,Bright Craft,Attack,Craft,(Mystery),(Fuel),(Supplement),(Bomb),,,,22,0,0,0,35
+4,Bomb,Attack,(Fuel),(Gunpowder),(Supplement),,(Bomb),,,,8,20,0,0,0
+5,Zeit Bomb,Attack,Phlogiston,Flan Charcoal,(Paper),(Supplement),(Bomb),,,,24,40,0,0,0
+6,Ice Bomb,Attack,Water Crystal,(Liquid),(Supplement),,(Bomb),,,,10,0,20,0,0
+7,Eis Ice Bomb,Attack,Never-Melting Ice,(Junk),(Gunpowder),(Supplement),(Bomb),,,,26,0,40,0,0
+8,Lightning Bomb,Attack,(Ore),(Salt),(Water),(Supplement),(Magic Tool),,,,15,0,0,25,0
+9,Lightning Stern,Attack,(Gemstone),(Mystery),Wind Core,Polish Powder,(Magic Tool),,,,28,0,0,40,0
+10,Exa-Bomb,Attack,Fire Spirit Breath,(Paper),(Gunpowder),(Fuel),(Bomb),,,,33,55,0,0,0
+11,Himmel Schenk,Attack,Star Stone,(Ancient Word),(Gunpowder),(Supplement),(Magic Tool),,,,25,25,5,25,0
+12,Divine Oracle,Attack,(Paper),(Mystery),Memory Ink,(Feather),(Magic Tool),(Book),,,30,15,20,15,15
+13,Flame Aqua,Attack,(Fuel),(Liquid),,,(Liquid),(Magic Tool),(Solution),,4,15,0,0,0
+14,Ice Aqua,Attack,(Water),Coarse Salt,,,(Liquid),(Magic Tool),(Solution),(Slime),20,0,20,0,0
+15,Poison Aqua,Attack,(Poison),(Liquid),,,(Liquid),(Magic Tool),(Solution),,4,0,0,0,25
+16,Black Eclipse,Attack,(Bomb),(Jewel),Scorching Drink,Genesis Capsule,(Magic Tool),,,,35,35,15,0,50
+17,Magic Square,Attack,Pixie Breath,Diamond Ball,(Precious Ore),(Legendary),(Magic Tool),,,,38,25,25,50,10
+18,Riesen Ointment,Heal,(Medic. Herb),(Oil),(Root),,(Medicine),(Fermented),(Ointment),,3,0,20,0,0
+19,Powerful Ointment,Heal,(Nutritional),(Incense),Cow Cream,(Root),(Medicine),(Elixir),(Tonic),,15,0,15,10,20
+20,Wonder Cream,Heal,(Elixir),(Solution),Dried Medical Herb,Tonic,(Medicine),(Ointment),,,26,0,25,0,20
+21,Squash Tea,Heal,(Water),Tea Leaf,(Fruit),(Pottery),(Medicine),(Tranquilizer),,,10,0,25,0,0
+22,Clearing Decoction,Heal,(Water),Dry Herb,(Root),(Spice),(Medicine),(Tranquilizer),,,9,0,20,5,5
+23,Disease Ward,Heal,Medicinal Leaf,(Water),(Poison),(Supplement),(Medicine),(Cold Medic.),,,23,0,45,0,10
+24,Anti-Sick Powder,Heal,(Dried Plant),(Meat),(Incense),,(Medicine),(Cold Medic.),,,8,0,0,20,0
+25,Body Energy Powder,Heal,(Tonic),(Nutritional),(Root),(Fuel),(Medicine),(Elixir),(Tonic),,14,0,0,20,0
+26,Mineral Powder,Heal,Liquid Crystal,(Elixir),(Sweetener),(Medic. Ing.),(Medicine),(Tonic),,,16,0,10,5,10
+27,Worker Compress,Heal,(Cloth),(Oil),(Medic. Herb),Body Energy Powder,(Sundry),(Tranquilizer),,,12,0,15,0,15
+28,Body Compress,Heal,(Cloth),(Spice),(Clay),(Solution),(Sundry),(Cold Medic.),,,22,20,20,0,0
+29,Medical Patch,Heal,(Paper),Riesen Ointment,Honey,,(Sundry),(Ointment),,,7,0,5,0,10
+30,Secret Remedy,Heal,(Meat),(Spice),(Tonic),(Nutritional),(Medicine),(Tonic),,,31,15,0,50,0
+31,Silent Pill,Heal,Reaper Herb,(Slime),(Medic. Ing.),(Nutritional),(Medicine),(Tranquilizer),,,29,10,0,35,10
+32,One Drop Recovery,Heal,(Medic. Herb),(Root),(Oil),Nectar Water,(Medicine),(Ointment),,,20,0,10,0,35
+33,Mental Extract,Heal,Awakening Herb,(Dried Plant),(Liquid),(Sweetener),(Medicine),(Tranquilizer),,,24,0,45,0,5
+34,Forbidden Capsule,Heal,Bone Powder,(Poison),Dunkelheit,(Ore),(Medicine),(Tonic),,,34,30,30,30,30
+35,Aroma Mist,Heal,(Incense),(Flower),(Liquid),Glass Rod,(Magic Tool),(Incense),,,17,0,15,25,0
+36,Sprayer Talisman,Heal,(Junk),Anti-Bug Grass,(Mystery),Glass Rod,(Magic Tool),(Solution),,,18,0,35,10,0
+37,Passion Perfume,Heal,Clean Pollen,Lady's Beard,(Tonic),(Liquid),(Magic Tool),(Incense),,,19,0,40,0,0
+38,God's Miracle Drug,Heal,Time Guard Flower,(Elixir),(Legendary),Dunkelheit,(Medicine),(Ointment),(Tranquilizer),(Cold Medic.),40,0,50,35,25
+39,Baguette,Heal,(Grain),(Seasoning),(Fermented),,(Food),(Bread),,,3,5,0,0,15
+40,Royal Baguette,Heal,Grain Powder,Liquid Butter,(Seasoning),(Fermented),(Food),(Bread),,,18,15,0,0,25
+41,Hot Baguette,Heal,Grain Powder,(Spice),(Seasoning),(Fermented),(Food),(Bread),,,15,25,0,0,5
+42,Black Baguette,Heal,Grain Powder,(Charcoal),(Seasoning),(Fermented),(Food),(Bread),,,12,8,0,0,30
+43,Danish,Heal,Grain Powder,Liquid Butter,(Fruit),,(Food),(Bread),,,9,0,0,15,10
+44,Crisp Danish,Heal,Grain Powder,Liquid Butter,(Fruit),(Oil),(Food),(Bread),,,5,5,0,20,10
+45,Caramel Danish,Heal,Grain Powder,Liquid Butter,Honey,(Fruit),(Food),(Bread),,,16,0,0,25,15
+46,Flower Muffin,Heal,(Bean),(Sweetener),Fluffy Whip,(Flower),(Food),(Snack),,,12,0,10,0,15
+47,Bitter Muffin,Heal,Grain Powder,(Dried Plant),Fluffy Whip,Bitter Leaf,(Food),(Snack),,,15,0,15,0,15
+48,Soft Muffin,Heal,Grain Powder,Fluffy Whip,(Grain),(Bean),(Food),(Snack),,,18,10,20,0,20
+49,Bread Stars,Heal,Grain Powder,(Incense),(Milk),,(Food),(Bread),,,7,10,0,5,10
+50,Venus Bread Stars,Heal,Grain Powder,Honey,(Milk),,(Food),(Bread),,,16,15,0,15,20
+51,Ocean Stars,Heal,Grain Powder,Coarse Salt,(Milk),(Supplement),(Food),(Bread),,,22,10,15,15,25
+52,Bun,Heal,Grain Powder,Coarse Salt,(Egg),(Food Ingredient),(Food),,,,9,0,10,5,5
+53,Meat Bun,Heal,Grain Powder,(Meat),(Seasoning),(Egg),(Food),,,,12,5,5,5,5
+54,Veggie Bun,Heal,Grain Powder,(Vegetable),(Seasoning),(Egg),(Food),,,,14,5,10,5,5
+55,Country Bread,Heal,Grain Powder,(Fermented),(Bean),(Fruit),(Food),(Bread),,,11,0,0,5,15
+56,Traditional Bread,Heal,Grain Powder,(Fermented),Liquid Butter,(Egg),(Food),(Bread),,,20,0,10,0,20
+57,Stone Bread,Heal,Grain Powder,(Fermented),Epicure Nut,(Ore),(Food),(Bread),,,30,0,0,0,55
+58,Veggie Soup,Heal,(Water),(Vegetable),(Seasoning),(Food Ingredient),(Food),(Soup),,,6,15,5,0,10
+59,Bean Soup,Heal,(Water),(Bean),Coarse Salt,(Spice),(Food),(Soup),,,9,0,10,0,20
+60,Sunset Broth,Heal,(Water),(Meat),(Seasoning),(Food Ingredient),(Food),(Soup),,,15,10,15,0,20
+61,Hell Soup,Heal,(Water),Red Devil,(Meat),(Spice),(Food),(Tonic),(Soup),,21,15,20,0,25
+62,Genug Water Pot,Heal,(Food Ingredient),Nimbus Stone,(Mystery),(Medicine),(Magic Tool),(Antique),(Water),,30,0,45,15,25
+63,Mirage Mirror,Heal,(Clay),(Precious Ore),(Jewel),Polish Powder,(Magic Tool),(Metal),(Antique),,33,0,20,50,10
+64,Weird Talisman,Heal,(Mystery),(Gemstone),(Ancient Word),(Leather),(Jewel),(Magic Tool),(Mystery),(Antique),19,0,0,25,10
+65,Power Totem,Heal,Earth Stone,(Clay),(Lumber),(Fuel),(Magic Tool),(Mystery),(Antique),,21,15,10,10,25
+66,Crystal Charm,Heal,Polished Crystal,(Elixir),(Solution),Polish Powder,(Jewel),(Magic Tool),(Antique),(Precious Ore),32,0,30,30,30
+67,Needleless Shot,Heal,Glass Powder,Soft Metal Rod,Steel Yarn Ball,(Medic. Ing.),(Magic Tool),(Solution),,,28,0,20,25,30
+68,Metastasis Wing,Utility,(Feather),(Mystery),(Elixir),,(Adventure),(Antique),(Feather),(Access. Ing.),35,30,30,30,30
+69,Artisan Whetstone,Whetstone,Soft Stone,(Metal),(Fuel),Polish Powder,(Magic Tool),(Pottery),,,10,0,0,0,20
+70,Expert Whetstone,Whetstone,Pale Clay,(Metal),(Fuel),Polish Powder,(Magic Tool),(Pottery),,,15,15,0,0,30
+71,Soul Whetstone,Whetstone,Living Clay,(Metal),(Fuel),Polish Powder,(Magic Tool),(Pottery),,,20,20,0,0,35
+72,Blade Whetstone,Whetstone,(Clay),(Metal),(Fuel),(Precious Ore),(Magic Tool),(Pottery),,,25,25,0,0,45
+73,Polish Dye,Dye,(Water),Detergent,(Incense),(Cloth),(Magic Tool),(Solution),,,10,0,15,0,0
+74,Training Dye,Dye,(Water),Polish Powder,(Cloth),(Gemstone),(Magic Tool),(Solution),,,15,0,25,10,0
+75,Magic Dye,Dye,(Water),(Oil),(Elixir),(Cloth),(Magic Tool),(Solution),,,20,0,35,20,0
+76,Reflection Dye,Dye,(Water),Medical Solution,Silver Liquid,(Cloth),(Magic Tool),(Solution),,,25,0,45,25,0
+77,Cheese,Heal,(Milk),(Milk),Coarse Salt,,(Food),(Food),(Smelly),(Cheese),9,0,5,10,20
+78,Aged Cheese,Heal,(Milk),(Milk),Coarse Salt,(Fermented),(Food),(Food),(Smelly),(Cheese),13,0,10,20,20
+79,Fermented Cheese,Heal,Cheese,Coarse Salt,(Fermented),(Smelly),(Food),(Food),(Smelly),(Cheese),19,15,0,30,30
+80,Portable Container,Gathering,(Lumber),(Mystery),Steel Yarn Ball,Bottomless Pot,(Adventure),(Mystery),(Antique),(Lumber),23,0,10,15,45
+81,Basket,Gathering,(Cloth),(Paper),Strong Yarn,(Feather),(Plant),(Adventure),(Antique),(String),15,0,15,15,30
+82,Speculator Die,Gathering,(Access. Ing.),(Solution),Silver Liquid,Polish Powder,(Jewel),(Adventure),(Mystery),(Antique),19,15,20,30,0
+83,Nomadic Shoes,Gathering,(Leather),Steel Yarn Ball,(Lumber),(Scale),(Adventure),(Antique),(Cloth),(String),20,15,20,10,40
+84,Corrective Glasses,Gathering,Glass Rod,(Jewel),Soft Metal Rod,,(Adventure),(Antique),(Precious Ore),(Lucky Charm),21,25,0,35,0
+85,Zettel,Synth,(Paper),(Liquid),Wax,,(Sundry),(Paper),(Filter),,7,0,10,0,20
+86,Pulp Paper,Synth,(Plant),(Liquid),,,(Sundry),(Paper),(Filter),,4,0,5,5,10
+87,Half Paper,Synth,(Lumber),Memory Ink,(Solution),Detergent,(Sundry),(Paper),(Filter),,17,5,15,20,25
+88,Magisha Sheet,Synth,(Lumber),(Mystery),(Ancient Word),Everpure Water,(Sundry),(Paper),(Filter),,23,20,20,30,20
+89,Leather,Synth,(Leather),(Solution),(String),,(Sundry),(Cloth),,,11,0,0,0,20
+90,Beast Leather,Synth,Cryptid Fur,Everpure Water,(Oil),(String),(Sundry),(Cloth),,,21,0,20,35,25
+91,Hard Skin,Synth,(Leather),(Solution),Cow Cream,(String),(Sundry),(Cloth),,,14,15,10,0,25
+92,Fortified Leather,Synth,(Leather),(Solution),(Oil),(String),(Sundry),(Cloth),,,18,10,0,15,25
+93,Polish Powder,Synth,(Ore),(Clay),,,(Sundry),,,,7,5,5,5,25
+94,Grain Powder,Synth,(Grain),(Grain),,,(Food),(Synthesis),(Gunpowder),,6,0,10,5,20
+95,Bone Powder,Synth,(Bone),(Fuel),(Mystery),,(Synthesis),(Medic. Ing.),(Poison),,28,20,20,10,25
+96,Clean Pollen,Synth,(Flower),(Flower),,,(Synthesis),(Medic. Ing.),(Incense),(Fermented),16,15,0,35,0
+97,Glass Powder,Synth,Glass Core,(Ore),(Fuel),,(Synthesis),,,,13,0,10,15,25
+98,Black Powder,Synth,Fire Stone,(Gunpowder),(Oil),,(Synthesis),(Gunpowder),,,9,30,0,0,15
+99,Secret Spice,Synth,Epicure Nut,(Spice),Red Devil,(Seasoning),(Synthesis),(Seasoning),(Spice),,26,45,15,15,20
+100,Coarse Salt,Synth,(Salt),(Liquid),(Fuel),,(Synthesis),(Seasoning),,,8,0,0,10,15
+101,Handmade Pot,Synth,(Clay),(Liquid),(Fuel),,(Sundry),(Antique),(Pottery),,7,10,0,0,30
+102,Preserve Pot,Synth,(Clay),(Liquid),(Fuel),Coarse Salt,(Magic Tool),(Antique),(Pottery),,12,0,15,15,35
+103,Genug Blessing Pot,Synth,(Pottery),Everpure Water,Nimbus Stone,(Precious Ore),(Magic Tool),(Antique),(Water),(Pottery),25,10,50,0,25
+104,Bottomless Pot,Synth,(Pottery),Night Fog Bottle,(Gemstone),(Mystery),(Magic Tool),(Antique),(Pottery),,18,20,0,30,35
+105,Goddess Pot,Synth,(Pottery),Pixie Breath,Scorching Drink,Grain Powder,(Magic Tool),(Metal),(Antique),(Pottery),35,20,40,20,50
+106,Pressed Oil,Synth,(Plant),(Oil),(Incense),,(Liquid),(Sundry),(Fuel),,7,20,10,0,0
+107,Liquid Butter,Synth,(Milk),(Solution),(Supplement),,(Liquid),(Sundry),(Fuel),(Fermented),11,10,15,0,15
+108,White Oil,Synth,(Fuel),(Oil),Flan Charcoal,,(Liquid),(Sundry),(Seasoning),,20,35,15,0,0
+109,Distilled Water,Synth,(Water),(Supplement),(Filter),,(Liquid),(Synthesis),(Solution),,12,15,40,15,15
+110,Everpure Water,Synth,Distilled Water,(Charcoal),(String),Preserve Pot,(Liquid),(Synthesis),(Solution),,33,0,50,25,25
+111,Memory Ink,Synth,(Charcoal),(Liquid),(Oil),(Supplement),(Liquid),(Sundry),(Solution),,14,0,20,0,20
+112,Glass Rod,Synth,Glass Powder,Glass Powder,(Fuel),,(Synthesis),(Sundry),,,17,0,0,10,45
+113,Wax,Synth,(Bee Hive),(Bee Hive),(Fuel),,(Sundry),(Fuel),,,6,20,0,0,10
+114,Bean Milk,Synth,(Bean),(Water),(Fuel),,(Liquid),(Food),(Milk),,11,15,20,30,20
+115,Gelatinous Oil,Synth,Lump of Fat,Dried Fat,(Solution),,(Sundry),(Fuel),(Slime),,15,30,15,10,0
+116,Corundum,Synth,Corundum Stone,Polish Powder,(Liquid),(Cloth),(Jewel),(Metal),(Precious Ore),,20,25,10,15,40
+117,White Obsidian,Synth,(Gemstone),Polish Powder,(Liquid),(Cloth),(Jewel),(Precious Ore),,,30,0,30,35,25
+118,Diamond Ball,Synth,Diamond Gemstone,Glass Powder,Silver Liquid,Flan Charcoal,(Jewel),(Precious Ore),,,35,35,25,0,50
+119,Gold,Synth,Moon's Gold Vein,Medical Solution,Scorching Drink,Pixie Breath,(Jewel),(Synthesis),(Metal),(Precious Ore),40,45,30,0,50
+120,Soft Metal Rod,Synth,(Ore),(Fuel),(Supplement),,(Synthesis),(Metal),,,11,15,0,0,25
+121,Dried Medical Herb,Synth,(Medic. Herb),(Fuel),(Water),,(Synthesis),(Medic. Ing.),(Dried Plant),(Fermented),4,5,0,15,5
+122,Dry Herb,Synth,(Herb),(Fuel),(Oil),,(Sundry),(Incense),(Dried Plant),(Fermented),8,15,5,20,0
+123,Tea Leaf,Synth,(Medic. Herb),(Fuel),(Fermented),,(Synthesis),(Incense),(Dried Plant),(Fermented),8,10,20,30,0
+124,Honey,Synth,(Bee Hive),(Bee Hive),(Filter),,(Food),(Food),(Sweetener),,6,0,10,5,15
+125,Golden Nectar,Synth,(Sweetener),Liquid Butter,Honey,(Fuel),(Food),(Food),(Sweetener),,15,0,20,0,30
+126,Strong Yarn,Synth,(Leather),(Liquid),(Oil),,(Synthesis),(Filter),(String),,10,0,10,0,20
+127,Steel Yarn Ball,Synth,Soft Metal Rod,(String),(Oil),Polish Powder,(Synthesis),(Metal),,,20,15,0,0,30
+128,Cow Cream,Synth,(Milk),(Oil),(Supplement),,(Food),(Food),(Oil),,12,0,15,0,15
+129,Fluffy Whip,Synth,(Milk),(Egg),(Sweetener),,(Sundry),(Sweetener),,,10,0,30,15,10
+130,Detergent,Synth,(Oil),(Solution),(Incense),Baby's Breath,(Sundry),(Medic. Ing.),,,8,0,15,10,10
+131,Adhesion Jelly,Synth,Gelatinous Oil,(Solution),Marsh Slime,,(Sundry),(Medic. Ing.),,,20,0,15,0,10
+132,Melt Steel,Synth,(Metal),Scorching Ore,(Fuel),(Charcoal),(Synthesis),(Metal),(Antique),,30,25,10,20,35
+133,Scorching Drink,Synth,Fire Spirit Breath,Nectar Water,(Fuel),Medical Solution,(Liquid),(Synthesis),(Poison),(Solution),32,50,25,25,15
+134,Polished Crystal,Synth,(Crystal),Polish Powder,(Liquid),(Mystery),(Jewel),(Mystery),,,15,10,15,25,35
+135,Flan Charcoal,Synth,(Lumber),(Fuel),(Gunpowder),,(Sundry),(Fuel),(Charcoal),(Filter),17,35,0,0,15
+136,Medical Solution,Synth,Everpure Water,Pixie Breath,(Medic. Ing.),(Poison),(Liquid),(Synthesis),(Solution),,28,0,55,20,30
+137,Rich Fertilizer,Synth,Cow Dropping,(Plant),(Fermented),(Liquid),(Sundry),(Poison),(Smelly),(Nutritional),16,15,10,5,35
+138,Tonic,Synth,(Plant),(Tonic),(Nutritional),Distilled Water,(Sundry),(Supplement),(Nutritional),,20,20,20,20,20
+139,Supplement-Red,Synth,(Gunpowder),(Liquid),,,(Supplement),,,,5,25,0,0,0
+140,Supplement-Blue,Synth,(Flower),(Liquid),,,(Supplement),,,,5,0,25,0,0
+141,Supplement-Green,Synth,(Lumber),(Liquid),,,(Supplement),,,,5,0,0,25,0
+142,Supplement-Gold,Synth,(Clay),(Liquid),,,(Supplement),,,,5,0,0,0,25
+143,Success Ring,Accessory,(Gemstone),Soft Metal Rod,(Lucky Charm),,(Jewel),(Accessory),,,29,0,0,0,30
+144,Mystery Talisman,Accessory,(Access. Ing.),(Mystery),(Ancient Word),(String),(Accessory),(Precious Ore),,,27,0,0,30,0
+145,Phoenix Bracelet,Accessory,(Clay),(Legendary),(Bone),Scorching ,(Accessory),(Elixir),,,37,40,0,0,0
+146,Medical Earring,Accessory,(Ore),(Medic. Ing.),(Dried Plant),(Elixir),(Ore),(Accessory),,,20,0,0,0,20
+147,Unglazed Charm,Accessory,(Clay),(Mystery),(String),(Lucky Charm),(Accessory),(Pottery),,,17,10,0,0,10
+148,Feather Pin,Accessory,(Feather),(Access. Ing.),(String),,(Accessory),(Lucky Charm),,,14,0,0,10,0
+149,Potpourri,Accessory,(Flower),(Cloth),(Herb),,(Accessory),(Incense),,,10,20,0,0,0
+150,Fur Gloves,Accessory,(String),(Leather),(Paper),(Oil),(Accessory),(Cloth),,,12,0,10,0,0
+151,Dragon Scale Icon,Accessory,(Scale),Melt Steel,(Access. Ing.),Polish Powder,(Accessory),(Legendary),,,36,30,0,0,0
+152,Shadow Cloak,Accessory,Night Fog Bottle,(Cloth),(String),(Jewel),(Accessory),(Antique),,,34,0,0,0,40
+153,Soul Trap Chain,Accessory,(Legendary),Steel Yarn Ball,Soul Slag Stone,(Ancient Word),(Accessory),(Metal),,,32,0,40,0,0
+154,Silent Shoes,Accessory,Magisha Sheet,(Leather),(Oil),(Cloth),(Sundry),(Accessory),,,21,0,0,20,0
+155,Fortune Card,Accessory,(Paper),Memory Ink,(Flower),(Lucky Charm),(Accessory),(Mystery),,,23,0,20,0,0
+156,Resonance Bell,Accessory,(Pottery),Polished Crystal,(Lumber),Pixie Breath,(Accessory),(Pottery),,,27,0,30,0,0
+157,Glass Tiara,Accessory,Glass Rod,(Jewel),(Precious Ore),(Crystal),(Accessory),(Lucky Charm),,,30,0,0,40,0
+158,Nimbus Stone,Important,(Ore),(Mystery),Distilled Water,Polish Powder,(Ore),(Magic Tool),,,30,0,50,0,0
+159,Slag Transmitter,Important,Crystalline Ether,Lightning Stern,Soul Slag Stone,Polish Powder,(Jewel),(Magic Tool),(Mystery),,35,0,0,30,30
+160,Dragon Talisman,Important,,,,,(Accessory),(Important),,,1,50,50,50,50
+161,Madder Iron,Important,Phlogiston,(Ore),(Elixir),,(Jewel),(Synthesis),(Metal),(Mystery),20,30,0,0,0
