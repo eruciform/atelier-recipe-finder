@@ -104,7 +104,7 @@ use atelier::synthesis;
 sub new {
   my $class  = shift;
   my $file   = shift;
-  my $filter = shift || sub { my %a = @_; return 1 if $a{Type} !~ /synth|gather|material/oi; };
+  my $filter = shift;
   my $delim  = shift || ",";
   my $self   = {
     by_name       => {}, # -> name -> material
@@ -405,15 +405,22 @@ sub find_recipe_graph($$$) {
   # first check if it's possible at all. if we can't even identify it, toss it:
   return () if not defined $start_item or not defined $finish_item;
 
+  # if the start_item is a type, get a list of bycategory and byoptional to check against to see if we can start from
+  # any of them, otherwise starting from (Animal) will fail if there's no recipes that call for (Animal) despite there
+  # being materials or recipes of type (Animal) that do have recipes to feed into
+  my @include = ( $self->bycategory($start ), $self->byoptional($start ) );
+  my @unique = keys %{{ map { ($_=>1) } @include }};
+
   # then check whether there are any ingredient requirements that include any of the categories or optional categories at all
   # or at least something that can be converted at all, otherwise boot it
   return () if not scalar $self->manyrequired(  $start_item->category ) and
                not scalar $self->manyrequired(  $start_item->optional ) and
                not scalar $self->manyrequired(  $start_item->name     ) and
-               not scalar $self->manyprecedent( $start_item->name     );
+               not scalar $self->manyprecedent( $start_item->name     ) and
+               ( ref $start_item and not scalar @include );
 
-  my $cache = {};
-  return $self->_find_recursive_graph($start_item, $finish_item, $cache, 1, $maxdep);
+  return ( $self->_find_recursive_graph($start_item, $finish_item, {}, 1, $maxdep),
+     map { $self->_find_recursive_graph($_,          $finish_item, {}, 1, $maxdep) } map { $self->byname($_) } @unique );
 }
 
 
