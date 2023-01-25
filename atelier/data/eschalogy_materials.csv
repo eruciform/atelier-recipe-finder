@@ -1,0 +1,202 @@
+#,Name,Type,Category 1,Category 2,Category 3,Category 4,F,WA,WI,E,Element Value,Gather Location,Drop Monster
+1,Bullet Seed,Material,(Grain),(Gunpowder),(Oil),(Spark),X,,,,10,Twilight Forest,Poison Squirrel
+2,Wind Flower,Material,(Medic. Ing.),(Plant),,,,,X,,15,Twilight Forest,
+3,Earth Flower,Material,(Medic. Ing.),(Plant),,,,,,X,15,Old Highway,Ore Rat
+4,Water Flower,Material,(Medic. Ing.),(Plant),,,,X,,,25,Twilight Forest,
+5,Fire Flower,Material,(Medic. Ing.),(Plant),,,X,,,,35,Searing Wastes,
+6,Bent Screw,Material,(Antique),(Metal),,,,,,X,10,"Twilight Forest, Old Highway",Bad Treasure
+7,Rusty Cog,Material,(Antique),(Metal),,,,,X,,15,"Twilight Forest, Old Highway",Bad Treasure
+8,Grain Scraps,Material,(Grain),,,,,,,X,15,"Twilight Forest, Old Highway",
+9,Antique Stone,Material,(Antique),(Ore),,,,,,X,15,"Old Highway, Ends of the Earth",Fakeruin
+10,Scrap Metal,Material,(Antique),(Metal),,,X,,,,15,Old Highway,"Ore Rat, Bad Treasure, Pandora"
+11,Mixed Oil,Material,(Fuel),(Liquid),(Smelly),,X,,,,20,Old Highway,
+12,Paper Scraps,Material,(Fuel),(Paper),,,,,,X,15,Southern Ruins,Fakeruin
+13,Garden Stone,Material,(Mystery),(Ore),,,,X,,,20,Southern Ruins,
+14,Pendelock,Material,(Jewel),(Mystery),,,X,,X,,10,"Old Highway, Southern Ruins","Deep Woods Spirit, Mirage Element, Mist Element"
+15,Eternal Liquid,Material,(Liquid),(Medic. Ing.),(Smelly),,,X,,,20,Upland Forest,
+16,Soul Vine,Material,(Mystery),(Plant),,,,,,X,20,Upland Forest,Bad Sickle
+17,Green Soil,Material,(Clay),(Plant),,,,,X,,15,"Twilight Forest, Upland Forest",Green Spirit
+18,Crimson Soil,Material,(Clay),(Medic. Ing.),,,X,,,,20,Upland Forest,Red Spirit
+19,Ultramarine Soil,Material,(Clay),(Ore),,,,X,,,25,Abandoned River,Blue Spirit
+20,Amber Soil,Material,(Clay),(Seasoning),,,,,,X,25,Withering Plains,Yellow Spirit
+21,Lethe Grass,Material,(Elixir),(Plant),,,X,,,X,15,Withering Plains,Bad Sickle
+22,River Water,Material,(Liquid),(Natural),,,,X,,X,10,Withering Plains,
+23,Legged Radish,Material,(Medic. Ing.),(Seasoning),(Vegetable),,X,,,,30,Searing Wastes,
+24,Buoyant Gas,Material,(Fuel),(Gas),(Natural),,X,,X,,15,Searing Wastes,
+25,Blaze Ore,Material,(Jewel),(Ore),,,X,,,,35,Searing Wastes,Hungry Steel Beast
+26,Unburning Web,Material,(Natural),(String),,,,,,X,30,Searing Wastes,Fakeruin
+27,Lotus,Material,(Medic. Ing.),(Mystery),(Plant),,,X,,X,15,Abandoned River,
+28,Mantis Blade,Material,(Animal),(Meat),(Metal),,X,,X,,20,Slag Graveyard,"Scissor Beast, Flame Scythe, Bad Sickle, Death Scissor"
+29,Fairy Soul,Material,(Seasoning),(Synthesis),,,,X,X,,15,,"Green Spirit, Red Spirit, Blue Spirit, Yellow Spirit"
+30,Bubbling Water,Material,(Gunpowder),(Liquid),(Smelly),,,X,,X,20,Abandoned River,
+31,Slag Antenna,Material,(Ancient Power),(Slag Parts),,,X,,X,,10,Slag Graveyard,"Guard, Watchman, Officer, Flounder"
+32,Slag Memory,Material,(Ancient Power),(Metal),,,X,X,,,20,Slag Graveyard,"Fakeruin, Bad Treasure, Black Box, Pandora, Flat Fish, Flounder"
+33,Slag Heart,Material,(Meat),(Slag Parts),,,X,,X,X,15,Slag Graveyard,"Carrier, Tracker, Porter, Flat Fish, Flounder"
+34,Slag Cable,Material,(Slag Parts),(String),,,,X,,X,15,Slag Graveyard,"Mini-Slag, Nano-Slag, Pico-Slag, Flat Fish"
+35,Ancient Jerky,Material,(Meat),(Medic. Ing.),(Seasoning),(Smelly),,X,,X,20,Lab of Eternity,
+36,Rough Disk,Material,(Antique),(Metal),(Synthesis),,,,X,X,20,Lab of Eternity,"Pico-Slag, Black Box, Frigate"
+37,Bendy Materia,Material,(Fuel),(Gunpowder),(Natural),,X,X,,,15,Lab of Eternity,"Flat Fish, Flounder, Emerald Ray, Fatal Flat"
+38,Rot Snake Skin,Material,(Animal),(Fuel),(Skin),,,X,X,X,15,Lab of Eternity,
+39,King's Wing,Material,(Dragon),(Feather),(Meat),(Skin),,,X,,40,Ends of the Earth,"Compact Dragon, Goltessen, Rakshasa Dragon"
+40,Dragon Fin,Material,(Dragon),(Meat),(String),,X,X,X,,20,Ends of the Earth,
+41,Dragon Crystal,Material,(Jewel),(Medic. Ing.),(Mystery),(Smell),X,,X,X,20,Ends of the Earth,"Grand Dragon, Sura Dragon, Rakshasa Dragon, Altegewalt, Dark Elder Dragon"
+42,Dragon Core,Material,(Dragon),(Elixir),(Gunpowder),(Ore),X,X,X,X,20,Ends of the Earth,"Rakshasa Dragon, Altegewalt"
+43,Drying Sand,Material,(Natural),(Ore),,,,,,X,30,Withering Plains,
+44,Junk,Material,(Antique),(Metal),,,,X,,X,10,Ends of the Earth,"Black Box, Pandora"
+45,Buried Bomb,Material,(Antique),(Gunpowder),,,X,,,,40,Ends of the Earth,Raging Golem
+46,Jet Black Cube,Material,(Ancient Power),(Elixir),(Synthesis),,,X,X,X,20,Ends of the Earth,"Death Scissor, Manic Golem"
+47,Sky King Fossil,Material,(Antique),(Ore),(Synthesis),,,,,X,50,Fallen Ruins,Spirit Golem
+48,Sky Wasabi,Material,(Plant),(Seasoning),(Smell),(Vegetable),,,X,X,20,Fallen Ruins,
+49,Noble Berry,Material,(Fruit),(Seasoning),(Smell),,,X,,X,25,Fallen Ruins,
+50,Heaven's Branch,Material,(Fuel),(Lumber),,,X,,X,X,20,Fallen Ruins,
+51,Wing Plant,Material,(Feather),(Medic. Ing.),(Plant),,,X,X,X,5,"Searing Wastes, Fallen Ruins",
+52,Jelly Gem,Material,(Jewel),(Meat),(Synthesis),,X,X,,X,15,Fallen Ruins,
+53,Water Source,Material,(Liquid),(Synthesis),,,,X,,,25,Fallen Ruins,
+54,Moon Milk,Material,(Clay),(Ore),,,,X,,X,20,Fallen Ruins,
+55,Empty Core,Material,(Ancient Power),(Antique),(Metal),,X,,X,X,25,Lab of Eternity,"Black Box, Blue Fang Saber"
+56,Apple,Material,(Apple),(Fruit),(Smell),,,X,,,15,"Colseit, Fallen Ruins",Poison Squirrel
+57,Green Apple,Material,(Apple),(Fruit),,,,X,X,,15,Fallen Ruins,Bitter Squirrel
+58,Poison Apple,Material,(Apple),(Fruit),(Smelly),,,,,X,25,Abandoned River,"Poison Squirrel, Bitter Squirrel"
+59,Golden Apple,Material,(Apple),(Fruit),(Jewel),,X,X,X,X,15,"Lab of Eternity, Fallen Ruins","Golden Rat, Alchemy Rat"
+60,Spiky Fruit,Material,(Spark),,,,,,X,,10,Upland Forest,
+61,Spiky Bud,Material,(Spark),,,,,X,X,,10,Upland Forest,"Poison Squirrel, Bitter Squirrel"
+62,Gold Spiky Fruit,Material,(Oil),(Spark),,,,,X,X,20,"Upland Forest, Lab of Eternity, Fallen Ruins","Golden Rat, Alchemy Rat"
+63,Taun,Material,(Magic Grass),(Medic. Ing.),(Plant),,,,,X,10,"Twilight Forest, Lab of Eternity",
+64,Mutated Taun,Material,(Elixir),(Magic Grass),(Plant),,,X,X,,10,"Twilight Forest, Lab of Eternity",Regen Evo Rat
+65,Trio Taun,Material,(Magic Grass),(Medic. Ing.),(Mystery),(Plant),,,,X,35,"Twilight Forest, Lab of Eternity, Fallen Ruins","Golden Rat, Deep Woods Spirit, Evo Spirit, Hidden Spirit, Underworld Spirit"
+66,Moss Grass,Material,(Plant),(Seasoning),(Smelly),,,,,X,10,Southern Ruins,
+67,Bitter Grass,Material,(Plant),(Seasoning),(Smelly),,,X,X,,15,Upland Forest,
+68,Dried Grass,Material,(Medic. Ing.),(Seasoning),(Smelly),,X,,X,,15,Upland Forest,
+69,Taro,Material,(Grain),,,,,,,X,10,Old Highway,
+70,Hard Taro,Material,(Grain),(Medic. Ing.),,,,,,X,20,Old Highway,
+71,Decade Taro,Material,(Elixir),(Grain),,,,,,X,40,Old Highway,
+72,Salat,Material,(Plant),(Vegetable),,,,X,,,15,Southern Ruins,
+73,Fresh Salat,Material,(Plant),(Vegetable),,,,X,,,20,Southern Ruins,
+74,White Salat,Material,(Plant),(Vegetable),,,,X,,X,15,Southern Ruins,
+75,Smoke Mushroom,Material,(Gas),(Smelly),(Vegetable),,X,,,,15,Searing Wastes,
+76,Darkness Shoot,Material,(Fuel),(Vegetable),,,,,,X,20,Searing Wastes,"Bad Sickle, Return Red Fang, Regen Cube, Evo Cube"
+77,Bitter Leaf,Material,(Plant),(Seasoning),(Smell),,,,,X,25,Withering Plains,
+78,Salt Leaf,Material,(Oil),(Plant),(Seasoning),,,,X,X,20,"Withering Plains, Lab of Eternity",
+79,Dried Root,Material,(Plant),,,,,,,X,10,Old Highway,
+80,Rich Root,Material,(Medic. Ing.),(Plant),,,,,,X,20,Old Highway,Ultimate Gaia
+81,Flame Root,Material,(Gunpowder),(Plant),,,X,,,X,10,Searing Wastes,Flame Scythe
+82,Earth Root,Material,(Plant),(Vegetable),,,,,,X,35,"Old Highway, Lab of Eternity, Fallen Ruins",
+83,Beast Meat,Material,(Meat),,,,,,,X,20,Slag Graveyard,"Stray Dog, Heavy Skin, Ore Rat, Amethyst Rat"
+84,Fresh Meat,Material,(Meat),,,,,X,,X,15,"Slag Graveyard, Dragon's Nest","Flesh Eater, Howling Beast, Steel Skin, Lava Rat, Head Silver Wolf"
+85,Gold Meat,Material,(Meat),(Medic. Ing.),,,,X,X,X,10,"Slag Graveyard, Dragon's Nest","Diamond Rat, Emerald Ray"
+86,Big Bone,Material,(Animal),,,,,,,X,15,"Withering Plains, Dragon's Nest",Steel Skin
+87,Black Bone,Material,(Animal),(Medic. Ing.),,,,,X,X,15,"Withering Plains, Dragon's Nest","Red Skin, Slayer Titan, Blue Elder Dragon"
+88,Dragon Bone,Material,(Dragon),(Medic. Ing.),,,X,,X,X,10,"Withering Plains, Dragon's Nest","Compact Dragon, Emerald Ray"
+89,Bird Egg,Material,(Oil),,,,,,X,,10,Southern Ruins,
+90,Sea Bird Egg,Material,(Oil),,,,,,X,,20,Southern Ruins,
+91,Ext. Bird Egg,Material,(Oil),,,,,,X,X,20,"Southern Ruins, Ends of the Earth",
+92,Pale Clay,Material,(Clay),(Oil),,,,,,X,15,Abandoned River,
+93,Living Clay,Material,(Clay),(Ore),(Synthesis),,,,,X,25,Abandoned River,
+94,Phlogiston,Material,(Gunpowder),(Natural),,,X,,,,20,Southern Ruins,"Fairydrake, Scorching Dragon"
+95,Aqua Light,Material,(Liquid),(Natural),,,,X,,,20,Southern Ruins,"Nano-Slag, Watchman, Blue Spirit"
+96,Wind Core,Material,(Gas),(Natural),,,,,X,,20,Upland Forest,"Mirage Element, Mist Element"
+97,Earth Stone,Material,(Natural),(Ore),,,,,,X,20,Southern Ruins,
+98,Green Gemstone,Material,(Jewel),,,,,,X,X,15,Southern Ruins,
+99,Blue Gemstone,Material,(Jewel),,,,,X,,X,15,Southern Ruins,
+100,Rouge Gemstone,Material,(Jewel),,,,X,,,X,15,Southern Ruins,
+101,Shining Crystal,Material,(Ore),,,,,,,X,25,Withering Plains,"Guard, Blue Spirit"
+102,Corundum Stone,Material,(Metal),(Ore),,,,,,X,25,Twilight Forest,"Ore Rat, Amethyst Rat, Lava Rat, Diamond Rat"
+103,Eternal Crystal,Material,(Ore),,,,,,X,X,25,Ends of the Earth,"Officer, Yellow Spirit"
+104,Aurora Stone,Material,(Jewel),,,,X,X,,X,15,Lab of Eternity,"Tracker, Officer, Diamond Rat, Yellow Spirit, Regen Breaker"
+105,Night Crystal,Material,(Jewel),,,,,,X,,20,Slag Graveyard,Regen Breaker
+106,Glass Core,Material,(Ore),,,,,,X,,25,"Old Highway, Withering Plains","Mini-Slag, Carrier, Guard, Amethyst Rat, Blue Sky Monster, Blood Saber"
+107,Scorching Ore,Material,(Ore),,,,X,,,X,15,Searing Wastes,"Fairydrake, Lava Rat, Flame Scythe, Bloody Breaker"
+108,Diamond Gemstone,Material,(Jewel),,,,,,,X,40,"Lab of Eternity, Dragon's Nest","Porter, Diamond Rat, Bloody Breaker, Raging Golem, Manic Golem, Spirit Golem"
+109,Beehive,Material,(Beehive),(Fuel),,,,,X,,10,Twilight Forest,
+110,Silver Hive,Material,(Beehive),(Fuel),,,X,,X,,15,"Twilight Forest, Lab of Eternity","Regen Cube, Evo Cube, Manic Beast King"
+111,Golden Hive,Material,(Beehive),(Fuel),(Jewel),,X,,X,X,15,"Twilight Forest, Lab of Eternity",
+112,Bitter Melon,Material,(Vegetable),,,,,X,,,20,Upland Forest,
+113,Old Melon,Material,(Vegetable),,,,,X,,X,10,Upland Forest,
+114,Honey Melon,Material,(Vegetable),,,,,X,X,X,20,"Upland Forest, Lab of Eternity",
+115,Sugar Tree Sap,Material,(Liquid),(Seasoning),,,,X,,,20,Abandoned River,
+116,Milch Bean,Material,(Grain),,,,,,,X,25,Abandoned River,
+117,Jewel Bean,Material,(Grain),,,,X,,X,X,15,Abandoned River,
+118,Big Milch Bean,Material,(Grain),,,,,,,X,30,Abandoned River,"Hungry Steel Beast, Evo Steel Beast, Evo Wing Lizard"
+119,Red Devil,Material,(Seasoning),,,,X,,,,25,Slag Graveyard,
+120,Blue Devil,Material,(Seasoning),,,,X,,,,25,Slag Graveyard,
+121,Bitter Tree Seed,Material,(Medic. Ing.),(Plant),,,X,,,X,10,Old Highway,"Bitter Squirrel, Scissor Beast"
+122,Epicure Nut,Material,(Oil),(Seasoning),,,,,,X,35,Abandoned River,
+123,Anti-Bug Grass,Material,(Plant),(Smelly),,,,,X,,10,Twilight Forest,
+124,Fragrant Chips,Material,(Fuel),(Fuel),(Lumber),(Smell),,,X,,30,Slag Graveyard,Evo Spirit
+125,Charcoal Pieces,Material,(Fuel),(Gunpowder),,,X,,X,,15,Searing Wastes,"Mirage Element, Mist Element, Green Spirit, Hidden Spirit"
+126,Purify Block,Material,(Lumber),(Synthesis),,,,,X,,25,Searing Wastes,"Deep Woods Spirit, Mirage Element"
+127,Lady's Whiskers,Material,(Plant),(String),,,,,X,,20,Abandoned River,Flesh Eater
+128,Golden Yarn,Material,(Animal),(String),,,,X,X,,15,Abandoned River,Howling Beast
+129,Mysterious Silk,Material,(Mystery),(Natural),(String),,,,X,,35,Abandoned River,
+130,Antique Moss,Material,(Mystery),(Plant),,,,X,,,20,Abandoned River,
+131,Freshwater Moss,Material,(Mystery),(Plant),,,,X,,,25,Abandoned River,
+132,Mountain Feather,Material,(Animal),(Feather),,,,,X,,15,"Southern Ruins, Lab of Eternity",
+133,Eagle Feather,Material,(Animal),(Feather),,,,,X,,20,"Southern Ruins, Lab of Eternity",
+134,Paradise Feather,Material,(Animal),(Feather),(Mystery),,,,X,,30,"Southern Ruins, Lab of Eternity",
+135,Word Stone-Star,Material,(Ancient Power),(Antique),(Metal),,,,X,,15,"Slag Graveyard, Ends of the Earth",
+136,Word Stone-Moon,Material,(Ancient Power),(Antique),(Ore),,,,,X,25,"Withering Plains, Slag Graveyard, Ends of the Earth",
+137,Word Stone-Sun,Material,(Ancient Power),(Antique),(Jewel),,X,,,,30,"Slag Graveyard, Lab of Eternity, Ends of the Earth",Rampage Land Eye
+138,Word Stone-Sea,Material,(Ancient Power),(Antique),(Clay),,,X,,,40,"Lab of Eternity, Ends of the Earth",Pandora
+139,Word Stone-Man,Material,(Ancient Power),(Antique),(Mystery),,X,X,X,X,20,"Lab of Eternity, Ends of the Earth",Dreadnought
+140,Verdure Grass,Material,(Medic. Ing.),(Plant),,,,X,,X,10,Slag Graveyard,
+141,Lucky Clover,Material,(Medic. Ing.),(Plant),,,,X,X,X,5,Slag Graveyard,
+142,Oblivion Clover,Material,(Medic. Ing.),(Plant),,,X,X,X,X,5,Slag Graveyard,
+143,Honey Poppy,Material,(Plant),(Seasoning),(Smell),,,X,X,,5,Slag Graveyard,
+144,Dunkelheit,Material,(Elixir),(Medic. Ing.),(Mystery),(Plant),X,X,X,X,20,"Southern Ruins, Lab of Eternity","Sura Dragon, Dark Demon Beast"
+145,White Flower,Material,(Plant),(Smell),,,,,X,,15,Southern Ruins,
+146,Red Flower,Material,(Plant),(Smell),,,X,,X,,10,"Southern Ruins, Upland Forest",
+147,Purple Flower,Material,(Plant),(Smell),,,,X,X,X,5,"Southern Ruins, Upland Forest",
+148,Water,Material,(Liquid),,,,,X,,,10,Colseit,
+149,Clean Water,Material,(Liquid),,,,,X,,,25,Abandoned River,Ultimate Death Bug
+150,Spring Water,Material,(Liquid),(Medic. Ing.),,,,X,,,35,"Abandoned River, Dragon's Nest","Head Death Bug, Spirit Death Bug, Ultimate Gaia"
+151,Liquid Crystal,Material,(Liquid),(Medic. Ing.),,,,X,,X,5,Abandoned River,
+152,Water Crystal,Material,(Jewel),(Liquid),,,,X,,,20,Abandoned River,"Watchman, Mist Element"
+153,Eiche,Material,(Fuel),(Lumber),,,,,,X,15,"Twilight Forest, Upland Forest",Scissor Beast
+154,River Wood,Material,(Fuel),(Lumber),,,,X,,X,10,Abandoned River,"Scissor Beast, Ultimate Death Bug, Head Death Bug"
+155,Mossy Driftwood,Material,(Fuel),(Lumber),,,,X,,X,20,Abandoned River,Regen Evo Rat
+156,Ancient Root,Material,(Fuel),(Lumber),,,,,,X,40,"Lab of Eternity, Floating Ruins","Red Skin, Deep Woods Spirit, Death Scissor, Spirit Death Bug"
+157,Thin Fruit,Material,(Fruit),,,,,X,,,10,Withering Plains,
+158,Ripe Fruit,Material,(Fruit),,,,,X,,,20,Withering Plains,
+159,Fully Ripe Fruit,Material,(Fruit),(Smell),,,X,X,,,15,Withering Plains,"Golden Rat, Alchemy Rat"
+160,Fluorite,Material,(Jewel),,,,,X,,,20,Slag Graveyard,"Carrier, Amethyst Rat"
+161,Lava Stone,Material,(Clay),(Ore),,,X,X,,,20,Searing Wastes,Ends of the Earth
+162,Dried Fat,Material,(Gunpowder),(Oil),,,X,,,,15,Ends of the Earth,
+163,Ghost Cloth,Material,(Gunpowder),(Oil),,,X,,X,X,0,Searing Wastes,
+164,Ifrit Breath,Material,(Fuel),(Gas),,,X,,X,,15,Slag Graveyard,"Scorching Dragon, Red Spirit"
+165,Black Water,Material,(Fuel),(Liquid),(Smelly),,X,X,,X,0,Slag Graveyard,"Tracker, Porter"
+166,Fire Slag Stone,Material,(Jewel),(Slag Parts),,,X,,,,25,Slag Graveyard,"Nano-Slag, Pico-Slag, Return Red Fang"
+167,Ice Slag Stone,Material,(Jewel),(Slag Parts),,,,X,,,30,"Abandoned River, Slag Graveyard, Dragon's Nest","Fatal Flat, Frigate, Blue Sky Monster, Blood Saber"
+168,Sky Slag Stone,Material,(Jewel),(Slag Parts),,,,X,X,X,10,"Slag Graveyard, Dragon's Nest","Dragoon, Fatal Flat, Dreadnought, Amazing Breaker, Evo Sky Monster, Blue Fang Saber"
+169,Earth Slag Stone,Material,(Jewel),(Slag Parts),,,X,X,,X,20,"Dragon's Nest, Ends of the Earth","Tank, Amazing Breaker, Slayer Titan"
+170,Hard Claw,Material,(Animal),,,,,,,X,15,Dragon's Nest,"Heavy Skin, Steel Skin"
+171,Ruler's Claw,Material,(Animal),,,,,,X,X,15,Dragon's Nest,Red Skin
+172,Crystal Claw,Material,(Animal),(Jewel),,,,X,X,X,15,Dragon's Nest,Evo Steel Beast
+173,Soft Fur,Material,(Skin),,,,X,,,,15,Dragon's Nest,"Stray Dog, Flesh Eater, Howling Beast"
+174,Cryptid Fur,Material,(Skin),,,,X,X,X,,20,Ends of the Earth,Child of Terror
+175,Quality Fur,Material,(Skin),,,,,,X,,25,"Dragon's Nest, Ends of the Earth","Howling Beast, Steel Skin, Red Skin, Manic Beast King"
+176,Silver Fur,Material,(Skin),,,,X,,X,X,15,"Dragon's Nest, Ends of the Earth",Head Silver Wolf
+177,Dragon Tail,Material,(Dragon),(Meat),,,X,X,X,,10,"Dragon's Nest, Ends of the Earth","Scorching Dragon, Compact Dragon, Blue Elder Dragon, Dark Elder Dragon"
+178,Living Tail,Material,(Dragon),(Meat),,,,,,X,20,,"Fairydrake, Rampage Land Eye, Evo Wing Lizard"
+179,Fairy Tail,Material,(Dragon),(Meat),,,,,X,X,15,Ends of the Earth,
+180,Dragon Scale,Material,(A Heavy Armor),(Dragon),(Dragon),(Elixir),,X,X,X,20,"Withering Plains, Dragon's Nest, Ends of the Earth","Grand Dragon, Goltessen, Sura Dragon"
+181,Dragon Fang,Material,(Dragon),(Medic. Ing.),,,X,,X,X,20,"Withering Plains, Dragon's Nest, Ends of the Earth","Grand Dragon, Goltessen, Emerald Ray"
+182,Beast Fang,Material,(Animal),,,,X,,,X,20,"Abandoned River, Dragon's Nest",Rampage Beast
+183,Black Fang,Material,(Animal),,,,X,X,,X,20,Dragon's Nest,"Child of Terror, Dark Demon Beast"
+184,Spirit Magnet,Material,(Jewel),(Metal),(Ore),,X,X,X,X,20,Ends of the Earth,"Evo Sky Monster, Underworld Spirit"
+185,Time Flower,Material,(Ancient Power),(Elixir),(Plant),,X,X,X,X,20,Lab of Eternity,Gullveig
+186,Preserved Biscuit,Material,(Medic. Ing.),(Snack),,,,,X,,15,Various Requests,
+187,Dried Taro Chips,Material,(Grain),(Snack),,,X,,,,15,Various Requests,
+188,Cloud Financier,Material,(Gas),(Snack),,,,X,,,15,Various Requests,
+189,Melting Jewels,Material,(Jewel),(Snack),,,,,,X,15,Various Requests,
+190,Sweet Stump,Material,(Fuel),(Snack),,,,,,X,15,Various Requests,
+191,Hand-Wound Thread,Relic,(String),,,,,,X,,10,"Upland Forest,Southern Ruins,Old Highway,Twilight Forest",
+192,Ancient Water,Relic,(Liquid),(Medic. Ing.),(Mystery),(Supplement),X,X,,,25,"Slag Graveyard, Dragon's Nest, Fallen Ruins",
+193,Fire Lord Tears,Relic,(Liquid),(Oil),(Fuel),(Supplement),X,,,,45,"Slag Graveyard, Searing Wastes, Lab of Eternity",
+194,Aroma Materia,Relic,(Smell),(Ore),(Jewel),(Synthesis),X,X,X,X,20,"Slag Graveyard, Searing Wastes, Dragon's Nest",
+195,Fried Paper,Relic,(Fuel),(Gunpowder),(Oil),(Paper),X,,,X,20,Slag Graveyard,
+196,Gold Thread,Relic,(Animal),(Natural),(Smell),(String),,X,X,,30,"Searing Wastes, Dragon's Nest, Ends of the Earth",
+197,Primo. Medicine,Relic,(Elixir),(Medicine),(Medic. Ing.),(Plant),X,X,X,,35,"Lab of Eternity, Ends of the Earth, Fallen Ruins",
+198,Med Foundation,Relic,(Elixir),(Medic. Ing.),(Oil),(Seasoning),,,,X,35,"Withering Plains, Abandoned River, Slag Graveyard",
+199,Old Stone,Relic,(Clay),(Lumber),(Metal),(Ore),X,,,X,30,"Searing Wastes, Dragon's Nest, Fallen Ruins",
+200,Ether Cloth,Relic,(Cloth),(Mystery),(Skin),(String),,,X,X,30,"Abandoned River, Searing Wastes, Lab of Eternity",
+201,Elaborate Screw,Relic,(Antique),(Metal),(Mystery),(Ancient Power),,,,X,50,"Dragon's Nest, Ends of the Earth, Lab of Eternity, Searing Wastes",

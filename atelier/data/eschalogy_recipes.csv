@@ -1,0 +1,238 @@
+#,Name,Type,Category 1,Category 2,Category 3,Category 4,Ingredient 1,Ingredient 2,Ingredient 3,Ingredient 4,F,WA,WI,E,Element Value
+1,Craft,Attack,(Bomb),,,,(Spark),(Spark),(Gunpowder),,,,,X,15
+2,Bomb,Attack,(Bomb),,,,(Fuel),(Gunpowder),(Paper),,X,,,,20
+3,Ice Bomb,Attack,(Bomb),,,,Freezing Gas,(Liquid),(Supplement),,,X,,,25
+4,Lightning Bomb,Attack,(Bomb),,,,Abrasive,Capacitive Paper,(Ore),(Supplement),,,X,,30
+5,Living Bomb,Attack,(Magic Tool),,,,Soul Vine,(Clay),(Ore),(Synthesis),,,,X,30
+6,Lava Cube,Attack,(Magic Tool),,,,Phlogiston x3,Bomb,(Fuel),(Supplement),X,,,,35
+7,Divine Jar,Attack,(Magic Tool),,,,Aqua Light x2,Handmade Pottery,(Liquid),(Supplement),,X,,,40
+8,Demon Eye,Attack,(Magic Tool),,,,Fairy Soul,Lightning Bomb,(Gas),(Supplement),,,X,,25
+9,Titan Hammer,Attack,(Magic Tool),,,,Purple Crystal,(Ore),(Mystery),(Metal),,,,X,45
+10,Poly. Poison,Attack,(Medicine),,,,Darkness Shoot x2,(Smelly),(Fuel),(Liquid),,X,,X,30
+11,Slag Figure,Attack,(Magic Tool),,,,(Slag Parts),(Slag Parts),(Slag Parts),(Slag Parts),,,X,X,30
+12,Dimension Bomb,Attack,(Bomb),,,,Buried Bomb x2,Jet Black Cube,(Paper),(Medicine),X,,X,X,35
+13,Dream Book,Attack,(Book),,,,Magical Paint,(Apple),(Snack),(Paper),,,X,X,30
+14,Knowledge Book,Attack,(Book),,,,Heavenly Spirits,Treasure Grimoire,(Elixir),(Dragon),X,X,X,X,35
+15,Roten Blitz,Attack,(Core),,,,Ifrit Breath x2,(Ore),(Fuel),(Supplement),X,,,,45
+16,Flava Blitz,Attack,(Core),,,,River Water x2,(Ore),(Liquid),(Supplement),,X,,,45
+17,Guryun Blitz,Attack,(Core),,,,(Jewel),(Ore),(Gas),(Supplement),,,X,,35
+18,Airto Blitz,Attack,(Core),,,,(Dragon),(Ore),(Antique),(Supplement),,,,X,50
+19,Tauzent Blitz,Attack,(Core),,,,Sun Flower,(Core),(Core),(Dragon),X,X,X,X,35
+20,Omega Craft,Attack,(Bomb),,,,Spiky Bud x3,(Spark),(Spark),(Gunpowder),X,,,X,20
+21,Dire Bomb,Attack,(Bomb),,,,Phlogiston x5,Scorching Ore x2,(Gunpowder),(Paper),X,,,X,30
+22,Eis Ice Bomb,Attack,(Bomb),,,,Water Crystal x5,Ice Bomb,(Liquid),(Supplement),,X,X,,30
+23,Blitz Stone,Attack,(Bomb),,,,Corundum Stone,Capacitive Paper,(Gunpowder),(Supplement),,,X,X,35
+24,Healing Salve,Heal,(Medicine),,,,(Plant),(Oil),(Liquid),,,X,,,15
+25,Healing Cloud,Heal,(Magic Tool),,,,Buoyant Gas x2,(Medic. Ing.),(Natural),(Smell),,X,X,,30
+26,Clear Jelly,Heal,(Food),,,,Honey,(Fruit),(Smell),(Supplement),,X,X,,15
+27,Music Box,Heal,(Lumber),(Sundry),,,Rough Disk x2,(Cloth),(Oil),(Lumber),,,X,,45
+28,SP Medicine,Heal,(Medicine),,,,Curing Powder,Handmade Pottery,(Medicine),(Natural),,X,X,,25
+29,Healing Aroma,Heal,(Medic. Ing.),(Sundry),,,Wood Chips,(Smell),(Natural),(Fuel),,X,X,,30
+30,Heal Bandage,Heal,(Medicine),,,,Lethe Grass x2,(String),(Supplement),,,,,X,25
+31,Cup of Life,Heal,(Medic. Ing.),(Sundry),,,Eternal Liquid x2,(Medic. Ing.),(Medicine),(Grain),,X,,,25
+32,Elixir,Heal,(Medicine),,,,Dunkelheit,(Elixir),(Liquid),(Mystery),X,X,X,X,25
+33,Dragon's Secret,Heal,(Medicine),,,,Distilled Water,(Dragon),(Smelly),(Mystery),X,,,X,40
+34,Immune Medicine,Heal,(Medicine),,,,(Animal),(Medic. Ing.),(Elixir),(Supplement),X,X,X,,25
+35,Magical Paint,Heal,(Fuel),(Sundry),,,(Ore),(Liquid),(Oil),(Supplement),X,X,,X,20
+36,Time Watch,Heal,(Magic Tool),,,,Moon Tablet,Abrasive,(Synthesis),(Antique),X,X,X,X,20
+37,Slag Statue,Heal,(Magic Tool),,,,(Slag Parts),(Synthesis),(Clay),(Meat),X,X,,X,20
+38,Goddess Shield,Heal,(Magic Tool),,,,(Clay),(Jewel),(Mystery),(String),,X,X,X,25
+39,Eye-Opener,Heal,(Medicine),,,,Red Devil,Blue Devil,(Liquid),(Supplement),,X,X,,30
+40,Gold Curse Ring,Heal,(Magic Tool),,,,Sun Flower,Ziegel Nugget,(Antique),(Synthesis),X,X,X,X,30
+41,Demon Crucible,Heal,(Magic Tool),,,,Heart of Flame,Cup of Life,(Clay),(Mystery),X,X,X,X,30
+42,Command Chime,Heal,(Metal),(Sundry),,,Ziegel Nugget,(Antique),(Ore),(Mystery),,X,X,X,30
+43,Medicine Bread,Heal,(Food),,,,Five Grain Flour,(Seasoning),(Medic. Ing.),(Vegetable),,X,,X,20
+44,Apple Tart,Heal,(Food),,,,(Grain),(Apple),(Seasoning),(Liquid),,,,X,10
+45,Forbidden Candy,Heal,(Food),,,,Honey,(Apple),(Gas),(Seasoning),X,X,X,,30
+46,Pancake Stack,Heal,(Food),,,,Fluffy Whip,Five Grain Flour,(Fruit),(Seasoning),,X,,X,35
+47,Fruit Ration,Heal,(Food),,,,Preserved Tablet,(Grain),(Seasoning),(Fruit),X,,,X,30
+48,Apple Story,Heal,(Food),,,,Golden Apple x3,(Apple),(Apple),(Apple),X,X,X,X,30
+49,Squash Tea,Heal,(Medicine),,,,Dried Herbs,(Smell),(Medic. Ing.),(Liquid),,X,X,,15
+50,Curing Powder,Heal,(Medicine),(Medic. Ing.),,,(Meat),(Plant),(Medic. Ing.),(Smelly),,,X,,25
+51,Veggie Soup,Heal,(Food),,,,(Vegetable),(Vegetable),(Vegetable),(Liquid),,X,,X,10
+52,Refuel Ointment,Heal,(Medicine),,,,(Medic. Ing.),(Magic Grass),(Oil),(Supplement),,X,X,,15
+53,Medical Bandage,Heal,(Medicine),,,,Trio Taun x2,(Medicine),(Liquid),(Cloth),,,X,,25
+54,Holy Chalice,Heal,(Liquid),(Sundry),,,Medical Solution,Distilled Water,(Elixir),(Medic. Ing.),,X,X,,35
+55,Elixir Base,Heal,(Medicine),,,,Primo. Medicine,Aroma Materia,(Dragon),(Mystery),X,X,X,X,40
+56,Slag Essence,Heal,(Medicine),,,,(Slag Parts),(Slag Parts),(Medic. Ing.),(Liquid),X,,,X,30
+57,Angel Powder,Heal,(Medicine),,,,Dragon Bone,(Synthesis),(Medic. Ing.),(Supplement),X,X,X,,25
+58,Traveler's Ration,Heal,(Food),,,,Five Grain Flour,(Meat),(Vegetable),(Fruit),X,,,X,25
+59,Fruit Pie,Heal,(Food),,,,Honey,(Grain),(Fruit),(Seasoning),X,X,,X,20
+60,Healthy Ration,Heal,(Food),,,,Medicine Bread,Curing Powder,(Seasoning),(Smell),X,,X,X,25
+61,Trad. Medicine,Heal,(Medicine),,,,(Plant),(Liquid),(Seasoning),(Supplement),,X,X,,15
+62,Strong Powder,Heal,(Medicine),,,,(Meat),(Medic. Ing.),(Smelly),(Grain),,X,X,X,30
+63,Rich Potage,Heal,(Food),,,,(Grain),(Vegetable),(Seasoning),(Liquid),X,X,,,35
+64,Heart of Flame,Accessory,(Accessory),(Meat),(Metal),,Slag Heart x3,(Fuel),(Animal),(Supplement),X,,,X,35
+65,Concealing Skin,Accessory,(Accessory),(Cloth),,,Magical Paint,Leather,(Cloth),(String),,X,X,,35
+66,Angel Ribbon,Accessory,(Accessory),(String),,,(Smell),(String),(Mystery),(Medic. Ing.),,,X,,45
+67,Glorious Note,Accessory,(Accessory),(Animal),(Clay),,Big Bone,(Meat),(Clay),(Synthesis),,,,X,35
+68,Spirit Garland,Accessory,(Accessory),(Plant),(Smell),,White Flower,(Magic Grass),(Plant),(String),,X,X,,20
+69,Seven Star Medal,Accessory,(Accessory),(Metal),(Mystery),,Diamond Gemstone x2,(Jewel),(Metal),(Animal),X,X,X,,30
+70,Treasure Grimoire,Accessory,(Accessory),(Book),(Paper),,Soul Vine x2,(Paper),(Animal),(Mystery),X,X,X,X,25
+71,Gunade Ring,Accessory,(Accessory),(Metal),(Mystery),,Ziegel Nugget,(Jewel),(Mystery),(Ore),,,,X,45
+72,Beast Earmuffs,Accessory,(Accessory),(Skin),(String),,(Animal),(Skin),(Cloth),(String),,,X,,40
+73,Exceed Belt,Accessory,(Accessory),(Skin),,,Leather,(Mystery),(Antique),(String),,,X,X,30
+74,Phoenix Bracelet,Accessory,(Accessory),(Elixir),(Metal),,Big Bone x2,Blaze Ore x3,(Clay),(Animal),X,,X,X,35
+75,Soul Binder,Accessory,(Accessory),(Metal),(Mystery),,Pendelock x3,(Slag Parts),(Metal),(Synthesis),X,X,X,,30
+76,Glass Tiara,Accessory,(Accessory),(Synthesis),,,Glass Rod,Shining Crystal,(Jewel),(Antique),,X,,X,20
+77,Feather Ornament,Accessory,(Accessory),(String),,,(Feather),(String),(Jewel),,,,X,,40
+78,Leather Gloves,Accessory,(Accessory),(Cloth),(Skin),,Leather,(String),(Cloth),,,,,X,25
+79,Blessed Ring,Accessory,(Accessory),(Metal),(Mystery),,Glass Rod,(Mystery),(Antique),(Elixir),X,X,X,X,25
+80,Dusk Talisman,Accessory,(Accessory),(Jewel),,,Aurora Stone,(Clay),(String),(Jewel),X,X,,X,20
+81,Magic Stone,Accessory,(Accessory),(Jewel),,,Ziegel Nugget,Abrasive,(Metal),(Antique),X,,X,X,20
+82,Crystal Ring,Accessory,(Accessory),(Jewel),,,Polished Crystal,Glass Rod,(Metal),(Mystery),,X,X,X,15
+83,Aroma Pouch,Accessory,(Accessory),(Cloth),,,Dried Herbs,(Magic Grass),(Cloth),(String),,,X,,30
+84,Royal Crest,Accessory,(Accessory),(Metal),,,Beast King Relief,(Dragon),(Jewel),(Metal),X,X,X,X,20
+85,Dark Night Cape,Accessory,(Accessory),(Cloth),,,Black Water,(Cloth),(String),(Smell),,,X,X,20
+86,Acrobatic Armor,Accessory,(Accessory),(String),,,Colseit Fiber,Feather Ornament,(Cloth),(String),,,X,,40
+87,Tarot of Fate,Accessory,(Accessory),(Fuel),(Mystery),(Paper),Purifying Liquid,(Liquid),(Paper),(Mystery),,,X,X,30
+88,Brother Call,Accessory,(Accessory),(Clay),(Ore),,Jet Black Cube,(Metal),(Ore),(Clay),,X,,X,40
+89,Cardboard,Ingredient,(Fuel),(Lumber),(Paper),,(Paper),(Paper),(Lumber),(Supplement),,,,X,40
+90,Iron Clay,Ingredient,(Metal),(Clay),(Oil),(Ore),(Clay),(Metal),(Ore),,,,,X,30
+91,Black Powder,Ingredient,(Gunpowder),(Seasoning),(Smelly),,Charcoal Pieces,(Gunpowder),(Smelly),(Seasoning),X,,,,50
+92,Freezing Gas,Ingredient,(Gas),,,,Spray,(Liquid),(Supplement),,,X,X,,10
+93,Spray,Ingredient,(Gas),(Liquid),,,(Metal),(Liquid),(Fuel),,X,,X,,10
+94,Wood Chips,Ingredient,(Fuel),(Fuel),(Lumber),(Smell),Abrasive,(Lumber),(Lumber),(Paper),,X,X,X,20
+95,Iron Plate,Ingredient,(Metal),(Ore),,,(Metal),(Ore),(Fuel),,X,,,X,20
+96,Mixed Lubricant,Ingredient,(Fuel),(Gunpowder),(Liquid),,Mixed Oil x2,(Smelly),(Clay),(Cloth),X,,,,20
+97,Crystal Ball,Ingredient,(Jewel),(Mystery),,,Polished Crystal,Abrasive,(Cloth),(Liquid),,X,X,,20
+98,Purple Crystal,Ingredient,(Jewel),(Mystery),,,Crystal Ball,(Jewel),(Cloth),(Liquid),X,,,,40
+99,Yellow Crystal,Ingredient,(Jewel),(Synthesis),,,Polarized Gem,Amber Soil,(Cloth),(Liquid),,,X,X,35
+100,Green Crystal,Ingredient,(Jewel),(Synthesis),,,Bi-color Corundum,Green Soil,(Cloth),(Plant),,X,X,,30
+101,Comet Crest Stone,Ingredient,(Jewel),(Synthesis),,,Precious Stone,Aurora Stone,(Antique),(Ancient Power),X,X,X,X,25
+102,Capacitive Paper,Ingredient,(Fuel),(Paper),,,(Paper),(Ancient Power),(Liquid),,,,X,X,15
+103,Burning Gas,Ingredient,(Gas),(Gunpowder),,,Black Neutralizer,(Cloth),(Gunpowder),,X,,X,,30
+104,Abrasive,Ingredient,(Sundry),,,,(Ore),(Ore),,,,,,X,15
+105,Multi-patch,Ingredient,(Cloth),(Sundry),,,Colseit Fiber,(String),(Synthesis),,,X,,X,10
+106,Five Grain Flour,Ingredient,(Sundry),,,,Grain Scraps x2,(Grain),(Grain),,,,,X,15
+107,Ziegel Nugget,Ingredient,(Metal),(Ore),,,(Clay),(Metal),(Fuel),(Supplement),X,,,X,30
+108,Natural Extract,Ingredient,(Liquid),(Natural),(Smelly),,Liquid Crystal,(Plant),(Animal),(Fuel),,X,X,,35
+109,Distilled Water,Ingredient,(Liquid),,,,(Liquid),(Paper),(Cloth),(Fuel),,X,,,20
+110,Allgemein Board,Ingredient,(Lumber),(Sundry),,,(Oil),(Lumber),(Lumber),,,,,X,30
+111,Zettel,Ingredient,(Fuel),(Paper),,,(Plant),(Plant),(Liquid),,,,X,,20
+112,Leather,Ingredient,(Cloth),(Smelly),,,(Skin),(Oil),(String),,X,,,X,15
+113,Powdered Glass,Ingredient,(Synthesis),,,,Glass Core x2,(Fuel),(Liquid),,X,,,X,10
+114,Handmade Pottery,Ingredient,(Sundry),,,,(Clay),(Liquid),(Fuel),,,,,X,30
+115,Pressed Oil,Ingredient,(Gunpowder),(Oil),,,Dried Root x2,(Plant),(Fuel),,X,,,,20
+116,Glass Rod,Ingredient,(Synthesis),,,,Powdered Glass,Powdered Glass,(Liquid),(Fuel),X,,,X,15
+117,Dried Herbs,Ingredient,(Plant),(Smell),,,(Plant),(Plant),(Plant),(Smelly),,,X,,15
+118,Honey,Ingredient,(Liquid),(Seasoning),,,(Beehive),(Beehive),(Paper),,,X,,,20
+119,Strong Yarn,Ingredient,(String),,,,(String),(String),(Skin),(Liquid),,,X,X,25
+120,Fluffy Whip,Ingredient,(Food),(Oil),,,(Oil),(Seasoning),(Smelly),,,X,,X,10
+121,Colseit Fiber,Ingredient,(Cloth),(String),,,(Plant),(Liquid),(Paper),,,,,X,20
+122,White Powder,Ingredient,(Gunpowder),(Seasoning),,,(Gunpowder),(Gunpowder),(Ore),(Fuel),X,,X,X,25
+123,Rainbow Powder,Ingredient,(Gunpowder),(Medic. Ing.),,,Aurora Stone,(Gunpowder),(Gunpowder),(Supplement),X,X,X,X,25
+124,Metal Chips,Ingredient,(Metal),(Ore),,,Abrasive,(Metal),(Ore),(Paper),X,,,X,30
+125,Golt Board,Ingredient,(Metal),,,,Diamond Gemstone,Medical Solution,(Lumber),(Clay),X,,X,X,35
+126,Various Scraps,Ingredient,(Cloth),,,,(A Clothes),(A Light Armor),(Cloth),(String),,,X,X,30
+127,Mystery Lantern,Alchemy,(Adventure),(Fuel),,,Fairy Soul x2,(Oil),(Fuel),(Ore),,,,X,25
+128,Plant Nutrients,Alchemy,(Adventure),(Liquid),,,(Plant),(Plant),(Synthesis),(Liquid),,X,,,45
+129,Dowsing Rod,Alchemy,(Adventure),(Metal),,,Pendelock x2,(Natural),(Metal),(Mystery),,,X,X,30
+130,Beast King Relief,Alchemy,(Adventure),(Clay),,,Reverent Incense,Abrasive,(Clay),(Jewel),,,X,X,35
+131,Heavenly Spirits,Alchemy,(Adventure),(Lumber),,,Wing Plant x3,Fairy Soul x5,Eiche x10,(Dragon),X,X,X,X,20
+132,Preserved Tablet,Alchemy,(Medic. Ing.),(Smelly),(Sundry),,Drying Sand x2,(Medic. Ing.),(Paper),,X,,X,X,15
+133,Ancient Scroll,Alchemy,(Antique),(Fuel),(Paper),,Soul Vine x2,(String),(Paper),,,,X,X,25
+134,Reverent Incense,Alchemy,(Gas),(Smell),,,Purify Block,(Smelly),(Natural),(Fuel),X,,X,,20
+135,Sun Flower,Alchemy,(Ancient Power),(Elixir),(Jewel),(Metal),Scrap Metal x10,Dunkelheit,(Elixir),(Dragon),X,X,X,X,30
+136,Purifying Liquid,Alchemy,(Liquid),(Medicine),(Smelly),,(Liquid),(Medic. Ing.),(Fuel),(Synthesis),,,X,,20
+137,Precious Stone,Alchemy,(Jewel),,,,Abrasive,(Jewel),(Jewel),(Liquid),X,,X,X,30
+138,Bi-color Corundum,Alchemy,(Jewel),(Synthesis),,,Abrasive,Crimson Soil x2,Ultramarine Soil x2,(Fuel),X,X,,,30
+139,Polarized Gem,Alchemy,(Jewel),(Synthesis),,,Abrasive,Green Soil x2,Amber Soil x2,(Fuel),,,X,X,20
+140,Gold Dust,Alchemy,(Metal),,,,Junk x5,Medical Solution,(Cloth),(Gunpowder),X,X,X,X,25
+141,Moon Tablet,Alchemy,(Ancient Power),(Antique),(Mystery),(Ore),Corundum Stone x2,(Natural),(Clay),(Supplement),X,,X,X,25
+142,Magic Fiber,Alchemy,(String),(Sundry),,,Golden Yarn,(Synthesis),(String),(Liquid),X,,X,X,20
+143,Automatic Drive,Alchemy,(Ancient Power),(Metal),(Sundry),,Empty Core x2,Rusty Cog x5,Bent Screw x5,(Metal),X,X,X,X,30
+144,Melty Metal,Alchemy,(Metal),,,,Blaze Ore,(Ore),(Metal),(Fuel),X,X,,X,20
+145,Polished Crystal,Alchemy,(Jewel),(Synthesis),,,Shining Crystal,Abrasive,(Liquid),(Cloth),,,X,X,20
+146,Medical Solution,Alchemy,(Liquid),(Medicine),(Mystery),,Distilled Water,(Elixir),(Medic. Ing.),(Cloth),X,X,X,X,20
+147,Neutralizer-R,Alchemy,(Supplement),,,,(Gunpowder),(Liquid),,,X,,,,15
+148,Neutralizer-B,Alchemy,(Supplement),,,,(Liquid),(Liquid),,,,X,,,15
+149,Neutralizer-G,Alchemy,(Supplement),,,,(Plant),(Liquid),,,,,X,,15
+150,Neutralizer-Y,Alchemy,(Supplement),,,,(Clay),(Liquid),,,,,,X,15
+151,Windmill Parts,Alchemy,(Metal),,,,Wind Flower x3,Rusty Cog x3,Bent Screw x3,,,,,X,15
+152,Flight Gas Jar,Alchemy,(Gas),,,,Buoyant Gas x2,Glass Rod,(Clay),(Oil),X,,X,,20
+153,Spirit Gem,Alchemy,(Jewel),(Mystery),,,Purple Crystal,Abrasive,(Jewel),(Mystery),,,,X,40
+154,3rd Gen Engine,Alchemy,(Key),(Ancient Power),,,Automatic Drive,Bendy Materia x5,Fire Lord's Bless,Moon Tablet,,,,,
+155,Slumber Incense,Alchemy,(Smell),,,,Wood Chips x3,(Smell),(Smelly),(Oil),,,X,X,30
+156,Einzel Steel,Alchemy,(Metal),,,,Diamond Gemstone,Iron Plate,Distilled Water,(Fuel),X,X,X,X,25
+157,Purify Bottle,Alchemy,(Mystery),(Sundry),,,Zettel,(Metal),(Smell),(Supplement),,X,X,,20
+158,Fertilizer,Alchemy,(Clay),(Medic. Ing.),,,Green Soil x2,Crimson Soil x2,Ultramarine Soil x2,(Plant),,X,X,X,20
+159,Canned Food,Alchemy,(Elixir),(Food),(Mystery),,Preserved Biscuit x5,Iron Plate,(Food),(Food),X,,X,X,25
+160,Burning Spice,Alchemy,(Medic. Ing.),(Seasoning),,,Red Devil,Blue Devil,Bitter Tree Seed,(Oil),X,,X,,20
+161,Apple Jam,Alchemy,(Food),(Seasoning),,,(Apple),(Seasoning),(Liquid),(Supplement),,X,,,20
+162,White Neutralizer,Alchemy,(Supplement),,,,(Synthesis),(Mystery),(Liquid),,X,,X,,25
+163,Black Neutralizer,Alchemy,(Supplement),,,,(Animal),(Mystery),(Liquid),,,X,,X,20
+164,SP Neutralizer,Alchemy,(Supplement),,,,Medical Solution,(Metal),(Jewel),(Plant),X,X,X,X,20
+165,Flowing Metal,Alchemy,(Liquid),(Metal),,,Soul Vine,(Metal),(Liquid),(Supplement),,X,,X,20
+166,Traditional Staff,Weapon,(W Staff),(Lumber),,,Eiche,(Feather),(Lumber),(String),,,,X,10
+167,Golden Wing Staff,Weapon,(W Staff),(Metal),,,(W Staff),Corundum Stone,(Lumber),(Metal),X,,,,20
+168,Feather Staff,Weapon,(W Staff),(Lumber),,,(W Staff),Feather Ornament,(Lumber),(Jewel),,,X,,20
+169,Sky Alchemy Staff,Weapon,(W Staff),(Metal),,,(W Staff),(Dragon),(Synthesis),(Metal),X,,X,X,20
+170,Lifetree Staff,Weapon,(W Staff),(Lumber),,,(W Staff),Dunkelheit,(Elixir),(Plant),X,X,X,X,25
+171,Phantom Saber,Weapon,(W Alch. Sword),(Metal),,,Scrap Metal,(Metal),(Ore),(Supplement),,,X,,10
+172,Glass Sabre,Weapon,(W Alch. Sword),(Jewel),,,(W Alch. Sword),(Synthesis),(Metal),(Jewel),X,,,,20
+173,Black Wing Veil,Weapon,(W Alch. Sword),(Metal),,,(W Alch. Sword),Pendelock,(Metal),(Mystery),,,X,X,20
+174,Crystal Fang,Weapon,(W Alch. Sword),(Jewel),,,(W Alch. Sword),Polished Crystal,(Jewel),(Ore),,X,X,,30
+175,Proto Phantom,Weapon,(W Alch. Sword),(Metal),,,(W Alch. Sword),(Dragon),(Metal),(Elixir),X,X,X,,30
+176,Sledge Head,Weapon,(W Hammer),(Metal),,,Rusty Cog,Abrasive,(Clay),(Metal),,,,X,10
+177,Graviton Gale,Weapon,(W Hammer),(Metal),,,(W Hammer),Antique Stone,(Lumber),(Metal),,,,X,20
+178,Mjolnir,Weapon,(W Hammer),(Metal),,,(W Hammer),Lightning Bomb,(Synthesis),(Clay),,,X,X,20
+179,Soul Breaker,Weapon,(W Hammer),(Metal),,,(W Hammer),Melty Metal,(Gunpowder),(Metal),X,,X,,30
+180,Brave Bunker,Weapon,(W Hammer),(Metal),,,(W Hammer),Sky King Fossil,(Jewel),(Metal),X,,X,X,30
+181,Ruby Talisman,Weapon,(W Accessory),(Jewel),,,Fluorite,(Ore),(Mystery),(Metal),X,,,,10
+182,Aqua Talisman,Weapon,(W Accessory),(Jewel),,,(W Accessory),(Jewel),(Liquid),(Metal),,X,,,20
+183,Magic Talisman,Weapon,(W Accessory),(Ore),,,(W Accessory),Crystal Ball,(Ore),(Clay),,,,X,35
+184,Wind Talisman,Weapon,(W Accessory),(Jewel),,,(W Accessory),Green Crystal,(Jewel),(Synthesis),,,X,,40
+185,Holy Talisman,Weapon,(W Accessory),(Jewel),,,(W Accessory),Comet Crest Stone,(Ancient Power),(Metal),X,X,X,X,25
+186,Scattershot,Weapon,(W Gun),(Gunpowder),,,Bullet Seed,Bomb,(Metal),(Lumber),X,,,,10
+187,Silver Arm,Weapon,(W Gun),(Gunpowder),,,(W Gun),(Oil),(Gunpowder),(Metal),X,,,,20
+188,Red Starter,Weapon,(W Gun),(Gunpowder),,,(W Gun),Black Powder,(Fuel),(Lumber),X,,,,35
+189,Goltriat,Weapon,(W Gun),(Gunpowder),,,(W Gun),Ziegel Nugget,(Oil),(Metal),X,,,X,30
+190,White Feather 9,Weapon,(W Gun),(Gunpowder),,,(W Gun),Gold Dust,(String),(Lumber),X,,X,X,30
+191,Explorer's Pack,Weapon,(W Bag),(Medic. Ing.),,,Leather,(Medicine),(Cloth),(String),,X,,,10
+192,Medical Bag,Weapon,(W Bag),(Elixir),,,(W Bag),(Medic. Ing.),(Medicine),(Cloth),,X,,,20
+193,Teak Basket,Weapon,(W Bag),(Medic. Ing.),,,(W Bag),(Lumber),(Medicine),(String),,X,,X,20
+194,Dark Angel Bag,Weapon,(W Bag),(Medic. Ing.),,,(W Bag),(Mystery),(Medicine),(Cloth),X,,X,X,20
+195,Traveling Doctor,Weapon,(W Bag),(Elixir),,,(W Bag),(Antique),(Medicine),(String),X,X,X,X,25
+196,Great Blade,Weapon,(W Longsword),(Metal),,,Corundum Stone,Mixed Lubricant,(Ore),(String),,,,X,10
+197,Cleaver,Weapon,(W Longsword),(Metal),,,(W Longsword),Abrasive,(Ore),(Metal),,,,X,20
+198,Boneshatter,Weapon,(W Longsword),(Metal),,,(W Longsword),Big Bone,(Synthesis),(Ore),,,,X,35
+199,Slaying Blade,Weapon,(W Longsword),(Metal),,,(W Longsword),(Dragon),(Slag Parts),(Metal),,,X,X,30
+200,Humming Quasar,Weapon,(W Longsword),(Metal),,,(W Longsword),(Ancient Power),(Jewel),(Ore),X,,X,X,30
+201,Magician's Broom,Weapon,(W Broomstick),(Lumber),,,Eiche,(Synthesis),(Mystery),(Magic Grass),X,,,,20
+202,Precision Broom,Weapon,(W Broomstick),(Lumber),,,(W Broomstick),(Paper),(Magic Grass),(Lumber),X,,X,,20
+203,Meteor Broom,Weapon,(W Broomstick),(Lumber),,,(W Broomstick),Moon Tablet,(Synthesis),(Magic Grass),X,,X,X,25
+204,Inspector's blade,Weapon,(W Rapier),(Metal),,,Corundum Stone,Antique Stone,(Jewel),(Ore),,,X,,20
+205,Cross Rapier,Weapon,(W Rapier),(Metal),,,(W Rapier),Glass Rod,(Jewel),(Metal),,X,X,,20
+206,Peerless Sabre,Weapon,(W Rapier),(Metal),,,(W Rapier),Diamond Gemstone,(Dragon),(Antique),X,,X,X,25
+207,Service Stick,Weapon,(W Club),(Lumber),,,River Wood,Abrasive,(String),(Antique),,,,X,20
+208,Mystery Stick,Weapon,(W Club),(Lumber),(Mystery),,(W Club),Crystal Ball,(Mystery),(Lumber),,X,X,X,10
+209,Fantasy Stick,Weapon,(W Club),(Lumber),(Mystery),,(W Club),Jet Black Cube,(Ancient Power),(Jewel),X,X,X,X,20
+210,Light Ladle,Weapon,(W Cookware),(Metal),,,Scrap Metal,Abrasive,(Lumber),(String),X,X,,,10
+211,Metal Turner,Weapon,(W Cookware),(Metal),,,(W Cookware),(Metal),(Mystery),(Lumber),X,X,,X,20
+212,Single Mixer,Weapon,(W Cookware),(Metal),,,(W Cookware),Aroma Materia,(Synthesis),(Metal),X,X,X,X,25
+213,Cotton Shirt,Armor,(A Clothes),(Cloth),,,(Cloth),(Magic Grass),(Paper),,,,,X,15
+214,Sturdy Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),(String),(Magic Grass),,,,,X,15
+215,Knitted Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),Strong Yarn,(String),,,,X,,20
+216,Stylish Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),Magical Paint,(String),,X,,X,,10
+217,Leather Shirt,Armor,(A Clothes),(Skin),,,(A Clothes),Leather,(Oil),,X,,,X,15
+218,Fur Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),(Skin),(Paper),(String),X,,X,,15
+219,Chain Shirt,Armor,(A Clothes),(Metal),,,(A Clothes),(Slag Parts),(Metal),(String),X,,,X,20
+220,Rainbow Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),Aurora Stone,(Cloth),(Paper),,X,X,X,15
+221,Combat Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),Multi-patch,(Skin),(Metal),X,,,X,30
+222,Gold Thread Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),Gold Dust,(String),(Cloth),,,X,,50
+223,Celestial Shirt,Armor,(A Clothes),(Cloth),,,(A Clothes),Magic Fiber,(Ancient Power),(Synthesis),X,X,X,X,15
+224,Chest Plate,Armor,(A Heavy Armor),(Metal),,,Scrap Metal,(Lumber),(String),,,,,X,10
+225,Alloy Plate,Armor,(A Heavy Armor),(Metal),,,(A Heavy Armor),Iron Plate,(Metal),(Fuel),,,,X,15
+226,Bone Plate,Armor,(A Heavy Armor),(Animal),,,(A Heavy Armor),Big Bone x2,(String),,,,,X,20
+227,Magic Plate,Armor,(A Heavy Armor),(Metal),,,(A Heavy Armor),Fairy Soul,(Ore),,X,,X,,15
+228,Crystal Plate,Armor,(A Heavy Armor),(Jewel),,,(A Heavy Armor),Polished Crystal,(Metal),,,X,,X,15
+229,Jewel Plate,Armor,(A Heavy Armor),(Jewel),,,(A Heavy Armor),Precious Stone,(Jewel),(String),X,X,,X,15
+230,Ebony Plate,Armor,(A Heavy Armor),(Metal),,,(A Heavy Armor),Ancient Root x2,(Liquid),(Lumber),X,,X,X,20
+231,Scale Plate,Armor,(A Heavy Armor),(Metal),,,(A Heavy Armor),Melty Metal,(Jewel),(String),,X,,,45
+232,Meteor Plate,Armor,(A Heavy Armor),(Metal),,,(A Heavy Armor),Moon Tablet,(Ancient Power),(Metal),X,,,X,30
+233,Dragon Scale,Armor,(A Heavy Armor),(Dragon),(Dragon),(Elixir),(A Heavy Armor),Dragon Scale,(Dragon),(Dragon),,X,X,X,20
+234,Leather Coat,Armor,(A Light Armor),(Skin),,,Zettel,Leather,(String),(Oil),,,,X,20
+235,Assassin's Coat,Armor,(A Light Armor),(Cloth),,,(A Light Armor),Magical Paint,(Paper),(String),,,X,,25
+236,Heroic Cape,Armor,(A Light Armor),(Cloth),,,(A Light Armor),Magic Fiber,(Animal),(Cloth),,X,X,,25
+237,Dragoon Cape,Armor,(A Light Armor),(Dragon),,,(A Light Armor),(Dragon),(String),(Ancient Power),X,X,X,,25
