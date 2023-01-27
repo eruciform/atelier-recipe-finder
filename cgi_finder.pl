@@ -92,7 +92,11 @@ my $rb = atelier::recipe_book->new(
         return 1 if not $a{Chapter} or $a{Chapter} > $chapter; },
   $DELIMITER 
 ) or die();
-$rb->add_materials( $MATERIALS{$GAM}, undef, $DELIMITER ) if $MAT;
+$rb->add_materials( 
+  $MATERIALS{$GAM}, 
+  sub { my %a = @_;
+        return return 1 if exists $excludes{$a{Name}}; }, 
+  $DELIMITER ) if $MAT;
 
 my @paths = $rb->find_recipe_graph( $from_type, $to_type, $depth || undef );
 my @chains;
