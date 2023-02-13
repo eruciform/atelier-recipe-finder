@@ -1,63 +1,75 @@
-Name,Type,Category 1,Category 2,Category 3,Category 4
-Glow Grass,Material,[Plant],[Threads],,[Supplement]
-Metal Ore,Material,[Ore],,,[Supplement]
-Poisonhead,Material,[Poison],[Plant],,[Supplement]
-Gravistone,Material,[Ore],[Mystery],,[Supplement]
-Dunkelheit,Material,[Plant],[Mystery],[Threads],[Supplement]
-Stim Stone,Material,[Ore],,,[Supplement]
-Puniball,Material,[Food],[Medicinal],[Threads],[Supplement]
-Fuel Dirt,Material,[Gunpowder],,,[Supplement]
-Salt,Material,[Spice],,,[Supplement]
-Uni,Material,[Food],[Plant],,[Supplement]
-Magic Grass,Material,[Plant],[Medicinal],,[Supplement]
-Eicheloa,Material,[Food],[Plant],,[Supplement]
-Forest Cabbage,Material,[Food],[Plant],,[Supplement]
-Flour,Material,[Food],,,[Supplement]
-Mandra Root,Material,[Medicinal],[Elixir],[Poison],[Supplement]
-Dead Beast,Material,[Food],[Elixir],[Threads],[Supplement]
-Chainweb,Material,[Threads],[Gunpowder],,[Supplement]
-Dragon Tusk,Material,[Ore],[Medicinal],[Elixir],[Supplement]
-Swirly Shell,Material,[Food],[Mystery],,[Supplement]
-Quake Crystal,Material,[Jewel],[Ore],,[Supplement]
-Glow Sand,Material,[Ore],,,[Supplement]
-Some Egg,Material,[Food],[Oil],,[Supplement]
-Star Piece,Material,[Jewel],[Mystery],[Ore],[Supplement]
-Beehive,Material,[Gunpowder],[Food],,[Supplement]
-Marinelite,Material,[Jewel],[Ore],,[Supplement]
-Some Slough,Material,[Threads],[Mystery],,[Supplement]
-Isle Amber,Material,[Jewel],[Elixir],[Medicinal],[Supplement]
-Triberries,Material,[Food],[Plant],[Oil],[Supplement]
-Mudhead,Material,[Food],[Plant],,[Supplement]
-Water,Material,[Liquid],,,[Supplement]
-Sour Apple,Material,[Food],[Plant],[Oil],[Supplement]
-Prism Coral,Material,[Plant],[Medicinal],[Threads],[Supplement]
-Cobaltberry,Material,[Food],[Plant],[Oil],[Supplement]
-Eiche,Material,[Food],[Plant],,[Supplement]
-Beast Skin,Material,[Threads],[Mystery],[Elixir],[Supplement]
-Mermaid Tear,Material,[Jewel],[Mystery],,[Supplement]
-Fest,Material,[Ore],,,[Supplement]
-Foamy Water,Material,[Liquid],,,[Supplement]
-Beast Fur,Material,[Threads],,,[Supplement]
-Pendelook,Material,[Mystery],[Jewel],,[Supplement]
-Forgotten Bone,Material,[Ore],[Medicinal],[Elixir],[Supplement]
-Phlogiston,Material,[Gunpowder],,,[Supplement]
-Original Gem,Material,[Jewel],,,[Supplement]
-Night Lady,Material,[Plant],[Poison],[Threads],[Supplement]
-Dragon Scale,Material,[Mystery],[Threads],,[Supplement]
-Hiding Cloud,Material,[Plant],[Threads],,[Supplement]
-Shadow Grass,Material,[Plant],[Medicinal],[Threads],[Supplement]
-Iron Clay,Material,[Ore],,,[Supplement]
-Audra's Tail,Material,[Threads],[Mystery],[Elixir],[Supplement]
-Candied Branch,Material,[Spice],[Plant],,[Supplement]
-Dark Coral,Material,[Plant],[Poison],,[Supplement]
-Sunny Crystal,Material,[Ore],,,[Supplement]
-Cotton Flower,Material,[Plant],[Threads],[Oil],[Supplement]
-Snow Stone,Material,[Ore],,,[Supplement]
-Milky Sap,Material,[Liquid],[Spice],[Food],[Supplement]
-Dreamy Crown,Material,[Food],[Plant],,[Supplement]
-Midnight Flower,Material,[Plant],[Mystery],,[Supplement]
-Dark Dew,Material,[Liquid],[Elixir],,[Supplement]
-Mystery Mushroom,Material,[Food],[Poison],,[Supplement]
-Globe Sphere,Material,[Sundry],,,[Supplement]
-Pebble,Material,[Ore],[Elixir],,[Supplement]
-Sea Puddle,Material,[Liquid],[Oil],[Gunpowder],[Supplement]
+#,Name,Category 1,Category 2,Category 3,Category 4,Category 5,Iksel,Location,Dropped By
+1,Nuse,(Supplement),(Plant),,,,,"Nearby Forest, Machina Domain",
+2,Magic Grass,(Supplement),(Plant),(Medicinal),,,,"Nearby Forest, Ortoga Ruins, Traveler's Way, Dark Woods",
+3,Eicheloa,(Supplement),(Food),(Plant),,,,"Nearby Forest, Dark Woods, Machina Domain",
+4,Mudhead,(Supplement),(Food),(Plant),,,Nearby Forest,"Nearby Forest, Machina Domain",
+5,Eiche,(Supplement),(Plant),,,,,"Nearby Forest, Traveler's Way, Dark Woods, Night's Domain",
+6,Candied Branch,(Supplement),(Spice),(Plant),,,,"Nearby Forest, Dark Woods, Machina Domain, Abyssal Tower",
+7,Beehive,(Supplement),(Gunpowder),(Food),,,,"Nearby Forest, Ortoga Ruins, Dark Woods, Machina Domain",
+8,Pebble,(Supplement),(Ore),(Elixir),,,,"Nearby Forest, Ortoga Ruins, National Mines, Traveler's Way, Catacombs, Everywhere",Fresverg
+9,Uni,(Supplement),(Food),(Plant),,,,"Nearby Forest, Traveler's Way, Dark Woods, Night's Domain",
+10,Triberries,(Supplement),(Food),(Plant),(Oil),,Ortoga Ruins,"Ortoga Ruins, Abyssal Tower",
+11,Cobaltberry,(Supplement),(Food),(Plant),(Oil),,,"Ortoga Ruins, Dark Woods, Abyssal Tower",
+12,Fest,(Supplement),(Ore),,,,,"Nearby Forest, Ortoga Ruins, Traveler's Way, Nabel Lake","Fang, Mountain Fairy"
+13,Phlogiston,(Supplement),(Gunpowder),,,,,"Ortoga Ruins, National Mines, Night's Domain, Machina Domain",Inferno Fairy
+14,Iron Clay,(Supplement),(Ore),,,,,"National Mines, Abyssal Tower",Quadra Puni
+15,Fuel Dirt,(Supplement),(Gunpowder),,,,,"National Mines, Catacombs, Machina Domain",
+16,Glow Grass,(Supplement),(Plant),(Threads),(Gunpowder),,,"National Mines, Catacombs, Machina Domain",Quadra Puni
+17,Stim Stone,(Supplement),(Ore),,,,,"National Mines, Ster Highlands, Night's Domain, Machina Domain",Boss
+18,Snow Stone,(Supplement),(Ore),,,,,"National Mines, Ster Highlands, Machina Domain","Fang, Blizzard Fairy"
+19,Gravistone,(Supplement),(Ore),(Mystery),,,,"National Mines, Ster Highlands, Night's Domain, Machina Domain, Orthogalaxen",Witch Rose
+20,Chainweb,(Supplement),(Threads),(Gunpowder),,,,"National Mines, Catacombs, Night's Domain, Machina Domain",Boss
+21,Poisonhead,(Supplement),(Poison),(Plant),,,,"National Mines, Abyssal Tower",
+22,Cotton Flower,(Supplement),(Plant),(Threads),(Oil),,,"Traveler's Way, Ster Highlands, Machina Domain",Witch Rose
+23,Some Egg,(Supplement),(Food),(Oil),,,"National Mines, Ster Highlands","National Mines, Traveler's Way, Nabel Lake, Ster Highlands",Roc
+24,Quake Crystal,(Supplement),(Jewel),(Ore),,,,"Traveler's Way, Ster Highlands, Machina Domain",Fresverg
+25,Milky Sap,(Supplement),(Liquid),(Spice),(Food),,,"Traveler's Way, Abyssal Tower",
+26,Sour Apple,(Supplement),(Food),(Oil),(Plant),,Traveler's Way,"Traveler's Way, Abyssal Tower",
+27,Mystery Mushroom,(Supplement),(Food),(Poison),,,"Catacombs, Night's Domain","Catacombs, Night's Domain, Abyssal Tower",
+28,Forgotten Bone,(Supplement),(Ore),(Medicinal),(Elixir),,,"Nearby Forest, Catacombs, Nabel Lake, Night's Domain","Scarlet, Raum Lizard, Beast King Giam, Clan Chief"
+29,Some Slough,(Supplement),(Threads),(Mystery),,,,"Catacombs, Abyssal Tower",Black Demon
+30,Glow Sand,(Supplement),(Ore),,,,,"Nearby Forest, Nabel Lake, Lost City, Machina Domain",Greatfish
+31,Swirly Shell,(Supplement),(Food),(Mystery),,,Nabel Lake,"Nabel Lake, Lost City, Abyssal Tower",
+32,Prism Coral,(Supplement),(Plant),(Medicinal),(Threads),,,"Nearby Forest, Nabel Lake, Lost City, Abyssal Tower",Ocean Kaiser
+33,Foamy Water,(Supplement),(Liquid),,,,,"Nabel Lake, Machina Domain, Abyssal Tower",
+34,Mermaid Tear,(Supplement),(Jewel),(Mystery),,,,"Nabel Lake, Lost City, Night's Domain, Abyssal Tower","Gargoyle, Isle Fish, Daikoku Fish, Tigre Fish"
+35,Sunny Crystal,(Supplement),(Ore),,,,,"Ster Highlands, Abyssal Tower, Orthogalaxen","Big Boss, Basalt Dragon"
+36,Metal Ore,(Supplement),(Ore),,,,,"Ster Highlands, Abyssal Tower, Orthogalaxen",Thousand Spirits
+37,Star Piece,(Supplement),(Jewel),(Mystery),(Ore),,,"Ster Highlands, Lost City, Night's Domain, Machina Domain, Orthogalaxen",Valoshun
+38,Hiding Cloud,(Supplement),(Plant),(Threads),,,,"Ster Highlands, Abyssal Tower",Basalt Dragon
+39,Dreamy Crown,(Supplement),(Food),(Plant),,,Dark Woods,"Dark Woods, Abyssal Tower",Beast King Giam
+40,Night Lady,(Supplement),(Plant),(Poison),(Threads),,,"Dark Woods, Night's Domain, Machina Domain",Scarlet
+41,Dunkelheit,(Supplement),(Plant),(Mystery),(Threads),(Medicinal),,"Dark Woods (Year 3, month 11), Abyssal Tower, Orthogalaxen","Grow Plantze, Demon Lord"
+42,Original Gem,(Supplement),(Jewel),,,,,"National Mines, Ster Highlands, Lost City, Night's Domain, Orthogalaxen","Big Boss, Blood Elemental, Runestone Pixie"
+43,Marinelite,(Supplement),(Jewel),(Ore),,,,"Lost City, Abyssal Tower, Orthogalaxen",Greatfish
+44,Sea Puddle,(Supplement),(Liquid),(Oil),(Gunpowder),,,"Lost City, Machina Domain, Abyssal Tower",
+45,Shadow Grass,(Supplement),(Plant),(Medicinal),(Threads),,,"Night's Domain, Abyssal Tower","Demon, Runestone Pixie"
+46,Dark Coral,(Supplement),(Plant),(Poison),,,,"Night's Domain, Abyssal Tower","Demon, Dark Horse"
+47,Midnight Flower,(Supplement),(Plant),(Mystery),,,,"Night's Domain, Abyssal Tower","Demon, Demon Lord"
+48,Tar Fruit,(Supplement),(Oil),(Gunpowder),(Plant),,,"Dark Woods, Machina Domain",
+49,Oil Fruit,(Supplement),(Oil),(Liquid),,,,Machina Domain,
+50,Flower Nectar,(Supplement),(Spice),(Liquid),,,,"Nabel Lake, Machina Domain, Abyssal Tower","Pseudo Dunkel, Sky Fairy"
+51,Puniball,(Supplement),(Food),(Medicinal),,,,"Ortoga Ruins, Nabel Lake, Machina Domain",(Puni)
+52,Beast Fur,(Supplement),(Threads),,,,,"Ortoga Ruins, Abyssal Tower",(Wolf)
+53,Dead Beast,(Supplement),(Food),(Elixir),,,,"Ortoga Ruins, Ster Highlands, Machina Domain",(Wolf)
+54,Small Sardine,(Supplement),(Fish),(Food),,,,"Lost City, Abyssal Tower",
+55,Mandra Root,(Supplement),(Medicinal),(Elixir),(Poison),,,"Machina Domain, Abyssal Tower",(Plant)
+56,Audra's Tail,(Supplement),(Threads),(Mystery),(Elixir),,,"Ortoga Ruins, Nabel Lake, Machina Domain",(Bird)
+57,Pendelook,(Supplement),(Mystery),(Jewel),,,,"Machina Domain, Abyssal Tower, Orthogalaxen",(Demon)
+58,Dark Dew,(Supplement),(Liquid),(Elixir),,,,Abyssal Tower,"Dark Messenger, Scarlet, Demon Lord, Blood Elemental"
+59,Beast Skin,(Supplement),(Threads),(Mystery),(Elixir),,,Abyssal Tower,"Iguanus, Salamandra, Griffon, Chimera Hawk"
+60,Isle Amber,(Supplement),(Jewel),(Medicinal),(Elixir),,,"Nearby Forest, Machina Domain, Abyssal Tower","Gargoyle, (Fish)"
+61,Dragon Horn,(Supplement),(Ore),(Medicinal),(Elixir),,,"Machina Domain, Abyssal Tower, Orthogalaxen",(Dragon)
+62,Dragon Scale,(Supplement),(Mystery),(Threads),,,,"Machina Domain, Abyssal Tower, Orthogalaxen",(Dragon)
+63,Flour,(Supplement),(Food),,,,,Abyssal Tower,
+64,Salt,(Supplement),(Spice),,,,,"Catacombs, Lost City, Machina Domain",
+65,Water,(Supplement),(Liquid),,,,,"Traveler's Way, Nabel Lake, Dark Woods",
+66,Forest Cabbage,(Supplement),(Food),(Plant),,,,"Nearby Forest, Abyssal Tower",
+67,Globe Sphere,(Supplement),(Sundry),,,,,"Machina Domain, Abyssal Tower, Orthogalaxen","Black Puni, Black Demon, Undead King, Robo-bug"
+68,Shining Saucer,(Supplement),(Ore),,,,,"Night's Domain, Machina Domain, Abyssal Tower","Ubermensch, Guardian, Robo-bug"
+69,World Spirit,(Supplement),(Mystery),,,,,"Machina Domain, Abyssal Tower","Cobalt Skull, Twin Mask, Night Beast"
+70,Ancient Dragon Horn,(Supplement),(Ore),(Medicinal),(Elixir),,,,Senior Dragoon
+72,Helmet,,,,,,,,Hagel event
+73,Ticket,None,,,,,,,Etsy
+74,Pretty Stone,None,,,,,,,Cory Event - Fail a Synthesis
+75,Raptorstein,None,,,,,,,Gio event

@@ -146,7 +146,7 @@ sub add_materials($$) {
     next if defined $filter and $filter->(%data);
     my $material = new atelier::material( $data{Name}, 
                                           $data{Type} || "Material",
-                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{     "Category $_"} } (1 .. 4)],
+                                          [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{     "Category $_"} } (1 .. 5)],
                                           [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{ "Add Category $_"} } (1 .. 4)],
                                           [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{   "Ingredient $_"} } (1 .. 4)],
                                           [grep /[^-\s]/oi, grep { defined $_ } map { s/\s*x\s*\d*\s*$//o; $_ } map { $data{  "From Recipe $_"} } (1 .. 4)],
